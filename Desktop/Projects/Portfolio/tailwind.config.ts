@@ -6,30 +6,25 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  darkMode: "class",
   theme: {
     extend: {
       colors: {
         background: {
           DEFAULT: "#FAF8F5",  // Warm cream/beige
           light: "#FAF8F5",
-          dark: "#1a1410",     // Deep walnut brown for dark mode
         },
         surface: {
           DEFAULT: "#F5F1EB",  // Light coffee cream
           light: "#FEFDFB",    // Almost white with warm tint
-          dark: "#2d2520",     // Dark walnut
         },
         text: {
           primary: {
             DEFAULT: "#3E2723",  // Deep walnut brown
             light: "#3E2723",
-            dark: "#F5F1EB",
           },
           secondary: {
             DEFAULT: "#6D4C41",  // Medium coffee brown
             light: "#6D4C41",
-            dark: "#A1887F",
           },
         },
         accent: {

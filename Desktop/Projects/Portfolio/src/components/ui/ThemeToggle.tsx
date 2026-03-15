@@ -21,13 +21,13 @@ export const ThemeToggle = () => {
   return (
     <button
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-      className="p-2 rounded-lg bg-surface dark:bg-surface-dark border border-accent-cream dark:border-accent-cream/30 hover:border-accent-secondary dark:hover:border-accent-secondary hover:bg-accent-cream/20 dark:hover:bg-surface-dark/80 transition-all duration-200"
+      className="p-2 rounded-lg bg-surface border border-accent-cream hover:border-accent-secondary hover:bg-accent-cream/20 transition-all duration-200"
       aria-label="Toggle theme"
     >
       {theme === "dark" ? (
-        <HiSun className="w-5 h-5 text-accent-secondary dark:text-accent-cream" />
+        <HiSun className="w-5 h-5 text-accent-secondary" />
       ) : (
-        <HiMoon className="w-5 h-5 text-accent-primary dark:text-accent-cream" />
+        <HiMoon className="w-5 h-5 text-accent-primary" />
       )}
     </button>
   );
