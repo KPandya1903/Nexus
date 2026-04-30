@@ -9,8 +9,8 @@
   },
   "statutes": [
     {
-      "citation": "NJSA 46:8-19",
-      "title": "Security deposit cap and interest-bearing account requirement",
+      "citation": "NJSA 46:8-19 (security deposit trust + investment) and NJSA 46:8-21.2 (1.5-month cap)",
+      "title": "Security deposit cap (1.5 months) and trust/investment requirements",
       "full_text": "Whenever money or other form of security shall be deposited or advanced on a contract, lease or license agreement for the use or rental of real property as security for performance of the contract or agreement or to be applied to payments upon such contract or agreement when due, such money or other form of security, until repaid or so applied including the tenant's portion of the interest or earnings accumulated thereon as hereinafter provided, shall continue to be the property of the person making such deposit or advance and shall be held in trust by the person with whom such deposit or advance shall be made for the use in accordance with the terms of the contract, lease or agreement and shall not be mingled with the personal property or become an asset of the person receiving the same. The person receiving money so deposited or advanced shall: a. Invest that money in shares of any savings and loan association or savings bank or in any bank or banking institution insured by an agency of the federal government in this State, in a money market fund... or deposit the money in a money market account... b. The person investing the security deposit shall notify in writing each of the persons making such security deposit or advance, giving the name and address of the investment company, State or federally chartered bank, savings bank or savings and loan association in which the deposit or investment of security money is made, the type of account in which the security deposit is deposited or invested, the current rate of interest for that account, and the amount of such deposit or investment...",
       "plain_summary": "A landlord cannot demand more than 1.5 months' rent as a security deposit. The deposit remains the tenant's property — the landlord just holds it in trust. The landlord must place it in a separate interest-bearing account (savings bank, money market, or insured account) and tell the tenant in writing where it is and the interest rate. The tenant is entitled to the interest earned, paid out annually or credited toward rent.",
       "applicable_categories": ["deposit", "fees"],
@@ -90,8 +90,8 @@
       "confidence": "high"
     },
     {
-      "citation": "NJSA 46:8-44 (Truth in Renting Act)",
-      "title": "Truth in Renting Act — mandatory tenant rights summary",
+      "citation": "NJSA 46:8-43 et seq. (Truth in Renting Act); 46:8-44 specifically requires the DCA Statement",
+      "title": "Truth in Renting Act — mandatory tenant rights statement",
       "full_text": "The Department of Community Affairs shall prepare a written statement, in both English and Spanish, of the established legal rights and responsibilities of tenants and landlords of rental dwelling units, except owner-occupied premises of not more than two rental units. The department shall distribute the statement to all rental property owners by such means as the department in its discretion deems appropriate, and the rental property owners shall distribute the statement to their tenants...",
       "plain_summary": "The NJ Department of Community Affairs publishes an official tenant rights statement that landlords are required to distribute to tenants in non-exempt buildings. Failure to provide it is itself a violation. The statement covers core tenant rights and is meant to ensure tenants are not signing in ignorance.",
       "applicable_categories": ["other"],
@@ -130,15 +130,30 @@
       "confidence": "high"
     },
     {
-      "citation": "NJSA 46:8-50",
-      "title": "Application fee and tenant screening cost limits",
-      "full_text": "A landlord may not charge a prospective tenant an application fee, or any other fee in connection with the application process, that exceeds the actual cost of obtaining a credit report, criminal background check, and any other actual third-party screening costs documented to the prospective tenant. A landlord shall provide an itemized receipt of any such fees upon request.",
-      "plain_summary": "An application fee can only cover the landlord's actual third-party screening costs (credit check, background check, etc.). It cannot be a flat 'admin fee' or a profit center. The landlord must provide itemized documentation if asked.",
-      "applicable_categories": ["fees"],
+      "citation": "NJSA 46:8-50 (Flood Risk Notice, effective March 2024)",
+      "title": "Flood Risk Notice — mandatory disclosure for FEMA flood zones",
+      "full_text": "Effective March 20, 2024, every landlord of residential rental property must provide a written Flood Risk Notice to prospective tenants and to current tenants at lease renewal. The notice must disclose whether the rental dwelling is located in a FEMA Special Flood Hazard Area (the 100-year floodplain) or a Moderate Risk Flood Hazard Area (the 500-year floodplain), and must inform the tenant that flood insurance is available for renters and that the landlord's property insurance does not cover the tenant's personal property in a flood. Failure to provide the notice constitutes a violation of the Truth in Renting Act and may give the tenant grounds to terminate the lease.",
+      "plain_summary": "As of March 2024, every NJ landlord must give the tenant a written Flood Risk Notice before signing — disclosing whether the unit is in a FEMA flood zone (high or moderate risk), and informing the tenant that renter's flood insurance is available and that the landlord's insurance does not cover the tenant's belongings. This applies to every lease and every renewal. Hoboken has significant flood risk in basement, ground-floor, and waterfront units, and many leases written before March 2024 have not been updated to comply.",
+      "applicable_categories": ["other"],
       "common_violations": [
-        "Lease/application charges $100+ fee without itemized cost basis (likely unenforceable)",
-        "Lease bundles 'application fee' with other charges (must be separately documented)",
-        "Application fee non-refundable even if landlord doesn't run actual screening (potentially fraud)"
+        "Lease silent on flood risk disclosure (Truth in Renting Act violation since March 2024)",
+        "Lease executed after March 2024 with no Flood Risk Notice attached",
+        "Landlord verbally claims unit is not in flood zone without providing the written notice",
+        "Hoboken basement or ground-floor unit lease with no flood disclosure (high practical risk)"
+      ],
+      "confidence": "high"
+    },
+    {
+      "citation": "NJSA 46:8-55 (Fair Chance in Housing Act, criminal history disclosure)",
+      "title": "Disclosure of criminal-history screening before application fees",
+      "full_text": "Before a landlord may require, request, or accept an application fee or any document showing creditworthiness or background information from a prospective tenant, the landlord shall disclose in writing whether the landlord's eligibility criteria for tenancy include consideration of the prospective tenant's criminal history. If criminal history is considered, the landlord shall disclose what types of criminal records will be reviewed and what disqualifying conditions exist. A prospective tenant has the right to refuse to consent to such review and to receive a refund of any fees paid if disqualified solely on the basis of criminal history that the Fair Chance in Housing Act prohibits considering.",
+      "plain_summary": "Under the Fair Chance in Housing Act, before a landlord can charge an application fee or run a background check, they must disclose in writing whether they screen for criminal history and what disqualifies an applicant. The Act limits how far back landlords can look (most non-violent offenses cannot be considered after specified periods) and protects applicants from being rejected solely for protected criminal history. A landlord who collects an application fee without this disclosure has violated the statute.",
+      "applicable_categories": ["fees", "other"],
+      "common_violations": [
+        "Lease/application charges screening fee with no written criminal-history disclosure (violation)",
+        "Lease conditions tenancy on undisclosed criminal-history check (violation)",
+        "Application includes generic 'background check' language without specifying criminal-history scope (potentially insufficient)",
+        "Application fee non-refundable when applicant is rejected solely for protected criminal history (violation)"
       ],
       "confidence": "medium"
     },
@@ -171,17 +186,18 @@
     },
     {
       "citation": "Hoboken Municipal Code Section 155 (Rent Control Ordinance)",
-      "title": "Hoboken rent control — applies to most pre-1987 multi-unit buildings",
-      "full_text": "Hoboken's Rent Control Ordinance limits annual rent increases on covered units to a percentage tied to the CPI, with hardship and capital improvement exceptions. Generally covers buildings constructed before 1987 with four or more units. Tenants in covered units have the right to a Rent Control Board hearing on disputed increases. Vacancy decontrol is permitted only in narrow circumstances, and most renewals must comply with the cap.",
-      "plain_summary": "Hoboken has rent control. Most older multi-family buildings (built before 1987 with 4+ units) are subject to it. Annual rent increases are capped at a CPI-linked percentage published by the Hoboken Rent Control Board, typically 1-4%. A landlord raising rent above the cap is likely violating the ordinance, and the tenant can challenge it. Many Stevens students sign leases in covered buildings and never know they're rent-controlled.",
+      "title": "Hoboken rent control — annual increase capped at lesser of 5% or CPI-linked percentage",
+      "full_text": "Hoboken's Rent Control Ordinance limits annual rent increases on covered units to the lesser of (a) 5% or (b) the percentage difference in the Consumer Price Index between the third month prior to lease commencement and the third month prior to lease expiration. Coverage applies to dwellings of four or more units, with a 30-year exemption period for newly-constructed buildings (so most pre-1987 multi-unit buildings are currently covered, and post-1987 buildings phase in as their 30-year exemption expires). Hardship and capital-improvement surcharges are permitted only with prior approval of the Hoboken Rent Control Board. Tenants in covered units have the right to challenge rent increases at a Rent Control Board hearing.",
+      "plain_summary": "Hoboken caps annual rent increases on covered apartments at the lesser of 5% or a CPI-linked percentage. Coverage is broad: most buildings of 4+ units are subject to it, with a 30-year exemption from the date of construction (so a 2000 building is exempt until 2030, a 1986 building is fully covered now). The landlord cannot raise rent above the cap without Rent Control Board approval. Many Stevens students sign leases in covered Hoboken buildings and never know they're rent-controlled — meaning a 'standard' 8-12% annual increase in their lease may be illegal.",
       "applicable_categories": ["rent", "fees"],
       "common_violations": [
-        "Lease imposes 8-15% annual increase on a rent-controlled unit (almost certainly illegal)",
-        "Lease silent on rent control status for an obviously covered building",
-        "Landlord uses 'capital improvement surcharge' to disguise above-cap increase (must be Board-approved)",
-        "Vacancy decontrol asserted without basis"
+        "Lease imposes annual increase greater than 5% on a rent-controlled unit (illegal absent Board approval)",
+        "Lease silent on rent-control status for a building that is clearly covered (4+ units, pre-1987 or post-30-year-exemption)",
+        "Landlord uses 'capital improvement surcharge' to disguise above-cap increase without Board approval",
+        "Vacancy decontrol asserted without basis under the ordinance",
+        "Lease prohibits tenant from challenging rent increase at Rent Control Board (likely unenforceable)"
       ],
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "citation": "Common law: Marini v. Ireland, 56 N.J. 130 (1970)",
@@ -193,7 +209,7 @@
         "Lease prohibits tenant from making any repairs or deducting from rent (unenforceable for habitability defects)",
         "Lease requires landlord pre-approval for any tenant repair (unenforceable when landlord is non-responsive)"
       ],
-      "confidence": "medium"
+      "confidence": "high"
     }
   ]
 }
