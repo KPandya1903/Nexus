@@ -149,3 +149,94 @@ class ClauseAnalysis(BaseModel):
         description="Why this confidence level. Required even for high confidence."
     )
     attorney_consultation_recommended: bool
+
+
+# ---------------------------------------------------------------------------
+# Stage 3 — Briefer (LeaseBrief)
+# ---------------------------------------------------------------------------
+
+
+RedFlagLabel = Literal[
+    "conflicts_with_nj_law",
+    "aggressive_but_legal",
+    "common_but_worth_knowing",
+    "recommend_attorney_review",
+]
+
+
+class OtherRecurringCharge(BaseModel):
+    label: str = Field(description="Name of the recurring charge, e.g. 'Pet fee', 'Storage'")
+    amount_annual: float = Field(description="Annual amount in dollars")
+
+
+class MoneyMap(BaseModel):
+    base_rent_annual: float = Field(description="Annual base rent in dollars")
+    security_deposit: float = Field(description="Security deposit in dollars")
+    application_fees: float = Field(default=0.0, description="Total application/screening fees")
+    broker_fees: float = Field(default=0.0, description="Broker or finder's fees")
+    last_month_required: bool = Field(description="Whether last month's rent is required up front")
+    last_month_amount: float | None = Field(
+        default=None, description="Last month's rent amount if required"
+    )
+    late_fee_structure: str = Field(
+        description="Plain-English description of when and how much late fees apply"
+    )
+    utility_responsibilities: str = Field(
+        description="Plain-English description of utility allocation"
+    )
+    parking: float | None = Field(
+        default=None, description="Annual parking cost if separately charged"
+    )
+    amenity_fees: float | None = Field(
+        default=None, description="Annual amenity fees if separately charged"
+    )
+    other_recurring: list[OtherRecurringCharge] = Field(default_factory=list)
+    estimated_total_annual: float = Field(description="Best-estimate total annual cost to tenant")
+    notes: str = Field(description="One sentence calling out anything unusual about cost structure")
+
+
+class RedFlag(BaseModel):
+    clause_id: str
+    headline: str = Field(description="5-10 word active-voice summary")
+    verbatim_text: str = Field(description="Exact lease text, never paraphrased")
+    statute_citations: list[StatuteCitation] = Field(
+        default_factory=list,
+        description="Full StatuteCitation objects from Stage 2, never bare strings",
+    )
+    explanation: str = Field(description="2-3 plain-English sentences")
+    label: RedFlagLabel
+    risk: Literal["moderate", "high"]
+
+
+class NegotiationOpening(BaseModel):
+    clause_id: str
+    headline: str
+    draft_message: str = Field(
+        description="2-4 sentence professional message tenant can send landlord"
+    )
+    counter_position: str = Field(description="One-sentence statement of what tenant is asking for")
+
+
+class Referral(BaseModel):
+    name: str
+    url: str
+
+
+class ClosingNotes(BaseModel):
+    not_legal_advice_disclaimer: str
+    when_to_consult_attorney: str
+    referrals: list[Referral]
+
+
+class LeaseBrief(BaseModel):
+    consent_clarity_score: int = Field(ge=1, le=100)
+    score_meaning: str
+    plain_english_summary: list[str] = Field(min_length=5, max_length=5)
+    money_map: MoneyMap
+    red_flags: list[RedFlag] = Field(default_factory=list)
+    negotiation_openings: list[NegotiationOpening] = Field(default_factory=list, max_length=3)
+    closing_notes: ClosingNotes
+    consenterra_attribution: str = (
+        "Brief generated using the ConsenTerra framework for consent clarity."
+    )
+    mocked_in_demo: bool = False
