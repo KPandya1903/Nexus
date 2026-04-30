@@ -85,7 +85,7 @@ async def generate_brief(
         system=system_blocks,
         messages=[{"role": "user", "content": user_content}],
         output_format=LeaseBrief,
-        thinking={"type": "enabled", "budget_tokens": 4000},
+        thinking={"type": "adaptive"},
         output_config={"effort": "medium"},
     )
 
