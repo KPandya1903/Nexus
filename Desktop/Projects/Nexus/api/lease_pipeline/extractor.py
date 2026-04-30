@@ -9,12 +9,14 @@ same reason — it is frozen across runs.
 from __future__ import annotations
 
 import base64
+import time
 from pathlib import Path
 
 import anthropic
 
 from .prompts import EXTRACTOR_SYSTEM_PROMPT
 from .schemas import ExtractedLease
+from .usage import UsageRecord, log_usage
 
 DEFAULT_MODEL = "claude-opus-4-7"
 MAX_TOKENS = 16000
@@ -35,6 +37,7 @@ def extract_lease(
     client = client or anthropic.Anthropic()
     pdf_b64 = base64.standard_b64encode(Path(pdf_path).read_bytes()).decode("utf-8")
 
+    start = time.perf_counter()
     response = client.messages.parse(
         model=model,
         max_tokens=MAX_TOKENS,
@@ -68,6 +71,20 @@ def extract_lease(
             }
         ],
         output_format=ExtractedLease,
+    )
+    latency_ms = int((time.perf_counter() - start) * 1000)
+
+    log_usage(
+        UsageRecord(
+            stage="extractor",
+            model=model,
+            input_tokens=response.usage.input_tokens,
+            output_tokens=response.usage.output_tokens,
+            cache_read_input_tokens=response.usage.cache_read_input_tokens or 0,
+            cache_creation_input_tokens=response.usage.cache_creation_input_tokens or 0,
+            latency_ms=latency_ms,
+            stop_reason=response.stop_reason or "unknown",
+        )
     )
 
     parsed = response.parsed_output

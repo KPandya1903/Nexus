@@ -84,8 +84,9 @@ async def generate_brief(
         max_tokens=max_tokens,
         system=system_blocks,
         messages=[{"role": "user", "content": user_content}],
-        response_model=LeaseBrief,
-        thinking={"type": "enabled", "budget_tokens": 4000, "effort": "medium"},
+        output_format=LeaseBrief,
+        thinking={"type": "enabled", "budget_tokens": 4000},
+        output_config={"effort": "medium"},
     )
 
     latency_ms = int((time.perf_counter() - start) * 1000)
@@ -97,7 +98,7 @@ async def generate_brief(
             "Increase max_tokens or reduce lease complexity."
         )
 
-    parsed = getattr(response, "parsed", None)
+    parsed = response.parsed_output
     if parsed is None:
         raise RuntimeError(
             "Stage 3 briefer returned no parsed output. "

@@ -15,12 +15,14 @@ from __future__ import annotations
 
 import base64
 import json
+import time
 from pathlib import Path
 
 import anthropic
 
 from .prompts import ANALYZER_SYSTEM_PROMPT
 from .schemas import ClauseAnalysis, ExtractedClause, Statute, TenantContext
+from .usage import UsageRecord, log_usage
 
 DEFAULT_MODEL = "claude-opus-4-7"
 MAX_TOKENS = 8000
@@ -110,6 +112,7 @@ def analyze_clause(
         }
     )
 
+    start = time.perf_counter()
     response = client.messages.parse(
         model=model,
         max_tokens=MAX_TOKENS,
@@ -124,6 +127,20 @@ def analyze_clause(
         ],
         messages=[{"role": "user", "content": user_content}],
         output_format=ClauseAnalysis,
+    )
+    latency_ms = int((time.perf_counter() - start) * 1000)
+
+    log_usage(
+        UsageRecord(
+            stage="analyzer",
+            model=model,
+            input_tokens=response.usage.input_tokens,
+            output_tokens=response.usage.output_tokens,
+            cache_read_input_tokens=response.usage.cache_read_input_tokens or 0,
+            cache_creation_input_tokens=response.usage.cache_creation_input_tokens or 0,
+            latency_ms=latency_ms,
+            stop_reason=response.stop_reason or "unknown",
+        )
     )
 
     parsed = response.parsed_output
