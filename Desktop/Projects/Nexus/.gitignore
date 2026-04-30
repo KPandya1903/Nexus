@@ -2,21 +2,65 @@
 *.json
 !faculty.json
 !faculty_embeddings.pkl
+!.cspell.json
+!data/demo_cache/*.json
 
 # Secrets
 .env
+.env.local
+*.env
+!.env.example
 
 # Python
 __pycache__/
 *.pyc
 *.pyo
-.env
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
 
-# macOS
+# uv
+.uv/
+uv.lock
+
+# Node (defensive — none of our active stacks use it, but tooling sometimes drops it)
+node_modules/
+
+# macOS / OS
 .DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
 
 # Xcode
 *.xcworkspace/xcuserdata/
 *.xcodeproj/xcuserdata/
 DerivedData/
 *.ipa
+**/*.xcuserdata/
+**/xcuserdata/
+**/*.xcworkspace/xcuserdata/
+**/*.xcodeproj/xcuserdata/
+**/*.xcodeproj/project.xcworkspace/xcuserdata/
+**/Pods/
+**/Podfile.lock
+
+# Firebase / Google service config (treat as secrets — covered by *.json default-deny above; listed explicitly for grep-ability)
+**/GoogleService-Info.plist
+**/google-services.json
+**/firebase-config.json
+**/firebase-adminsdk-*.json
+**/serviceAccountKey.json
+
+# Apify scrape outputs (raw JSONL dumps)
+scrapers/output/
+
+# Logs
+*.log
+logs/
