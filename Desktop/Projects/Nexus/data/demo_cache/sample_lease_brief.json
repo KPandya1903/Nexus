@@ -1,0 +1,213 @@
+{
+  "consent_clarity_score": 1,
+  "score_meaning": "This lease has multiple clauses that conflict with NJ law or are likely unenforceable. Do not sign without legal review.",
+  "plain_english_summary": [
+    "The lease runs 12 months from June 1, 2026 to May 31, 2027 at $3,200/month ($38,400/year in base rent alone).",
+    "You are responsible for rent, all utilities (water, electric, gas, heat), and — per this lease — every repair, though NJ law actually keeps major repair duties on the landlord.",
+    "The landlord must keep the apartment habitable (heat, hot water, plumbing, structural safety) under NJ's non-waivable warranty of habitability, regardless of what Section 4 says.",
+    "The lease tries to bar you from ending early under any circumstances and lets the landlord end on 30 days' notice — but NJ's Anti-Eviction Act overrides the landlord's no-cause termination, and habitability breaches can let you leave.",
+    "The single most important thing: this lease contains several provisions that violate NJ law (an illegal 2.5-month deposit, a 60-day return window, a waiver of habitability, no-cause landlord termination, and unlimited entry) — get free tenant-rights help before you sign or pay anything."
+  ],
+  "money_map": {
+    "base_rent_annual": 38400.0,
+    "security_deposit": 8000.0,
+    "application_fees": 250.0,
+    "broker_fees": 0.0,
+    "last_month_required": false,
+    "last_month_amount": null,
+    "late_fee_structure": "A $150 late fee is charged the moment rent is not received on the 1st, plus $25 per day uncapped until paid. NJ law guarantees a 5-business-day grace period if you receive Social Security or disability benefits, and the stacked fees may be challengeable as an unreasonable penalty.",
+    "utility_responsibilities": "Tenant pays all utilities: water, electricity, gas, and heat.",
+    "parking": null,
+    "amenity_fees": null,
+    "other_recurring": [],
+    "estimated_total_annual": 38650.0,
+    "notes": "The $8,000 security deposit exceeds NJ's 1.5-month statutory cap (NJSA 46:8-19) by $3,200 — you should not pay more than $4,800."
+  },
+  "red_flags": [
+    {
+      "clause_id": "security_deposit",
+      "headline": "Security deposit illegally exceeds NJ's 1.5-month cap",
+      "verbatim_text": "Tenant shall pay a security deposit equal to two and one-half (2.5) months' rent ($8,000) prior to occupancy. The security deposit is non-refundable in the event Tenant breaks the lease. Landlord shall return any remaining deposit within sixty (60) days of move-out.",
+      "statute_citations": [
+        {
+          "citation": "NJSA 46:8-19 (security deposit trust + investment) and NJSA 46:8-21.2 (1.5-month cap)",
+          "relevant_quote": "such money or other form of security, until repaid or so applied including the tenant's portion of the interest or earnings accumulated thereon as hereinafter provided, shall continue to be the property of the person making such deposit or advance and shall be held in trust",
+          "relevance": "NJ caps deposits at 1.5 months' rent and treats the deposit as the tenant's property held in trust. The 2.5-month demand exceeds the cap, and 'non-refundable' contradicts the trust character."
+        },
+        {
+          "citation": "NJSA 46:8-21.1",
+          "relevant_quote": "Within 30 days after the termination of the tenant's lease or licensee's agreement, the owner or lessee shall return by personal delivery, registered or certified mail the sum so deposited plus the tenant's portion of the interest or earnings accumulated thereon, less any charges expended",
+          "relevance": "NJ requires return within 30 days with itemized deductions; the lease's 60-day window directly contradicts this."
+        },
+        {
+          "citation": "NJSA 46:8-21.2",
+          "relevant_quote": "the court upon finding for the tenant or licensee shall award recovery of double the amount of said moneys, together with full costs of any action and, in the court's discretion, reasonable attorney's fees",
+          "relevance": "Wrongful retention triggers double damages, costs, and possible attorney's fees."
+        }
+      ],
+      "explanation": "Three NJ violations stacked into one clause: the $8,000 deposit exceeds NJ's 1.5-month cap (lawful max here is $4,800), the 'non-refundable if you break the lease' label is unenforceable because your deposit always remains your property, and the 60-day return window doubles NJ's 30-day deadline. If the landlord wrongfully retains funds, you can recover double damages plus costs.",
+      "label": "recommend_attorney_review",
+      "risk": "high"
+    },
+    {
+      "clause_id": "utilities_and_repairs",
+      "headline": "Lease tries to waive non-waivable warranty of habitability",
+      "verbatim_text": "Tenant is responsible for all utilities including water, electricity, gas, and heat. Tenant accepts the premises in \"as-is\" condition and is responsible for all repairs during the lease term, including structural, plumbing, and heating systems. Tenant waives any implied warranty of habitability.",
+      "statute_citations": [
+        {
+          "citation": "NJSA 2A:42-85 et seq. (Tenant Habitability Act)",
+          "relevant_quote": "Every residential lease in New Jersey contains an implied warranty of habitability — the landlord's promise that the dwelling is fit for habitation. This warranty cannot be waived.",
+          "relevance": "Directly invalidates the waiver and the attempt to push structural, plumbing, and heating repairs onto the tenant."
+        }
+      ],
+      "explanation": "Paying utilities is normal and enforceable, but the rest of this clause tries to dump structural, plumbing, and heating repairs on you and erase NJ's implied warranty of habitability — which the statute says cannot be waived. The landlord still legally must maintain heat, hot water, plumbing, and structural safety, and you keep remedies like repair-and-deduct under Marini v. Ireland.",
+      "label": "recommend_attorney_review",
+      "risk": "high"
+    },
+    {
+      "clause_id": "entry_rights",
+      "headline": "Landlord claims unlimited entry without notice",
+      "verbatim_text": "Landlord may enter the premises at any time, with or without notice, for any purpose deemed necessary by Landlord.",
+      "statute_citations": [],
+      "explanation": "This clause is far broader than NJ courts typically enforce. NJ common law generally requires reasonable notice (usually 24 hours) and entry only at reasonable times for legitimate purposes, except in true emergencies. Repeated unannounced entries can amount to a breach of your right to quiet enjoyment and, in extreme cases, constructive eviction.",
+      "label": "recommend_attorney_review",
+      "risk": "high"
+    },
+    {
+      "clause_id": "termination",
+      "headline": "Landlord no-cause termination violates Anti-Eviction Act",
+      "verbatim_text": "Landlord reserves the right to terminate this lease at any time with thirty (30) days' notice for any reason or no reason. Tenant may not terminate this lease early under any circumstances; if Tenant vacates before the end of the term, Tenant remains liable for all remaining rent.",
+      "statute_citations": [
+        {
+          "citation": "NJSA 2A:18-61.1",
+          "relevant_quote": "No lessee or tenant... may be removed by the Superior Court from any house, building, mobile home or land in a mobile home park or tenement leased for residential purposes... except upon establishment of one of the following grounds as good cause",
+          "relevance": "NJ's Anti-Eviction Act bars no-cause termination outside narrow exemptions; the 'any reason or no reason' language directly conflicts."
+        },
+        {
+          "citation": "NJSA 2A:42-10.10",
+          "relevant_quote": "No landlord of premises or units to which this act is applicable shall serve a notice to quit upon any tenant or institute any action against a tenant to recover possession of premises... a. As a reprisal for the tenant's efforts to secure or enforce any rights under the laws of the State of New Jersey",
+          "relevance": "Even if invoked, the termination right cannot be used in retaliation."
+        },
+        {
+          "citation": "NJSA 2A:42-85 et seq. (Tenant Habitability Act)",
+          "relevant_quote": "Every residential lease in New Jersey contains an implied warranty of habitability — the landlord's promise that the dwelling is fit for habitation. This warranty cannot be waived.",
+          "relevance": "Tenant retains constructive-eviction and rent-withholding remedies if the unit becomes uninhabitable, despite the 'no early termination' language."
+        }
+      ],
+      "explanation": "NJ's Anti-Eviction Act forbids removing a residential tenant without one of the listed 'good causes' (non-payment, damage, etc.) — a 30-day no-cause termination is exactly what the statute prohibits. The tenant-side restriction also overstates reality: NJ landlords have a duty to mitigate damages by trying to re-rent, and habitability breaches can let you treat the lease as terminated.",
+      "label": "recommend_attorney_review",
+      "risk": "high"
+    },
+    {
+      "clause_id": "lease_term",
+      "headline": "Five-day vacate at end of term contradicts NJ law",
+      "verbatim_text": "The lease term begins June 1, 2026 and ends May 31, 2027 (12 months). At end of term, Tenant shall vacate the premises within 5 days unless a new lease is executed.",
+      "statute_citations": [
+        {
+          "citation": "NJSA 2A:18-61.1",
+          "relevant_quote": "No lessee or tenant... may be removed by the Superior Court from any house, building, mobile home or land in a mobile home park or tenement leased for residential purposes, other than (1) owner-occupied premises with not more than two rental units... except upon establishment of one of the following grounds as good cause",
+          "relevance": "NJ generally does not allow eviction simply because the term ended; you become a statutory tenant unless one of the enumerated good-cause grounds applies."
+        }
+      ],
+      "explanation": "In most NJ rentals, the landlord cannot force you out just because the lease term ended — you become a month-to-month statutory tenant on the same terms. The 5-day vacate language overstates the landlord's actual power. The exception is narrow (owner-occupied buildings of 1–2 units), so check your building type.",
+      "label": "conflicts_with_nj_law",
+      "risk": "moderate"
+    },
+    {
+      "clause_id": "rent_amount",
+      "headline": "Aggressive late-fee stacking with no grace period",
+      "verbatim_text": "Monthly rent is $3,200, due on the first day of each month. If rent is not received by the first, a late fee of $150 shall be charged immediately. An additional $25 per day shall accrue until paid in full.",
+      "statute_citations": [
+        {
+          "citation": "NJSA 2A:42-6.1",
+          "relevant_quote": "no recipient of Social Security Old Age, Survivors and Disability Insurance, Supplemental Security Income, Old Age Assistance or Disability Assistance shall be required to pay a late fee for the late payment of rent unless and until five business days have passed after the date by which the rent is due",
+          "relevance": "Tenants on Social Security or disability get a 5-business-day grace period by operation of law, regardless of lease language."
+        },
+        {
+          "citation": "Hoboken Municipal Code Section 155 (Rent Control Ordinance)",
+          "relevant_quote": "Hoboken's Rent Control Ordinance limits annual rent increases on covered units to the lesser of (a) 5% or (b) the percentage difference in the Consumer Price Index",
+          "relevance": "If the building has 4+ units and is past its 30-year exemption, future increases on the $3,200 base rent are capped."
+        }
+      ],
+      "explanation": "NJ has no general grace period for most tenants, so a same-day late fee is not automatically illegal — but $150 immediately plus $25/day uncapped can climb to a penalty courts may refuse to enforce. If you're on SSI/disability, NJ guarantees you a 5-business-day grace period regardless of this clause.",
+      "label": "common_but_worth_knowing",
+      "risk": "moderate"
+    },
+    {
+      "clause_id": "application_fee",
+      "headline": "Non-refundable application fee ignores Fair Chance Act",
+      "verbatim_text": "A non-refundable application fee of $250 was paid by Tenant prior to execution.",
+      "statute_citations": [
+        {
+          "citation": "NJSA 46:8-55 (Fair Chance in Housing Act, criminal history disclosure)",
+          "relevant_quote": "Before a landlord may require, request, or accept an application fee or any document showing creditworthiness or background information from a prospective tenant, the landlord shall disclose in writing whether the landlord's eligibility criteria for tenancy include consideration of the prospective tenant's criminal history.",
+          "relevance": "A written criminal-history-screening disclosure is required before any application fee is collected; the lease does not confirm this was done."
+        }
+      ],
+      "explanation": "$250 is high — typical credit/background checks cost $30–$75. NJ's Fair Chance in Housing Act also requires a written disclosure before an application fee is collected, and entitles you to a refund if you were rejected based on protected criminal history. The blanket 'non-refundable' label overstates the landlord's rights.",
+      "label": "common_but_worth_knowing",
+      "risk": "moderate"
+    },
+    {
+      "clause_id": "dispute_resolution",
+      "headline": "Mandatory arbitration and class-action waiver",
+      "verbatim_text": "Any dispute arising under this lease shall be resolved exclusively through binding arbitration. Tenant waives the right to a jury trial and the right to participate in any class action.",
+      "statute_citations": [
+        {
+          "citation": "NJSA 46:8-21.2",
+          "relevant_quote": "In any action by a tenant or licensee for the return of moneys due under this section, the court upon finding for the tenant or licensee shall award recovery of double the amount of said moneys, together with full costs of any action and, in the court's discretion, reasonable attorney's fees.",
+          "relevance": "Statutory double-damages remedy contemplates court enforcement; arbitration may complicate access to this remedy though the substantive right is non-waivable."
+        },
+        {
+          "citation": "NJSA 2A:18-61.1",
+          "relevant_quote": "No lessee or tenant ... may be removed by the Superior Court from any house, building, ... or tenement leased for residential purposes, other than ... except upon establishment of one of the following grounds as good cause",
+          "relevance": "Eviction must still go through Superior Court; arbitration cannot strip you of those protections."
+        },
+        {
+          "citation": "NJSA 2A:42-85 et seq. (Tenant Habitability Act)",
+          "relevant_quote": "Every residential lease in New Jersey contains an implied warranty of habitability — the landlord's promise that the dwelling is fit for habitation. This warranty cannot be waived.",
+          "relevance": "Substantive habitability rights survive any arbitration clause."
+        }
+      ],
+      "explanation": "You'd resolve disputes in private arbitration, often with filing fees and limited discovery, rather than NJ's tenant-friendly Special Civil Part. Eviction itself still goes through Superior Court, and your non-waivable rights (habitability, deposit double damages) survive — but the class-action waiver means you cannot band together with other tenants in the building.",
+      "label": "recommend_attorney_review",
+      "risk": "moderate"
+    }
+  ],
+  "negotiation_openings": [
+    {
+      "clause_id": "rent_amount",
+      "headline": "Add grace period and cap late-fee accrual",
+      "draft_message": "Section 2's late-fee structure imposes a $150 fee the moment rent is one day late, plus $25/day uncapped. I'd like to align this with standard NJ practice: a 5-business-day grace period before any late fee, a single flat fee of $50, and no per-day accrual. This protects both of us from disputes over fees that could be challenged as unreasonable penalties.",
+      "counter_position": "5-business-day grace period and a single $50 late fee instead of $150 immediately plus $25/day."
+    },
+    {
+      "clause_id": "entry_rights",
+      "headline": "Require reasonable notice for landlord entry",
+      "draft_message": "Section 5 currently allows entry 'at any time, with or without notice.' I'd like to revise this to require at least 24 hours' written notice and entry only during reasonable hours, with an exception for genuine emergencies. This mirrors standard NJ practice and protects my quiet enjoyment of the unit.",
+      "counter_position": "24-hour written notice and reasonable-hour entry, with an emergency exception, instead of unlimited entry."
+    },
+    {
+      "clause_id": "application_fee",
+      "headline": "Confirm Fair Chance Act disclosure was provided",
+      "draft_message": "Section 7 references a $250 non-refundable application fee. Could you confirm in writing that the criminal-history-screening disclosure required by NJSA 46:8-55 was provided before the fee was collected, and provide a copy for my records? I'd also like to understand what costs the $250 covered, since typical screening runs $30–$75.",
+      "counter_position": "Written confirmation of Fair Chance disclosure and itemization of the $250 fee, with refund of any excess over actual screening cost."
+    }
+  ],
+  "closing_notes": {
+    "not_legal_advice_disclaimer": "This brief provides legal information based on a curated database of New Jersey landlord-tenant statutes. It is not legal advice. For advice on your specific situation, consult a licensed New Jersey attorney.",
+    "when_to_consult_attorney": "Strongly consider attorney consultation before signing or paying any deposit — this lease contains an illegal 2.5-month security deposit, a void waiver of habitability, an unenforceable no-cause landlord termination, and an unusually broad entry clause, any one of which warrants legal review.",
+    "referrals": [
+      {
+        "name": "NJ Volunteer Lawyers for Justice",
+        "url": "https://www.vljnj.org"
+      },
+      {
+        "name": "Legal Services of New Jersey",
+        "url": "https://www.lsnjlaw.org"
+      }
+    ]
+  },
+  "consenterra_attribution": "Brief generated using the ConsenTerra framework for consent clarity.",
+  "mocked_in_demo": true
+}
