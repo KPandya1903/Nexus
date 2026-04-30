@@ -1,0 +1,3432 @@
+AAI 551-B - Engineering Programming: Python
+Engineering Programming: Python   |   Open   |   Joseph Helsing
+Section Details
+Babbio 321 | Tuesday | 6:30 PM - 9:00 PM
+AAI 551-C - Engineering Programming: Python
+Engineering Programming: Python   |   Open   |   Joseph Helsing
+Section Details
+Babbio 321 | Friday | 3:00 PM - 5:30 PM
+AAI 551-WS - Engineering Programming: Python
+Engineering Programming: Python   |   Open   |   Min Song
+Section Details
+WebCampus |
+AAI 551-WS1 - Engineering Programming: Python
+Engineering Programming: Python   |   Open   |   Min Song
+Section Details
+WebCampus |
+AAI 595-A - Applied Machine Learning
+Applied Machine Learning   |   Open   |   Joseph Helsing
+Section Details
+McLean 105 | Wednesday | 6:30 PM - 9:00 PM
+AAI 595-B - Applied Machine Learning
+Applied Machine Learning   |   Open   |   Hao Wang
+Section Details
+Peirce 120 | Monday | 6:30 PM - 9:00 PM
+AAI 595-WS - Applied Machine Learning
+Applied Machine Learning   |   Open   |   Jiarui Li
+Section Details
+WebCampus |
+AAI 595-WS1 - Applied Machine Learning
+Applied Machine Learning   |   Open   |   Tao Han
+Section Details
+WebCampus |
+AAI 627-A - Data Acquisition/Modeling/Analys
+Data Acquisition/Modeling/Analys   |   Open   |   Yu-Dong Yao
+Section Details
+McLean 211 | Friday | 12:00 PM - 2:30 PM
+AAI 627-WS - Data Acquisition/Modeling/Analys
+Data Acquisition/Modeling/Analys   |   Open   |   Rensheng Wang
+Section Details
+WebCampus |
+AAI 628-WS - Data Acquisition: Deep Learning
+Data Acquisition: Deep Learning   |   Open   |   Rensheng Wang
+Section Details
+WebCampus |
+AAI 646-A - Pattern Recognition & Classification
+Pattern Recognition & Classification   |   Open   |   Hong Man
+Section Details
+Morton 103 | Friday | 12:00 PM - 2:30 PM
+AAI 646-WS - Pattern Recognition & Classification
+Pattern Recognition & Classification   |   Open   |   Hong Man
+Section Details
+WebCampus |
+AAI 800-A - Special Prob in AAI(Masters)
+Special Prob in AAI(Masters)   |   Open   |   Min Song
+Section Details
+(empty)
+AAI 900-A - Thesis in AAI (Masters)
+Thesis in AAI (Masters)   |   Open   |   Hao Wang
+Section Details
+(empty)
+AAI 900-B - Thesis in AAI (Masters)
+Thesis in AAI (Masters)   |   Open   |   Koduvayur Subbalakshmi
+Section Details
+(empty)
+AAI 900-C - Thesis in AAI (Masters)
+Thesis in AAI (Masters)   |   Open   |   Hong Man
+Section Details
+(empty)
+AAI 900-D - Thesis in AAI (Masters)
+Thesis in AAI (Masters)   |   Open   |   Yu-Dong Yao
+Section Details
+(empty)
+ACC 510-A - Financial Statement Analysis
+Financial Statement Analysis   |   Open   |   Frank Manzi
+Section Details
+Martha Bayard Stevens Hall 203 | Monday | 6:30 PM - 9:00 PM
+ACC 510-B - Financial Statement Analysis
+Financial Statement Analysis   |   Open   |   Frank Manzi
+Section Details
+McLean 211 | Monday | 3:30 PM - 6:00 PM
+ACC 510-WS - Financial Statement Analysis
+Financial Statement Analysis   |   Open
+Section Details
+WebCampus | Tuesday | 3:30 PM - 6:00 PM
+ACC 590-A - Accounting Regulations: Research & Applications
+Accounting Regulations: Research & Applications   |   Open   |   Ryan Wynne
+Section Details
+Edwin A. Stevens 229 | Wednesday | 6:30 PM - 9:00 PM
+BIA 500-A - Bus Analytics: Data,Models,Decisions
+Bus Analytics: Data,Models,Decisions   |   Open   |   Bei Yan
+Section Details
+Babbio 319 | Monday | 6:30 PM - 9:00 PM
+BIA 500-B - Bus Analytics: Data,Models,Decisions
+Bus Analytics: Data,Models,Decisions   |   Open
+Section Details
+Babbio 319 | Tuesday | 6:30 PM - 9:00 PM
+BIA 500-WS - Bus Analytics: Data,Models,Decisions
+Bus Analytics: Data,Models,Decisions   |   Open   |   Gregory Prastacos
+Section Details
+WebCampus | Thursday | 6:30 PM - 9:00 PM
+BIA 568-A - Management of AI Technologies
+Management of AI Technologies   |   Open   |   Jordan Suchow
+Section Details
+Babbio 122 | Tuesday | 3:30 PM - 6:00 PM
+BIA 568-B - Management of AI Technologies
+Management of AI Technologies   |   Open
+Section Details
+Edwin A. Stevens 330 | Thursday | 6:30 PM - 9:00 PM
+BIA 568-WS - Management of AI Technologies
+Management of AI Technologies   |   Open
+Section Details
+WebCampus | Wednesday | 6:30 PM - 9:00 PM
+BIA 580-A - Foundations of Business Analytics
+Foundations of Business Analytics   |   Open
+Section Details
+Martha Bayard Stevens Hall 104 | Thursday | 3:30 PM - 6:00 PM
+BIA 610-A - Applied Analytics
+Applied Analytics   |   Open
+Section Details
+Babbio 320 | Tuesday | 6:30 PM - 9:00 PM
+BIA 650-A - Optimization & Proc. Analytics
+Optimization & Proc. Analytics   |   Open   |   Gregory Prastacos
+Section Details
+Babbio 203 | Tuesday | 3:30 PM - 6:00 PM
+BIA 652-A - Multivariate Data Analysis I
+Multivariate Data Analysis I   |   Open
+Section Details
+Martha Bayard Stevens Hall 104 | Monday | 6:30 PM - 9:00 PM
+BIA 654-A - Experimental Design II
+Experimental Design II   |   Open
+Section Details
+Howe 102 | Monday | 3:30 PM - 6:00 PM
+BIA 654-WS - Experimental Design II
+Experimental Design II   |   Open
+Section Details
+WebCampus | Tuesday | 6:30 PM - 9:00 PM
+BIA 667-A - Introduction to Deep Learning and Business Applications
+Introduction to Deep Learning and Business Applications   |   Open
+Section Details
+Gateway North 213 | Monday | 6:30 PM - 9:00 PM
+BIA 672-B - Marketing Analytics
+Marketing Analytics   |   Open
+Section Details
+Babbio 304 | Thursday | 6:30 PM - 9:00 PM
+BIA 674-A - Supply Chain Analytics
+Supply Chain Analytics   |   Open   |   Alkiviadis Vazacopoulos
+Section Details
+Gateway South 021 | Friday | 3:00 PM - 5:30 PM
+BIA 678-A - Big Data Technologies
+Big Data Technologies   |   Open
+Section Details
+Burchard 102 | Tuesday | 6:30 PM - 9:00 PM
+BIA 686-WS - Practicum in Analytics
+Practicum in Analytics   |   Open
+Section Details
+WebCampus | Wednesday | 6:30 PM - 9:00 PM
+BIA 810-A - Developing Business Applications Using GenAI
+Developing Business Applications Using GenAI   |   Open
+Section Details
+McLean 114 | Monday | 6:30 PM - 9:00 PM
+BIO 507-A - Applications of Statistics in Biomedical Engineering and Health Sciences
+Applications of Statistics in Biomedical Engineering and Health Sciences   |   Open   |   Simon Mahler
+Section Details
+Edwin A. Stevens 222 | Tuesday | 6:30 PM - 9:00 PM
+BIO 568-A - Computational Biology
+Computational Biology   |   Open   |   Nicholas Murgolo
+Section Details
+Altorfer 501 | Tuesday | 6:30 PM - 9:00 PM
+BIO 568-A-U - Computational Biology
+Computational Biology   |   Open   |   Nicholas Murgolo
+Section Details
+Altorfer 501 | Tuesday | 6:30 PM - 9:00 PM
+BIO 583-A - Physiology
+Physiology   |   Open   |   Paola DiMarzio
+Section Details
+Carnegie 316 | Thursday | 6:30 PM - 9:00 PM
+BIO 583-A-U - Physiology
+Physiology   |   Open   |   Paola DiMarzio
+Section Details
+Carnegie 316 | Thursday | 6:30 PM - 9:00 PM
+BIO 683-A - Microscopy Imaging in Biological Systems
+Microscopy Imaging in Biological Systems   |   Open   |   Marcin Iwanicki
+Section Details
+Gateway South 025 | Friday | 3:00 PM - 5:30 PM
+BIO 684-A - Molecular Bio Laboratory Technqs
+Molecular Bio Laboratory Technqs   |   Open   |   Kenny Wong
+Section Details
+Martha Bayard Stevens Hall 107 | Saturday | 9:00 AM - 12:00 PM
+BIO 687-B - Molecular Genetics
+Molecular Genetics   |   Open   |   Kenny Wong
+Section Details
+Altorfer 501 | Wednesday | 6:30 PM - 9:00 PM
+BIO 800-B - Special Rsrch Prob in Chem Bio
+Special Rsrch Prob in Chem Bio   |   Open   |   Marcin Iwanicki
+Section Details
+(empty)
+BIO 800-C - Special Research Problems in Chemical Biology
+Special Research Problems in Chemical Biology   |   Open   |   Denver JnBaptiste
+Section Details
+(empty)
+BIO 800-D - Special Research Problems in Chemical Biology
+Special Research Problems in Chemical Biology   |   Open   |   Paola DiMarzio
+Section Details
+(empty)
+BIO 800-E - Special Research Problems in Chemical Biology
+Special Research Problems in Chemical Biology   |   Open   |   Kwahun Lee
+Section Details
+(empty)
+BIO 800-I - Special Research Problems in Chemical Biology
+Special Research Problems in Chemical Biology   |   Open   |   Sunil Paliwal
+Section Details
+(empty)
+BIO 900-B - Master’s Thesis in Chemical Biology
+Master’s Thesis in Chemical Biology   |   Open   |   Marcin Iwanicki
+Section Details
+(empty)
+BME 502-A - Physiology for Engineers I
+Physiology for Engineers I   |   Open   |   Rachel Jones
+Section Details
+McLean 104 | Tuesday/Thursday | 3:30 PM - 4:45 PM
+BME 502-A-U - Physiology for Engineers I
+Physiology for Engineers I   |   Open   |   Rachel Jones
+Section Details
+McLean 104 | Tuesday/Thursday | 3:30 PM - 4:45 PM
+BME 502-B - Physiology for Engineers I
+Physiology for Engineers I   |   Open   |   Antonia Zaferiou
+Section Details
+Burchard 103 | Tuesday/Thursday | 8:00 AM - 9:15 AM
+BME 502-B-U - Physiology for Engineers I
+Physiology for Engineers I   |   Open   |   Antonia Zaferiou
+Section Details
+Burchard 103 | Tuesday/Thursday | 8:00 AM - 9:15 AM
+BME 505-A - Biomaterials
+Biomaterials   |   Open   |   Hongjun Wang
+Section Details
+North Building 105 | Monday | 6:30 PM - 9:00 PM
+BME 505-A-U - Biomaterials
+Biomaterials   |   Open   |   Hongjun Wang
+Section Details
+North Building 105 | Monday | 6:30 PM - 9:00 PM
+BME 506-A - Biomechanics
+Biomechanics   |   Open   |   Antonia Zaferiou
+Section Details
+Edwin A. Stevens 229 | Tuesday | 3:30 PM - 6:00 PM
+BME 506-A-U - Biomechanics
+Biomechanics   |   Closed   |   Antonia Zaferiou
+Section Details
+Edwin A. Stevens 229 | Tuesday | 3:30 PM - 6:00 PM
+BME 507-A - Applications of Statistics in Biomedical Engineering and Health Sciences
+Applications of Statistics in Biomedical Engineering and Health Sciences   |   Open   |   Simon Mahler
+Section Details
+Edwin A. Stevens 222 | Tuesday | 6:30 PM - 9:00 PM
+BME 512-A - Engineering Physiology Lab 1
+Engineering Physiology Lab 1   |   Closed   |   Ellen Garven
+Section Details
+Gateway North 003 (Gianforte Flex Lab) | Monday | 11:00 AM - 1:50 PM
+BME 512-B - Engineering Physiology Lab 1
+Engineering Physiology Lab 1   |   Open
+Section Details
+Gateway North 003 (Gianforte Flex Lab) | Wednesday | 8:00 AM - 10:50 AM
+BME 515-A - Natural Polymers in Medicine
+Natural Polymers in Medicine   |   Open   |   Sally Shady
+Section Details
+Edwin A. Stevens 231 | Monday | 3:00 PM - 5:30 PM
+BME 515-A-U - Natural Polymers in Medicine
+Natural Polymers in Medicine   |   Open   |   Sally Shady
+Section Details
+Edwin A. Stevens 231 | Monday | 3:00 PM - 5:30 PM
+BME 520-A - Cardiopulmonary Mechanics and Physiology
+Cardiopulmonary Mechanics and Physiology   |   Open   |   Carrie Perlman
+Section Details
+North Building 101 | Thursday | 3:30 PM - 6:00 PM
+BME 520-A-U - Cardiopulmonary Mechanics and Physiology
+Cardiopulmonary Mechanics and Physiology   |   Open   |   Carrie Perlman
+Section Details
+North Building 101 | Thursday | 3:30 PM - 6:00 PM
+BME 560-A - Movement Control Rehabilitation
+Movement Control Rehabilitation   |   Open   |   Raviraj Nataraj
+Section Details
+Morton 205 | Thursday | 6:30 PM - 9:00 PM
+BME 560-A-U - Movement Control Rehabilitation
+Movement Control Rehabilitation   |   Open   |   Raviraj Nataraj
+Section Details
+Morton 205 | Thursday | 6:30 PM - 9:00 PM
+BME 568-A - Brain-Machine Interfaces: Design to Application
+Brain-Machine Interfaces: Design to Application   |   Open   |   Ilke Uguz
+Section Details
+Morton 205 | Tuesday | 6:30 PM - 9:00 PM
+BME 568-AU - Brain-Machine Interfaces: Design to Application
+Brain-Machine Interfaces: Design to Application   |   Open   |   Ilke Uguz
+Section Details
+Morton 205 | Tuesday | 6:30 PM - 9:00 PM
+BME 602-A - Prin. of Tissue Engineering
+Prin. of Tissue Engineering   |   Open   |   Xiaojun Yu
+Section Details
+Burchard 715 | Friday | 3:00 PM - 5:30 PM
+BME 609-A - Pharmacokinetics and Drug Delivery: Principles and Clinical Applications
+Pharmacokinetics and Drug Delivery: Principles and Clinical Applications   |   Open
+Section Details
+Martha Bayard Stevens Hall 105 | Thursday | 6:30 PM - 9:00 PM
+BME 612-A - Spectroscopy Applications for Tissues and Biomaterials
+Spectroscopy Applications for Tissues and Biomaterials   |   Open   |   William Querido
+Section Details
+McLean 414 | Wednesday | 6:30 PM - 9:00 PM
+BME 702-A - Practicum in BME
+Practicum in BME   |   Open   |   Raviraj Nataraj
+Section Details
+(empty)
+BME 800-A - Spec Rsrch Prob BME(ME)
+Spec Rsrch Prob BME(ME)   |   Open   |   Raviraj Nataraj
+Section Details
+(empty)
+BME 800-B - Spec Rsrch Prob BME(ME)
+Spec Rsrch Prob BME(ME)   |   Open   |   Yu Gan
+Section Details
+(empty)
+BME 800-C - Spec Rsrch Prob BME(ME)
+Spec Rsrch Prob BME(ME)   |   Open   |   Hongjun Wang
+Section Details
+(empty)
+BME 800-D - Spec Rsrch Prob BME(ME)
+Spec Rsrch Prob BME(ME)   |   Open   |   Jennifer Kang-Mieler
+Section Details
+(empty)
+BME 800-E - Spec Rsrch Prob BME(ME)
+Spec Rsrch Prob BME(ME)   |   Open   |   Antonia Zaferiou
+Section Details
+(empty)
+BME 800-F - Spec Rsrch Prob BME(ME)
+Spec Rsrch Prob BME(ME)   |   Open   |   Carrie Perlman
+Section Details
+(empty)
+BME 800-G - Spec Rsrch Prob BME(ME)
+Spec Rsrch Prob BME(ME)   |   Open   |   Simon Mahler
+Section Details
+(empty)
+BME 800-H - Spec Rsrch Prob BME(ME)
+Spec Rsrch Prob BME(ME)   |   Open   |   Sally Shady
+Section Details
+(empty)
+BME 800-I - Spec Rsrch Prob BME(ME)
+Spec Rsrch Prob BME(ME)   |   Open   |   Xiaojun Yu
+Section Details
+(empty)
+BME 800-J - Spec Rsrch Prob BME(ME)
+Spec Rsrch Prob BME(ME)   |   Open   |   Jinho Kim
+Section Details
+(empty)
+BME 800-K - Spec Rsrch Prob BME(ME)
+Spec Rsrch Prob BME(ME)   |   Open   |   Shang Wang
+Section Details
+(empty)
+BME 800-L - Spec Rsrch Prob BME(ME)
+Spec Rsrch Prob BME(ME)   |   Open   |   Rachel Jones
+Section Details
+(empty)
+BME 800-O - Spec Rsrch Prob BME(ME)
+Spec Rsrch Prob BME(ME)   |   Open   |   Ilke Uguz
+Section Details
+(empty)
+BME 800-P - Spec Rsrch Prob BME(ME)
+Spec Rsrch Prob BME(ME)   |   Open   |   William Querido
+Section Details
+(empty)
+BME 800-Q - Spec Rsrch Prob BME(ME)
+Spec Rsrch Prob BME(ME)   |   Open   |   Ellen Garven
+Section Details
+(empty)
+BME 801-A - Special Prob BME (PHD)
+Special Prob BME (PHD)   |   Open   |   Antonia Zaferiou
+Section Details
+(empty)
+BME 801-B - Special Prob BME (PHD)
+Special Prob BME (PHD)   |   Open   |   Yu Gan
+Section Details
+(empty)
+BME 801-C - Special Prob BME (PHD)
+Special Prob BME (PHD)   |   Open   |   Hongjun Wang
+Section Details
+(empty)
+BME 801-D - Special Prob BME (PHD)
+Special Prob BME (PHD)   |   Open   |   Sally Shady
+Section Details
+(empty)
+BME 801-E - Special Prob BME (PHD)
+Special Prob BME (PHD)   |   Open   |   Jennifer Kang-Mieler
+Section Details
+(empty)
+BME 801-F - Special Prob BME (PHD)
+Special Prob BME (PHD)   |   Open   |   Carrie Perlman
+Section Details
+(empty)
+BME 801-G - Special Prob BME (PHD)
+Special Prob BME (PHD)   |   Open   |   Ellen Garven
+Section Details
+(empty)
+BME 801-H - Special Prob BME (PHD)
+Special Prob BME (PHD)   |   Open   |   Raviraj Nataraj
+Section Details
+(empty)
+BME 801-I - Special Prob BME (PHD)
+Special Prob BME (PHD)   |   Open   |   Xiaojun Yu
+Section Details
+(empty)
+BME 801-J - Special Prob BME (PHD)
+Special Prob BME (PHD)   |   Open   |   Jinho Kim
+Section Details
+(empty)
+BME 801-K - Special Prob BME (PHD)
+Special Prob BME (PHD)   |   Open   |   Shang Wang
+Section Details
+(empty)
+BME 801-L - Special Prob BME (PHD)
+Special Prob BME (PHD)   |   Open   |   Rachel Jones
+Section Details
+(empty)
+BME 801-O - Special Prob BME (PHD)
+Special Prob BME (PHD)   |   Open   |   Ilke Uguz
+Section Details
+(empty)
+BME 801-P - Special Prob BME (PHD)
+Special Prob BME (PHD)   |   Open   |   William Querido
+Section Details
+(empty)
+BME 801-Q - Special Prob BME (PHD)
+Special Prob BME (PHD)   |   Open   |   Simon Mahler
+Section Details
+(empty)
+BME 900-A - Thesis in Biomedical Engineering
+Thesis in Biomedical Engineering   |   Open   |   Antonia Zaferiou
+Section Details
+(empty)
+BME 900-B - Thesis in Biomedical Engineering
+Thesis in Biomedical Engineering   |   Open   |   Hongjun Wang
+Section Details
+(empty)
+BME 900-C - Thesis in Biomedical Engineering
+Thesis in Biomedical Engineering   |   Open   |   Ellen Garven
+Section Details
+(empty)
+BME 900-D - Thesis in Biomedical Engineering
+Thesis in Biomedical Engineering   |   Open   |   Yu Gan
+Section Details
+(empty)
+BME 900-E - Thesis in Biomedical Engineering
+Thesis in Biomedical Engineering   |   Open   |   Jennifer Kang-Mieler
+Section Details
+(empty)
+BME 900-F - Thesis in Biomedical Engineering
+Thesis in Biomedical Engineering   |   Open   |   Raviraj Nataraj
+Section Details
+(empty)
+BME 900-G - Thesis in Biomedical Engineering
+Thesis in Biomedical Engineering   |   Open   |   Carrie Perlman
+Section Details
+(empty)
+BME 900-H - Thesis in Biomedical Engineering
+Thesis in Biomedical Engineering   |   Open   |   Sally Shady
+Section Details
+(empty)
+BME 900-I - Thesis in Biomedical Engineering
+Thesis in Biomedical Engineering   |   Open   |   Xiaojun Yu
+Section Details
+(empty)
+BME 900-J - Thesis in Biomedical Engineering
+Thesis in Biomedical Engineering   |   Open   |   Jinho Kim
+Section Details
+(empty)
+BME 900-K - Thesis in Biomedical Engineering
+Thesis in Biomedical Engineering   |   Open   |   Shang Wang
+Section Details
+(empty)
+BME 900-L - Thesis in Biomedical Engineering
+Thesis in Biomedical Engineering   |   Open   |   Rachel Jones
+Section Details
+(empty)
+BME 900-O - Thesis in Biomedical Engineering
+Thesis in Biomedical Engineering   |   Open   |   Ilke Uguz
+Section Details
+(empty)
+BME 900-P - Thesis in Biomedical Engineering
+Thesis in Biomedical Engineering   |   Open   |   William Querido
+Section Details
+(empty)
+BME 900-R - Thesis in Biomedical Engineering
+Thesis in Biomedical Engineering   |   Open   |   Simon Mahler
+Section Details
+(empty)
+BME 901-A - BME Project (ME)
+BME Project (ME)   |   Open   |   Hongjun Wang
+Section Details
+(empty)
+BME 901-B - BME Project (ME)
+BME Project (ME)   |   Open   |   Antonia Zaferiou
+Section Details
+(empty)
+BME 901-C - BME Project (ME)
+BME Project (ME)   |   Open   |   Ellen Garven
+Section Details
+(empty)
+BME 901-D - BME Project (ME)
+BME Project (ME)   |   Open   |   Yu Gan
+Section Details
+(empty)
+BME 901-E - BME Project (ME)
+BME Project (ME)   |   Open   |   Jennifer Kang-Mieler
+Section Details
+(empty)
+BME 901-F - BME Project (ME)
+BME Project (ME)   |   Open   |   Raviraj Nataraj
+Section Details
+(empty)
+BME 901-G - BME Project (ME)
+BME Project (ME)   |   Open   |   Carrie Perlman
+Section Details
+(empty)
+BME 901-H - BME Project (ME)
+BME Project (ME)   |   Open   |   Sally Shady
+Section Details
+(empty)
+BME 901-I - BME Project (ME)
+BME Project (ME)   |   Open   |   Xiaojun Yu
+Section Details
+(empty)
+BME 901-J - BME Project (ME)
+BME Project (ME)   |   Open   |   Jinho Kim
+Section Details
+(empty)
+BME 901-K - BME Project (ME)
+BME Project (ME)   |   Open   |   Shang Wang
+Section Details
+(empty)
+BME 901-L - BME Project (ME)
+BME Project (ME)   |   Open   |   Rachel Jones
+Section Details
+(empty)
+BME 901-O - BME Project (ME)
+BME Project (ME)   |   Open   |   Ilke Uguz
+Section Details
+(empty)
+BME 901-P - BME Project (ME)
+BME Project (ME)   |   Open   |   William Querido
+Section Details
+(empty)
+BME 901-Q - BME Project (ME)
+BME Project (ME)   |   Open   |   Simon Mahler
+Section Details
+(empty)
+CE 508-A - Transportation Engineering
+Transportation Engineering   |   Open   |   Fatemeh Mohammadi Ghahsareh
+Section Details
+Gateway South 021 | Thursday | 6:30 PM - 9:00 PM
+CE 518-A - Advanced Mechanics of Materials
+Advanced Mechanics of Materials   |   Open   |   Fatemeh Mohammadi Ghahsareh
+Section Details
+Morton 103 | Tuesday | 6:30 PM - 9:00 PM
+CE 518-A-U - Advanced Mechanics of Materials
+Advanced Mechanics of Materials   |   Open   |   Fatemeh Mohammadi Ghahsareh
+Section Details
+Morton 103 | Tuesday | 6:30 PM - 9:00 PM
+CE 519-A - Advanced Structural Analysis
+Advanced Structural Analysis   |   Open   |   Yi Bao
+Section Details
+Howe 102 | Monday | 6:30 PM - 9:00 PM
+CE 519-A-U - Advanced Structural Analysis
+Advanced Structural Analysis   |   Open   |   Yi Bao
+Section Details
+Howe 102 | Monday | 6:30 PM - 9:00 PM
+CE 535-A - Stormwater Management
+Stormwater Management   |   Open   |   Marouane Temimi
+Section Details
+Burchard 430 | Wednesday | 6:30 PM - 9:00 PM
+CE 541-WS1 - Proj Mgmt for Construction
+Proj Mgmt for Construction   |   Open   |   Khondokar Billah
+Section Details
+WebCampus | Wednesday | 6:30 PM - 9:00 PM
+CE 565-A - Num Methods for Civil & Env Engr
+Num Methods for Civil & Env Engr   |   Open   |   Cheng Chen
+Section Details
+Edwin A. Stevens 229 | Thursday | 3:30 PM - 6:00 PM
+CE 578-A - Coastal and Flood Plain Engineering
+Coastal and Flood Plain Engineering   |   Open   |   Jon Miller
+Section Details
+Burchard 714 | Monday | 6:30 PM - 9:00 PM
+CE 589-A - Advanced Concrete Technology
+Advanced Concrete Technology   |   Open   |   Weina Meng
+Section Details
+Peirce 218 | Wednesday | 6:30 PM - 9:00 PM
+CE 660-A - Adv. Steel Structures
+Adv. Steel Structures   |   Open   |   Ronghuan Xu
+Section Details
+Edwin A. Stevens 229 | Thursday | 6:30 PM - 9:00 PM
+CE 702-A - Practicum in CE
+Practicum in CE   |   Open   |   Khondokar Billah
+Section Details
+(empty)
+CE 800-A - Special Prob in Civil Engineerng
+Special Prob in Civil Engineerng   |   Open
+Section Details
+(empty)
+CE 800-B - Special Prob in Civil Engineerng
+Special Prob in Civil Engineerng   |   Open
+Section Details
+(empty)
+CE 800-C - Special Prob in Civil Engineerng
+Special Prob in Civil Engineerng   |   Open
+Section Details
+(empty)
+CE 801-A - Special Prob in CE (PHD)
+Special Prob in CE (PHD)   |   Open
+Section Details
+(empty)
+CE 801-B - Special Prob in CE (PHD)
+Special Prob in CE (PHD)   |   Open
+Section Details
+(empty)
+CE 900-A - Thesis in Civil Eng(ME)
+Thesis in Civil Eng(ME)   |   Open
+Section Details
+(empty)
+CE 900-B - Thesis in Civil Eng(ME)
+Thesis in Civil Eng(ME)   |   Open
+Section Details
+(empty)
+CE 900-C - Thesis in Civil Eng(ME)
+Thesis in Civil Eng(ME)   |   Open
+Section Details
+(empty)
+CE 950-A - CE Engr Proj (Deg CE)
+CE Engr Proj (Deg CE)   |   Open
+Section Details
+(empty)
+CH 520-A - Quantum Chemistry for Molecules
+Quantum Chemistry for Molecules   |   Open   |   Yong Zhang
+Section Details
+McLean 114 | Tuesday | 6:30 PM - 9:00 PM
+CH 520-A-U - Quantum Chemistry for Molecules
+Quantum Chemistry for Molecules   |   Open   |   Yong Zhang
+Section Details
+McLean 114 | Tuesday | 6:30 PM - 9:00 PM
+CH 542-A - Data Science in Pharmaceutical Development
+Data Science in Pharmaceutical Development   |   Open   |   Pin-Kuang Lai
+Section Details
+Gateway North 213 | Thursday | 6:30 PM - 9:00 PM
+CH 550-A - Spectra and Structure
+Spectra and Structure   |   Open   |   Jeffrey Raab
+Section Details
+McLean 414 | Monday | 6:30 PM - 9:00 PM
+CH 564-A - AI/ML Enabled Drug Discovery and Synthesis
+AI/ML Enabled Drug Discovery and Synthesis   |   Open
+Section Details
+Gateway North 103 | Monday | 6:30 PM - 9:00 PM
+CH 564-A-U - AI/ML Enabled Drug Discovery and Synthesis
+AI/ML Enabled Drug Discovery and Synthesis   |   Open   |   Sunil Paliwal
+Section Details
+Gateway North 103 | Monday | 6:30 PM - 9:00 PM
+CH 580-A - Biochemistry I
+Biochemistry I   |   Open
+Section Details
+Gateway South 216 | Thursday | 6:30 PM - 9:00 PM
+CH 580-A-U - Biochemistry I
+Biochemistry I   |   Open
+Section Details
+Gateway South 216 | Thursday | 6:30 PM - 9:00 PM
+CH 609-A - Pharmacokinetics and Drug Delivery: Principles and Clinical Applications
+Pharmacokinetics and Drug Delivery: Principles and Clinical Applications   |   Open
+Section Details
+Martha Bayard Stevens Hall 105 | Thursday | 6:30 PM - 9:00 PM
+CH 646-A - Chem of Natural Products
+Chem of Natural Products   |   Open   |   Sheo Singh
+Section Details
+North Building 102 | Tuesday | 6:30 PM - 9:00 PM
+CH 660-A - Molecular Analysis and Structure
+Molecular Analysis and Structure   |   Open   |   Gary Martin
+Section Details
+Gateway South 025 | Wednesday | 6:30 PM - 9:00 PM
+CH 700-A - Seminar in Chemistry
+Seminar in Chemistry   |   Open
+Section Details
+Gateway South 122 | Friday | 2:00 PM - 3:15 PM
+CH 800-B - Special Rsrch Prob in Chemistry
+Special Rsrch Prob in Chemistry   |   Open   |   Marcin Iwanicki
+Section Details
+(empty)
+CH 800-C - Special Rsrch Prob in Chemistry
+Special Rsrch Prob in Chemistry   |   Open   |   Abhishek Sharma
+Section Details
+(empty)
+CH 800-D - Special Rsrch Prob in Chemistry
+Special Rsrch Prob in Chemistry   |   Open   |   Junfeng Liang
+Section Details
+(empty)
+CH 800-E - Special Rsrch Prob in Chemistry
+Special Rsrch Prob in Chemistry   |   Open   |   Kwahun Lee
+Section Details
+(empty)
+CH 800-F - Special Rsrch Prob in Chemistry
+Special Rsrch Prob in Chemistry   |   Open   |   Woo Lee
+Section Details
+(empty)
+CH 800-G - Special Rsrch Prob in Chemistry
+Special Rsrch Prob in Chemistry   |   Open   |   Yong Zhang
+Section Details
+(empty)
+CH 800-H - Special Rsrch Prob in Chemistry
+Special Rsrch Prob in Chemistry   |   Open   |   Hongjun Wang
+Section Details
+(empty)
+CH 800-I - Special Rsrch Prob in Chemistry
+Special Rsrch Prob in Chemistry   |   Open   |   Sunil Paliwal
+Section Details
+(empty)
+CH 800-J - Special Rsrch Prob in Chemistry
+Special Rsrch Prob in Chemistry   |   Open   |   Sesha Sridevi Alluri
+Section Details
+(empty)
+CH 801-B - Special Problems in Chemistry
+Special Problems in Chemistry   |   Open   |   Marcin Iwanicki
+Section Details
+(empty)
+CH 801-C - Special Problems in Chemistry
+Special Problems in Chemistry   |   Open   |   Abhishek Sharma
+Section Details
+(empty)
+CH 801-D - Special Problems in Chemistry
+Special Problems in Chemistry   |   Open   |   Junfeng Liang
+Section Details
+(empty)
+CH 801-E - Special Problems in Chemistry
+Special Problems in Chemistry   |   Open   |   Kwahun Lee
+Section Details
+(empty)
+CH 801-F - Special Problems in Chemistry
+Special Problems in Chemistry   |   Open   |   Woo Lee
+Section Details
+(empty)
+CH 801-G - Special Problems in Chemistry
+Special Problems in Chemistry   |   Open   |   Yong Zhang
+Section Details
+(empty)
+CH 900-B - Masters Thesis Chem/ChemicalBiol
+Masters Thesis Chem/ChemicalBiol   |   Open   |   Marcin Iwanicki
+Section Details
+(empty)
+CH 900-C - Masters Thesis Chem/ChemicalBiol
+Masters Thesis Chem/ChemicalBiol   |   Open   |   Abhishek Sharma
+Section Details
+(empty)
+CH 900-D - Masters Thesis Chem/ChemicalBiol
+Masters Thesis Chem/ChemicalBiol   |   Open   |   Junfeng Liang
+Section Details
+(empty)
+CH 900-E - Masters Thesis Chem/ChemicalBiol
+Masters Thesis Chem/ChemicalBiol   |   Open   |   Kwahun Lee
+Section Details
+(empty)
+CH 900-F - Masters Thesis Chem/ChemicalBiol
+Masters Thesis Chem/ChemicalBiol   |   Open   |   Woo Lee
+Section Details
+(empty)
+CH 900-G - Masters Thesis Chem/ChemicalBiol
+Masters Thesis Chem/ChemicalBiol   |   Open   |   Yong Zhang
+Section Details
+(empty)
+CH 900-H - Masters Thesis Chem/ChemicalBiol
+Masters Thesis Chem/ChemicalBiol   |   Open   |   Hongjun Wang
+Section Details
+(empty)
+CHE 521-A - Chem & Material Thermodynamics
+Chem & Material Thermodynamics   |   Open   |   Henry Du
+Section Details
+Edwin A. Stevens 130 | Monday | 6:30 PM - 9:00 PM
+CHE 523-A - Numerical Methods for Chemical Engineering
+Numerical Methods for Chemical Engineering   |   Open   |   Pin-Kuang Lai
+Section Details
+Gateway North 213 | Wednesday | 6:30 PM - 9:00 PM
+CHE 530-WS - Intro to Pharma. Manufacturing
+Intro to Pharma. Manufacturing   |   Open   |   Rowena Choudrie
+Section Details
+WebCampus |
+CHE 535-WS - Good Mfg. Prac. Pharma. Facilities Dsgn.
+Good Mfg. Prac. Pharma. Facilities Dsgn.   |   Open   |   Leonid Shnayder
+Section Details
+WebCampus |
+CHE 540-A - Validation in Life Sci. Mfg.
+Validation in Life Sci. Mfg.   |   Open   |   Mohanad Hasan
+Section Details
+North Building 102 | Thursday | 6:30 PM - 9:00 PM
+CHE 542-A - Data Science in Pharmaceutical Development
+Data Science in Pharmaceutical Development   |   Open   |   Pin-Kuang Lai
+Section Details
+Gateway North 213 | Thursday | 6:30 PM - 9:00 PM
+CHE 580-A - Biofuels Engineering Technology
+Biofuels Engineering Technology   |   Open   |   Yujun Zhao
+Section Details
+Burchard 102 | Wednesday | 6:30 PM - 9:00 PM
+CHE 580-A-U - Biofuels Engineering Technology
+Biofuels Engineering Technology   |   Open   |   Yujun Zhao
+Section Details
+Burchard 102 | Wednesday | 6:30 PM - 9:00 PM
+CHE 620-A - Chem. Eng Thermodynamics
+Chem. Eng Thermodynamics   |   Open   |   Simon Podkolzin
+Section Details
+Altorfer 501 | Monday | 6:30 PM - 9:00 PM
+CHE 626-A - Manfctrng of Biophmctcl Products
+Manfctrng of Biophmctcl Products   |   Open   |   Robert Lechich
+Section Details
+Babbio 210 | Wednesday | 6:30 PM - 9:00 PM
+CHE 628-WS - Mfg. &Pkg. of Pharma. OSD Products
+Mfg. &Pkg. of Pharma. OSD Products   |   Open   |   Leonid Shnayder
+Section Details
+WebCampus |
+CHE 632-A - Advanced Momentum Transfer
+Advanced Momentum Transfer   |   Open   |   Dilhan Kalyon
+Section Details
+Gateway North 213 | Tuesday | 6:30 PM - 9:00 PM
+CHE 682-A - Colloids & Interfacial Phenomena
+Colloids & Interfacial Phenomena   |   Open
+Section Details
+Edwin A. Stevens 229A | Tuesday | 6:30 PM - 9:00 PM
+CHE 700-A - Seminar in Chem. Engr'g
+Seminar in Chem. Engr'g   |   Open   |   Benjamin Paren
+Section Details
+Edwin A. Stevens 130 | Friday | 11:00 AM - 11:50 AM
+CHE 707-A - Practicum in CHE/MT
+Practicum in CHE/MT   |   Open   |   Yujun Zhao
+Section Details
+(empty)
+CHE 800-A - Special Prob Chemical Engineerng
+Special Prob Chemical Engineerng   |   Open
+Section Details
+(empty)
+CHE 801-A - Special Prob Chem Engr.
+Special Prob Chem Engr.   |   Open
+Section Details
+(empty)
+CM 501-A - Construction Engr'g I
+Construction Engr'g I   |   Open   |   Karim Karam
+Section Details
+Morton 103 | Monday | 6:30 PM - 9:00 PM
+CM 506-A - Building Information Modeling (BIM) and Digital Twins
+Building Information Modeling (BIM) and Digital Twins   |   Open   |   Kaijian Liu
+Section Details
+Howe 303 (Fielding) | Monday | 3:00 PM - 5:30 PM
+CM 508-A - Transportation Engineering
+Transportation Engineering   |   Open   |   Fatemeh Mohammadi Ghahsareh
+Section Details
+Gateway South 021 | Thursday | 6:30 PM - 9:00 PM
+CM 512-A - Prob in Heavy Constn.
+Prob in Heavy Constn.   |   Open   |   Karim Karam
+Section Details
+Gateway South 021 | Wednesday | 6:30 PM - 9:00 PM
+CM 541-WS1 - Proj Mgmt for Construction
+Proj Mgmt for Construction   |   Open   |   Khondokar Billah
+Section Details
+WebCampus | Wednesday | 6:30 PM - 9:00 PM
+CM 545-A - Sustainable Construction
+Sustainable Construction   |   Open   |   Karim Karam
+Section Details
+Babbio 219 | Thursday | 6:30 PM - 9:00 PM
+CM 551-A - Constr. Contract Law II
+Constr. Contract Law II   |   Open   |   James Valenti
+Section Details
+North Building 102 | Wednesday | 6:30 PM - 9:00 PM
+CM 592-A - Adv Proj Controls in Built Env
+Adv Proj Controls in Built Env   |   Open   |   Karim Karam
+Section Details
+Burchard 714 | Tuesday | 6:30 PM - 9:00 PM
+CM 605-A - Construction Safety Management
+Construction Safety Management   |   Open   |   Joseph Schwed
+Section Details
+Babbio 221 | Thursday | 6:30 PM - 9:00 PM
+CM 609-A - Large-Scale Project Cost Anal.
+Large-Scale Project Cost Anal.   |   Open   |   Karim Karam
+Section Details
+Gateway South 025 | Monday | 3:00 PM - 5:30 PM
+CM 701-A - Practicum in CM
+Practicum in CM   |   Open   |   Khondokar Billah
+Section Details
+(empty)
+CM 706-A - Co-Op Engagement in CM
+Co-Op Engagement in CM   |   Open   |   Karim Karam
+Section Details
+(empty)
+CM 800-A - Special Prob in CM (MS)
+Special Prob in CM (MS)   |   Open   |   Karim Karam
+Section Details
+(empty)
+CM 900-A - Thesis in CM
+Thesis in CM   |   Open
+Section Details
+(empty)
+CM 900-B - Thesis in CM
+Thesis in CM   |   Open
+Section Details
+(empty)
+CPE 517-A - Digital and Computer Systems Architecture
+Digital and Computer Systems Architecture   |   Open   |   Md Abu Sayeed
+Section Details
+Carnegie 316 | Monday | 3:00 PM - 5:30 PM
+CPE 521-A - Intro Autonomous Mobile Robots
+Intro Autonomous Mobile Robots   |   Open   |   Yi Guo
+Section Details
+Edwin A. Stevens 229A | Tuesday | 3:30 PM - 6:00 PM
+CPE 537-A - Interactive Computer Graphics
+Interactive Computer Graphics   |   Waitlist   |   Shudong Hao
+Section Details
+Gateway South 021 | Monday | 3:00 PM - 5:30 PM
+CPE 548-A - Digital Signal Processing
+Digital Signal Processing   |   Open   |   Hongbin Li
+Section Details
+Gateway South 121 | Friday | 12:00 PM - 2:30 PM
+CPE 548-WS - Digital Signal Processing
+Digital Signal Processing   |   Open   |   Hongbin Li
+Section Details
+WebCampus |
+CPE 550-A - Comp Organization & Prog
+Comp Organization & Prog   |   Open   |   Hongyuan Liu
+Section Details
+Babbio 203 | Monday | 6:30 PM - 9:00 PM
+CPE 551-B - Engineering Programming: Python
+Engineering Programming: Python   |   Open   |   Joseph Helsing
+Section Details
+Babbio 321 | Tuesday | 6:30 PM - 9:00 PM
+CPE 551-C - Engineering Programming: Python
+Engineering Programming: Python   |   Open   |   Joseph Helsing
+Section Details
+Babbio 321 | Friday | 3:00 PM - 5:30 PM
+CPE 551-WS - Engineering Programming: Python
+Engineering Programming: Python   |   Open   |   Min Song
+Section Details
+WebCampus |
+CPE 551-WS1 - Engineering Programming: Python
+Engineering Programming: Python   |   Open   |   Min Song
+Section Details
+WebCampus |
+CPE 552-WS - Engineering Programming: Java
+Engineering Programming: Java   |   Open   |   Yousef Abdelmalek
+Section Details
+WebCampus |
+CPE 555-A - Real-Time and Embedded Systems
+Real-Time and Embedded Systems   |   Open   |   Tewodros Zewde
+Section Details
+Peirce 116 | Thursday | 6:30 PM - 9:00 PM
+CPE 555-WS - Real-Time and Embedded Systems
+Real-Time and Embedded Systems   |   Open   |   Jack Winters
+Section Details
+WebCampus |
+CPE 558-A - Computer Vision
+Computer Vision   |   Open   |   Philippos Mordohai
+Section Details
+Babbio 203 | Tuesday | 6:30 PM - 9:00 PM
+CPE 590-A - Algorithms
+Algorithms   |   Open   |   William Hendrix
+Section Details
+Gateway North 204 | Wednesday | 6:30 PM - 9:00 PM
+CPE 592-WS - Comp & Multimedia Network Security
+Comp & Multimedia Network Security   |   Open   |   Vidya Sagar
+Section Details
+WebCampus |
+CPE 593-A - Applied Data Struct. & Algor.
+Applied Data Struct. & Algor.   |   Open   |   Md Abu Sayeed
+Section Details
+McLean 209 | Tuesday | 6:30 PM - 9:00 PM
+CPE 593-WS - Applied Data Structures and Algorithms
+Applied Data Structures and Algorithms   |   Open   |   Jingxuan Liu
+Section Details
+WebCampus |
+CPE 595-A - Applied Machine Learning
+Applied Machine Learning   |   Open   |   Joseph Helsing
+Section Details
+McLean 105 | Wednesday | 6:30 PM - 9:00 PM
+CPE 595-B - Applied Machine Learning
+Applied Machine Learning   |   Open   |   Hao Wang
+Section Details
+Peirce 120 | Monday | 6:30 PM - 9:00 PM
+CPE 595-WS - Applied Machine Learning
+Applied Machine Learning   |   Open   |   Jiarui Li
+Section Details
+WebCampus |
+CPE 595-WS1 - Applied Machine Learning
+Applied Machine Learning   |   Open   |   Tao Han
+Section Details
+WebCampus |
+CPE 600-A - Adv. Algorithm Dsgn & Implementation
+Adv. Algorithm Dsgn & Implementation   |   Open   |   Reza Peyrovian
+Section Details
+Gateway North 204 | Monday | 3:00 PM - 5:30 PM
+CPE 602-A - Applied Discrete Mathematics
+Applied Discrete Mathematics   |   Open   |   Jinrui Cao
+Section Details
+Gateway South 025 | Thursday | 6:30 PM - 9:00 PM
+CPE 608-A - Applied Modeling & Optimization
+Applied Modeling & Optimization   |   Open   |   Koduvayur Subbalakshmi
+Section Details
+North Building 105 | Thursday | 3:30 PM - 6:00 PM
+CPE 608-WS - Applied Modeling and Optimization
+Applied Modeling and Optimization   |   Open   |   Rajarathnam Chandramouli
+Section Details
+WebCampus |
+CPE 625-A - Fundamentals of Systems Engr.
+Fundamentals of Systems Engr.   |   Open   |   Onur Asan
+Section Details
+Peirce 218 | Tuesday | 3:30 PM - 6:00 PM
+CPE 643-A - Logical Design of Digital Sys I
+Logical Design of Digital Sys I   |   Open   |   Bernard Yett
+Section Details
+ABS Engineering Center 301 | Monday | 3:00 PM - 5:30 PM
+CPE 645-A - Image Processing & Comp. Vision
+Image Processing & Comp. Vision   |   Open   |   Joseph Helsing
+Section Details
+North Building 103 | Thursday | 6:30 PM - 9:00 PM
+CPE 646-A - Pattern Recognition & Classification
+Pattern Recognition & Classification   |   Open   |   Hong Man
+Section Details
+Morton 103 | Friday | 12:00 PM - 2:30 PM
+CPE 646-WS - Pattern Recognition & Classification
+Pattern Recognition & Classification   |   Open   |   Hong Man
+Section Details
+WebCampus |
+CPE 679-WS - Computer & Information Networks
+Computer & Information Networks   |   Open   |   Min Song
+Section Details
+WebCampus |
+CPE 690-A - Introduction to VLSI Design
+Introduction to VLSI Design   |   Open   |   Zhuo Feng
+Section Details
+Martha Bayard Stevens Hall 104 | Friday | 3:00 PM - 5:30 PM
+CPE 690-WS - Introduction to VLSI Design
+Introduction to VLSI Design   |   Open   |   Zhuo Feng
+Section Details
+WebCampus |
+CPE 691-WS - Information Systems Security
+Information Systems Security   |   Open   |   Aftab Ahmad
+Section Details
+WebCampus |
+CPE 706-A - CPE Co-Op Education Project
+CPE Co-Op Education Project   |   Open   |   Md Abu Sayeed
+Section Details
+(empty)
+CPE 800-A - Special Prob in Comp Eng (M.Eng)
+Special Prob in Comp Eng (M.Eng)   |   Open   |   Min Song
+Section Details
+(empty)
+CPE 801-A - Special Problems in CPE (Ph.D.)
+Special Problems in CPE (Ph.D.)   |   Open   |   Hao Wang
+Section Details
+(empty)
+CPE 801-B - Special Problems in CPE (Ph.D.)
+Special Problems in CPE (Ph.D.)   |   Open   |   Yi Guo
+Section Details
+(empty)
+CPE 801-D - Special Problems in CPE (Ph.D.)
+Special Problems in CPE (Ph.D.)   |   Open   |   Koduvayur Subbalakshmi
+Section Details
+(empty)
+CPE 801-E - Special Problems in CPE (Ph.D.)
+Special Problems in CPE (Ph.D.)   |   Open   |   Xiaojiang Du
+Section Details
+(empty)
+CPE 900-A - Thesis in Comp Engineer (M.Eng)
+Thesis in Comp Engineer (M.Eng)   |   Open   |   Hong Man
+Section Details
+(empty)
+CPE 900-B - Thesis in Comp Engineer (M.Eng)
+Thesis in Comp Engineer (M.Eng)   |   Open   |   Yi Guo
+Section Details
+(empty)
+CPE 900-C - Thesis in Comp Engineer (M.Eng)
+Thesis in Comp Engineer (M.Eng)   |   Open   |   Md Abu Sayeed
+Section Details
+(empty)
+CS 501-A - Introduction to JAVA Programming
+Introduction to JAVA Programming   |   Open
+Section Details
+Carnegie 316 | Wednesday | 6:30 PM - 9:00 PM
+CS 503-A - Discrete Math for Cryptography
+Discrete Math for Cryptography   |   Open
+Section Details
+Burchard 111 | Wednesday | 6:30 PM - 9:00 PM
+CS 508-A - Human-Centered AI
+Human-Centered AI   |   Closed   |   Jina Huh-Yoo
+Section Details
+Library B15 | Tuesday | 3:30 PM - 6:00 PM
+CS 510-A - Princ. of Programming Languages
+Princ. of Programming Languages   |   Open   |   Eduardo Bonelli
+Section Details
+Martha Bayard Stevens Hall 203 | Tuesday | 3:30 PM - 6:00 PM
+CS 511-A - Concurrent Programming
+Concurrent Programming   |   Open   |   Eduardo Bonelli
+Section Details
+Carnegie 316 | Monday/Wednesday/Friday | 10:00 AM - 10:50 AM
+CS 511-B - Concurrent Programming
+Concurrent Programming   |   Open   |   Eduardo Bonelli
+Section Details
+Morton 103 | Thursday | 3:30 PM - 6:00 PM
+CS 511-C - Concurrent Programming
+Concurrent Programming   |   Open   |   Eduardo Bonelli
+Section Details
+Burchard 102 | Monday/Wednesday/Friday | 1:00 PM - 1:50 PM
+CS 513-A - Knowledge Dis & Data Mining
+Knowledge Dis & Data Mining   |   Open   |   Khashayar Dehnad
+Section Details
+McLean 105 | Tuesday | 6:30 PM - 9:00 PM
+CS 513-B - Knowledge Dis & Data Mining
+Knowledge Dis & Data Mining   |   Open   |   Khashayar Dehnad
+Section Details
+Gateway North 103 | Wednesday | 6:30 PM - 9:00 PM
+CS 517-A - Quantum Info & Quantum Computatn
+Quantum Info & Quantum Computatn   |   Open   |   Samuel Hedemann
+Section Details
+Carnegie 315 | Monday | 6:30 PM - 9:00 PM
+CS 520-A - Introduction to Operating Sys.
+Introduction to Operating Sys.   |   Open   |   Igor Faynberg
+Section Details
+Edwin A. Stevens 230 | Tuesday | 6:30 PM - 9:00 PM
+CS 521-A - TCP/IP Networking
+TCP/IP Networking   |   Open   |   Xiaodong Yu
+Section Details
+Babbio 203 | Thursday | 6:30 PM - 9:00 PM
+CS 522-WS - Mobile Systems and Applications
+Mobile Systems and Applications   |   Open   |   Dominic Duggan
+Section Details
+WebCampus |
+CS 525-A - Systems Programming
+Systems Programming   |   Open   |   Michael Greenberg
+Section Details
+Morton 103 | Tuesday | 3:30 PM - 6:00 PM
+CS 526-WS - Enterprise & Cloud Computing
+Enterprise & Cloud Computing   |   Open   |   Dominic Duggan
+Section Details
+WebCampus |
+CS 532-A - 3D Computer Vision
+3D Computer Vision   |   Open   |   Enrique Dunn
+Section Details
+McLean 209 | Thursday | 6:30 PM - 9:00 PM
+CS 534-A - Foundations of Neural Graphics and Visual Synthesis
+Foundations of Neural Graphics and Visual Synthesis   |   Open   |   Enrique Dunn
+Section Details
+Burchard 103 | Wednesday | 6:30 PM - 9:00 PM
+CS 537-A - Interactive Computer Graphics
+Interactive Computer Graphics   |   Waitlist   |   Shudong Hao
+Section Details
+Gateway South 021 | Monday | 3:00 PM - 5:30 PM
+CS 541-A - Artificial Intelligence
+Artificial Intelligence   |   Open   |   Zining Zhu
+Section Details
+Babbio 203 | Thursday | 3:30 PM - 6:00 PM
+CS 541-B - Artificial Intelligence
+Artificial Intelligence   |   Open   |   Jie Shen
+Section Details
+Gateway North 204 | Friday | 3:00 PM - 5:30 PM
+CS 545-A - Human-Computer Interaction
+Human-Computer Interaction   |   Waitlist   |   Jonggi Hong
+Section Details
+Burchard 103 | Monday | 6:30 PM - 9:00 PM
+CS 546-A - Web Programming
+Web Programming   |   Open   |   Patrick Hill
+Section Details
+Edwin A. Stevens 230 | Monday | 6:30 PM - 9:00 PM
+CS 546-B - Web Programming
+Web Programming   |   Open   |   Patrick Hill
+Section Details
+Peirce 116 | Tuesday | 6:30 PM - 9:00 PM
+CS 546-WS - Web Programming
+Web Programming   |   Open   |   Patrick Hill
+Section Details
+WebCampus |
+CS 548-A - Enterprise Software Arch. & Dsgn
+Enterprise Software Arch. & Dsgn   |   Open   |   Dominic Duggan
+Section Details
+Morton 105 | Tuesday | 6:30 PM - 9:00 PM
+CS 549-A - Distrib Sys & Cloud Computing
+Distrib Sys & Cloud Computing   |   Open   |   Dominic Duggan
+Section Details
+Peirce 116 | Wednesday | 6:30 PM - 9:00 PM
+CS 550-A - Comp Organization & Prog
+Comp Organization & Prog   |   Open   |   Hongyuan Liu
+Section Details
+Babbio 203 | Monday | 6:30 PM - 9:00 PM
+CS 554-A - Web Programming II
+Web Programming II   |   Open   |   Patrick Hill
+Section Details
+Peirce 120 | Tuesday | 3:30 PM - 6:00 PM
+CS 554-WS - Web Programming II
+Web Programming II   |   Open   |   Patrick Hill
+Section Details
+WebCampus |
+CS 555-A - Agile Methods for Software Dev.
+Agile Methods for Software Dev.   |   Open   |   Nafiseh Ghorbani Renani
+Section Details
+Martha Bayard Stevens Hall 104 | Tuesday | 3:30 PM - 6:00 PM
+CS 555-A-U - Agile Methods for Software Dev.
+Agile Methods for Software Dev.   |   Open   |   Nafiseh Ghorbani Renani
+Section Details
+Martha Bayard Stevens Hall 104 | Tuesday | 3:30 PM - 6:00 PM
+CS 555-B - Agile Methods for Software Dev.
+Agile Methods for Software Dev.   |   Open   |   Lu Xiao
+Section Details
+Edwin A. Stevens 330 | Monday | 3:00 PM - 5:30 PM
+CS 555-B-U - Agile Methods for Software Dev.
+Agile Methods for Software Dev.   |   Open   |   Lu Xiao
+Section Details
+Edwin A. Stevens 330 | Monday | 3:00 PM - 5:30 PM
+CS 555-C - Agile Methods for Software Dev.
+Agile Methods for Software Dev.   |   Closed   |   Nafiseh Ghorbani Renani
+Section Details
+Burchard 715 | Thursday | 6:30 PM - 9:00 PM
+CS 555-C-U - Agile Methods for Software Dev.
+Agile Methods for Software Dev.   |   Open   |   Nafiseh Ghorbani Renani
+Section Details
+Burchard 430 | Thursday | 6:30 PM - 9:00 PM
+CS 555-WS - Agile Methods for Software Dev.
+Agile Methods for Software Dev.   |   Open   |   Nafiseh Ghorbani Renani
+Section Details
+WebCampus | Wednesday | 6:30 PM - 9:00 PM
+CS 556-A - Mathematical Foundations of Machine Learning
+Mathematical Foundations of Machine Learning   |   Open   |   Erisa Terolli
+Section Details
+Kidde 228 | Tuesday | 6:30 PM - 9:00 PM
+CS 556-WS - Mathematical Foundations of Machine Learning
+Mathematical Foundations of Machine Learning   |   Open   |   Erisa Terolli
+Section Details
+WebCampus |
+CS 558-A - Computer Vision
+Computer Vision   |   Open   |   Philippos Mordohai
+Section Details
+Babbio 203 | Tuesday | 6:30 PM - 9:00 PM
+CS 559-A - Machine Learning: Fund & Apps
+Machine Learning: Fund & Apps   |   Open   |   Nikhil Muralidhar
+Section Details
+Edwin A. Stevens 222 | Friday | 6:30 PM - 9:00 PM
+CS 559-WS - Machine Learning: Fund & Apps
+Machine Learning: Fund & Apps   |   Open   |   David Landaeta
+Section Details
+WebCampus |
+CS 561-A - Database Management Systems I
+Database Management Systems I   |   Open   |   Samuel Kim
+Section Details
+Edwin A. Stevens 330 | Monday | 6:30 PM - 9:00 PM
+CS 561-WS - Database Management Systems I
+Database Management Systems I   |   Waitlist   |   Samuel Kim
+Section Details
+WebCampus |
+CS 562-A - Database Management Systems II
+Database Management Systems II   |   Open   |   Samuel Kim
+Section Details
+McLean 105 | Thursday | 3:30 PM - 6:00 PM
+CS 570-A - Intro to Programming, Data Structures & Algo.
+Intro to Programming, Data Structures & Algo.   |   Open   |   Reza Peyrovian
+Section Details
+Edwin A. Stevens 230 | Thursday | 6:30 PM - 9:00 PM
+CS 573-A - Fundamentals of CyberSecurity
+Fundamentals of CyberSecurity   |   Open   |   Edward Amoroso
+Section Details
+Edwin A. Stevens 222 | Monday | 6:30 PM - 9:00 PM
+CS 578-A - Privacy in a Networked World
+Privacy in a Networked World   |   Open   |   Antonio Nicolosi
+Section Details
+North Building 105 | Friday | 3:00 PM - 5:30 PM
+CS 583-A - Deep Learning
+Deep Learning   |   Open   |   Tian Han
+Section Details
+Babbio 104 | Thursday | 3:30 PM - 6:00 PM
+CS 583-B - Deep Learning
+Deep Learning   |   Open   |   Tian Han
+Section Details
+Gateway North 103 | Friday | 3:00 PM - 5:30 PM
+CS 583-WS - Deep Learning
+Deep Learning   |   Closed   |   Erisa Terolli
+Section Details
+WebCampus |
+CS 584-A - Natural Language Processing
+Natural Language Processing   |   Open   |   Ping Wang
+Section Details
+Gateway North 103 | Monday | 3:00 PM - 5:30 PM
+CS 584-B - Natural Language Processing
+Natural Language Processing   |   Open   |   Ping Wang
+Section Details
+Babbio 319 | Friday | 3:00 PM - 5:30 PM
+CS 589-A - Text Mining and Information Retrieval
+Text Mining and Information Retrieval   |   Open   |   Xueqing Liu
+Section Details
+Gateway North 204 | Monday | 6:30 PM - 9:00 PM
+CS 590-A - Algorithms
+Algorithms   |   Open   |   William Hendrix
+Section Details
+Gateway North 204 | Wednesday | 6:30 PM - 9:00 PM
+CS 597-A - User Exp Design & Programming
+User Exp Design & Programming   |   Open   |   Tiffany Li
+Section Details
+Gateway South 216 | Tuesday | 3:30 PM - 6:00 PM
+CS 600-A - Adv. Algorithm Dsgn & Implementation
+Adv. Algorithm Dsgn & Implementation   |   Open   |   Reza Peyrovian
+Section Details
+Gateway North 204 | Monday | 3:00 PM - 5:30 PM
+CS 601-A - Algorithmic Complexity
+Algorithmic Complexity   |   Open   |   Sandeep Bhatt
+Section Details
+Edwin A. Stevens 130 | Tuesday/Thursday | 2:00 PM - 3:15 PM
+CS 605-A - Prob & Stochastic Proc I
+Prob & Stochastic Proc I   |   Open   |   Tewodros Zewde
+Section Details
+Babbio 104 | Tuesday | 6:30 PM - 9:00 PM
+CS 605-WS - Probability and Stochastic Processes I
+Probability and Stochastic Processes I   |   Open   |   Goran Djuknic
+Section Details
+WebCampus |
+CS 631-A - Adv Programming in a Unix Env
+Adv Programming in a Unix Env   |   Open   |   Jan Schaumann
+Section Details
+Burchard 104 | Monday | 6:30 PM - 9:00 PM
+CS 643-A - Formal Verif of Software
+Formal Verif of Software   |   Open   |   Dave Naumann
+Section Details
+North Building 101 | Tuesday | 3:30 PM - 6:00 PM
+CS 703-A - Practicum in CS
+Practicum in CS   |   Open   |   Enrique Dunn
+Section Details
+(empty)
+CS 706-A - Co-Op Engagement in CS
+Co-Op Engagement in CS   |   Open   |   Enrique Dunn
+Section Details
+(empty)
+CS 800-A - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Zumrut Akcam-Kibis
+Section Details
+(empty)
+CS 800-AA - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Sandeep Bhatt
+Section Details
+(empty)
+CS 800-AB - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Eduardo Bonelli
+Section Details
+(empty)
+CS 800-AC - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Tegan Brennan
+Section Details
+(empty)
+CS 800-AD - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Gabriela Ciocarlie
+Section Details
+(empty)
+CS 800-AE - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Dominic Duggan
+Section Details
+(empty)
+CS 800-AF - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Enrique Dunn
+Section Details
+(empty)
+CS 800-AH - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   William Eiers
+Section Details
+(empty)
+CS 800-AI - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Ping Wang
+Section Details
+(empty)
+CS 800-AJ - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Michael Greenberg
+Section Details
+(empty)
+CS 800-AK - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Susanne Wetzel
+Section Details
+(empty)
+CS 800-AL - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Zhaozhuo Xu
+Section Details
+(empty)
+CS 800-AM - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Xiaodong Yu
+Section Details
+(empty)
+CS 800-B - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Tian Han
+Section Details
+(empty)
+CS 800-C - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Shudong Hao
+Section Details
+(empty)
+CS 800-D - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   William Hendrix
+Section Details
+(empty)
+CS 800-E - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Jonggi Hong
+Section Details
+(empty)
+CS 800-F - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Alexander Hoover
+Section Details
+(empty)
+CS 800-FA - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Shaoyi Huang
+Section Details
+(empty)
+CS 800-G - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Jina Huh-Yoo
+Section Details
+(empty)
+CS 800-H - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Samuel Kim
+Section Details
+(empty)
+CS 800-I - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Samantha Kleinberg
+Section Details
+(empty)
+CS 800-J - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Eric Koskinen
+Section Details
+(empty)
+CS 800-K - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Alex LaGrassa
+Section Details
+(empty)
+CS 800-L - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Kai Li
+Section Details
+(empty)
+CS 800-M - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Tiffany Li
+Section Details
+(empty)
+CS 800-N - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Hongyuan Liu
+Section Details
+(empty)
+CS 800-O - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Xueqing Liu
+Section Details
+(empty)
+CS 800-P - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Philippos Mordohai
+Section Details
+(empty)
+CS 800-Q - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Nikhil Muralidhar
+Section Details
+(empty)
+CS 800-R - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Dave Naumann
+Section Details
+(empty)
+CS 800-S - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Antonio Nicolosi
+Section Details
+(empty)
+CS 800-T - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Jacek Ossowski
+Section Details
+(empty)
+CS 800-U - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Reza Peyrovian
+Section Details
+(empty)
+CS 800-V - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Jie Shen
+Section Details
+(empty)
+CS 800-W - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Erisa Terolli
+Section Details
+(empty)
+CS 800-X - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Ryan Tsang
+Section Details
+(empty)
+CS 800-Y - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Hui Wang
+Section Details
+(empty)
+CS 800-Z - Special Problems in CS (MS)
+Special Problems in CS (MS)   |   Open   |   Zining Zhu
+Section Details
+(empty)
+CS 801-A - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Zumrut Akcam-Kibis
+Section Details
+(empty)
+CS 801-AA - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Sandeep Bhatt
+Section Details
+(empty)
+CS 801-AB - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Eduardo Bonelli
+Section Details
+(empty)
+CS 801-AC - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Tegan Brennan
+Section Details
+(empty)
+CS 801-AD - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Gabriela Ciocarlie
+Section Details
+(empty)
+CS 801-AE - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Dominic Duggan
+Section Details
+(empty)
+CS 801-AF - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Enrique Dunn
+Section Details
+(empty)
+CS 801-AG - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Ping Wang
+Section Details
+(empty)
+CS 801-AH - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Susanne Wetzel
+Section Details
+(empty)
+CS 801-AI - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Zhaozhuo Xu
+Section Details
+(empty)
+CS 801-AJ - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Xiaodong Yu
+Section Details
+(empty)
+CS 801-AK - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Zining Zhu
+Section Details
+(empty)
+CS 801-B - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   William Eiers
+Section Details
+(empty)
+CS 801-C - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Michael Greenberg
+Section Details
+(empty)
+CS 801-D - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Tian Han
+Section Details
+(empty)
+CS 801-E - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Shudong Hao
+Section Details
+(empty)
+CS 801-F - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   William Hendrix
+Section Details
+(empty)
+CS 801-FA - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Jonggi Hong
+Section Details
+(empty)
+CS 801-G - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Alexander Hoover
+Section Details
+(empty)
+CS 801-H - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Shaoyi Huang
+Section Details
+(empty)
+CS 801-I - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Jina Huh-Yoo
+Section Details
+(empty)
+CS 801-J - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Samuel Kim
+Section Details
+(empty)
+CS 801-K - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Eric Koskinen
+Section Details
+(empty)
+CS 801-L - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Alex LaGrassa
+Section Details
+(empty)
+CS 801-M - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Kai Li
+Section Details
+(empty)
+CS 801-N - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Tiffany Li
+Section Details
+(empty)
+CS 801-O - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Hongyuan Liu
+Section Details
+(empty)
+CS 801-P - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Xueqing Liu
+Section Details
+(empty)
+CS 801-Q - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Philippos Mordohai
+Section Details
+(empty)
+CS 801-R - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Nikhil Muralidhar
+Section Details
+(empty)
+CS 801-S - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Dave Naumann
+Section Details
+(empty)
+CS 801-T - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Antonio Nicolosi
+Section Details
+(empty)
+CS 801-U - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Jacek Ossowski
+Section Details
+(empty)
+CS 801-V - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Jie Shen
+Section Details
+(empty)
+CS 801-W - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Erisa Terolli
+Section Details
+(empty)
+CS 801-X - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Ryan Tsang
+Section Details
+(empty)
+CS 801-Y - Special Problems in CS (PHD)
+Special Problems in CS (PHD)   |   Open   |   Hui Wang
+Section Details
+(empty)
+CS 803-A - Special Problems in CS (Eng Deg)
+Special Problems in CS (Eng Deg)   |   Open   |   Susanne Wetzel
+Section Details
+(empty)
+CS 810-A - Special Topics in CS: Algorithmics
+Special Topics in CS: Algorithmics   |   Open   |   Sandeep Bhatt
+Section Details
+Edwin A. Stevens 229A | Tuesday/Thursday | 9:30 AM - 10:45 AM
+CS 810-B - Special Topics in CS: Mathematical Foundations for Theoretical Computer Science
+Special Topics in CS: Mathematical Foundations for Theoretical Computer Science   |   Open   |   William Hendrix
+Section Details
+Babbio 220 | Tuesday/Thursday | 2:00 PM - 3:15 PM
+CS 810-C - Special Topics in CS: Modern Parallel and Distributed Computing on Cluster and Super-Computers
+Special Topics in CS: Modern Parallel and Distributed Computing on Cluster and Super-Computers   |   Open   |   Xiaodong Yu
+Section Details
+Babbio 220 | Tuesday | 6:30 PM - 9:00 PM
+CS 810-E - Special Topics in CS: Quantum Information Science
+Special Topics in CS: Quantum Information Science   |   Open   |   Alexander Hoover
+Section Details
+ABS Engineering Center 301 | Tuesday | 3:30 PM - 6:00 PM
+CS 810-H - Special Topics in CS: Fundamentals of Blockchain Technology and Cryptocurrency
+Special Topics in CS: Fundamentals of Blockchain Technology and Cryptocurrency   |   Open   |   Kai Li
+Section Details
+Altorfer 501 | Tuesday | 3:30 PM - 6:00 PM
+CS 900-A - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Zumrut Akcam-Kibis
+Section Details
+(empty)
+CS 900-AA - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Sandeep Bhatt
+Section Details
+(empty)
+CS 900-AB - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Eduardo Bonelli
+Section Details
+(empty)
+CS 900-AC - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Tegan Brennan
+Section Details
+(empty)
+CS 900-AD - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Gabriela Ciocarlie
+Section Details
+(empty)
+CS 900-AE - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Dominic Duggan
+Section Details
+(empty)
+CS 900-AF - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Enrique Dunn
+Section Details
+(empty)
+CS 900-AG - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   William Eiers
+Section Details
+(empty)
+CS 900-AH - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Michael Greenberg
+Section Details
+(empty)
+CS 900-AI - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Tian Han
+Section Details
+(empty)
+CS 900-AJ - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Shudong Hao
+Section Details
+(empty)
+CS 900-AK - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   William Hendrix
+Section Details
+(empty)
+CS 900-AL - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Jonggi Hong
+Section Details
+(empty)
+CS 900-AM - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Alexander Hoover
+Section Details
+(empty)
+CS 900-AN - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Shaoyi Huang
+Section Details
+(empty)
+CS 900-B - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Jina Huh-Yoo
+Section Details
+(empty)
+CS 900-C - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Samuel Kim
+Section Details
+(empty)
+CS 900-D - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Eric Koskinen
+Section Details
+(empty)
+CS 900-E - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Alex LaGrassa
+Section Details
+(empty)
+CS 900-F - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Kai Li
+Section Details
+(empty)
+CS 900-G - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Tiffany Li
+Section Details
+(empty)
+CS 900-H - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Hongyuan Liu
+Section Details
+(empty)
+CS 900-I - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Xueqing Liu
+Section Details
+(empty)
+CS 900-J - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Philippos Mordohai
+Section Details
+(empty)
+CS 900-K - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Nikhil Muralidhar
+Section Details
+(empty)
+CS 900-L - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Dave Naumann
+Section Details
+(empty)
+CS 900-M - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Antonio Nicolosi
+Section Details
+(empty)
+CS 900-N - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Jacek Ossowski
+Section Details
+(empty)
+CS 900-O - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Jie Shen
+Section Details
+(empty)
+CS 900-P - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Jie Shen
+Section Details
+(empty)
+CS 900-Q - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Ryan Tsang
+Section Details
+(empty)
+CS 900-R - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Hui Wang
+Section Details
+(empty)
+CS 900-S - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Ping Wang
+Section Details
+(empty)
+CS 900-T - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Susanne Wetzel
+Section Details
+(empty)
+CS 900-U - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Zhaozhuo Xu
+Section Details
+(empty)
+CS 900-V - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Xiaodong Yu
+Section Details
+(empty)
+CS 900-X - Thesis in CS (MS)
+Thesis in CS (MS)   |   Open   |   Zining Zhu
+Section Details
+(empty)
+CS 950-A - Design Project
+Design Project   |   Open   |   Susanne Wetzel
+Section Details
+(empty)
+DS 703-A - Practicum in DS/MA
+Practicum in DS/MA   |   Open   |   Mahmood Sohrabi
+Section Details
+(empty)
+EE 515-A - Photonics I
+Photonics I   |   Open   |   Marianucci Damien
+Section Details
+Martha Bayard Stevens Hall 107 | Monday | 6:30 PM - 9:00 PM
+EE 517-A - Digital and Computer Systems Architecture
+Digital and Computer Systems Architecture   |   Open   |   Md Abu Sayeed
+Section Details
+Carnegie 316 | Monday | 3:00 PM - 5:30 PM
+EE 548-A - Digital Signal Processing
+Digital Signal Processing   |   Open   |   Hongbin Li
+Section Details
+Gateway South 121 | Friday | 12:00 PM - 2:30 PM
+EE 548-WS - Digital Signal Processing
+Digital Signal Processing   |   Open   |   Hongbin Li
+Section Details
+WebCampus |
+EE 551-B - Engineering Programming: Python
+Engineering Programming: Python   |   Open   |   Joseph Helsing
+Section Details
+Babbio 321 | Tuesday | 6:30 PM - 9:00 PM
+EE 551-C - Engineering Programming: Python
+Engineering Programming: Python   |   Open   |   Joseph Helsing
+Section Details
+Babbio 321 | Friday | 3:00 PM - 5:30 PM
+EE 551-WS - Engineering Programming: Python
+Engineering Programming: Python   |   Open   |   Min Song
+Section Details
+WebCampus |
+EE 551-WS1 - Engineering Programming: Python
+Engineering Programming: Python   |   Open   |   Min Song
+Section Details
+WebCampus |
+EE 552-WS - Engineering Programming: Java
+Engineering Programming: Java   |   Open   |   Yousef Abdelmalek
+Section Details
+WebCampus |
+EE 553-WS - Engineering Programming: C++
+Engineering Programming: C++   |   Open   |   Yousef Abdelmalek
+Section Details
+WebCampus |
+EE 575-B - Introduction to Control Theory
+Introduction to Control Theory   |   Open   |   Lei Wu
+Section Details
+Edwin A. Stevens 329 | Friday | 6:30 PM - 9:00 PM
+EE 582-WS - Wireless Net:Arch, Prot & Stand
+Wireless Net:Arch, Prot & Stand   |   Closed   |   Yu-Dong Yao
+Section Details
+WebCampus |
+EE 585-WS - Phys Dsgn of Wireless Sys.
+Phys Dsgn of Wireless Sys.   |   Open   |   Bruce McNair
+Section Details
+WebCampus |
+EE 589-WS - Introduction to Power Engineering
+Introduction to Power Engineering   |   Open   |   Raziq Yaqub
+Section Details
+WebCampus |
+EE 590-WS - Smart Grid
+Smart Grid   |   Open   |   Raziq Yaqub
+Section Details
+WebCampus |
+EE 595-A - Applied Machine Learning
+Applied Machine Learning   |   Open   |   Joseph Helsing
+Section Details
+McLean 105 | Wednesday | 6:30 PM - 9:00 PM
+EE 595-B - Applied Machine Learning
+Applied Machine Learning   |   Open   |   Hao Wang
+Section Details
+Peirce 120 | Monday | 6:30 PM - 9:00 PM
+EE 595-WS - Applied Machine Learning
+Applied Machine Learning   |   Open   |   Jiarui Li
+Section Details
+WebCampus |
+EE 595-WS1 - Applied Machine Learning
+Applied Machine Learning   |   Open   |   Tao Han
+Section Details
+WebCampus |
+EE 602-A - Analytical Methods in Elec Engin
+Analytical Methods in Elec Engin   |   Open   |   Shirantha Welikala
+Section Details
+Burchard 514 | Monday | 6:30 PM - 9:00 PM
+EE 603-WS - Linear System Theory
+Linear System Theory   |   Open   |   Rensheng Wang
+Section Details
+WebCampus |
+EE 605-A - Prob & Stochastic Proc I
+Prob & Stochastic Proc I   |   Open   |   Tewodros Zewde
+Section Details
+Babbio 104 | Tuesday | 6:30 PM - 9:00 PM
+EE 605-WS - Probability and Stochastic Processes I
+Probability and Stochastic Processes I   |   Open   |   Goran Djuknic
+Section Details
+WebCampus |
+EE 608-A - Applied Modeling & Optimization
+Applied Modeling & Optimization   |   Open   |   Koduvayur Subbalakshmi
+Section Details
+North Building 105 | Thursday | 3:30 PM - 6:00 PM
+EE 608-WS - Applied Modeling and Optimization
+Applied Modeling and Optimization   |   Open   |   Rajarathnam Chandramouli
+Section Details
+WebCampus |
+EE 609-A - Communication Theory
+Communication Theory   |   Open
+Section Details
+Howe 104 | Tuesday | 3:30 PM - 6:00 PM
+EE 627-A - Data Acquisition/Modeling/Analys
+Data Acquisition/Modeling/Analys   |   Open   |   Yu-Dong Yao
+Section Details
+McLean 211 | Friday | 12:00 PM - 2:30 PM
+EE 627-WS - Data Acquisition/Modeling/Analys
+Data Acquisition/Modeling/Analys   |   Open   |   Rensheng Wang
+Section Details
+WebCampus |
+EE 628-WS - Data Acquisition: Deep Learning
+Data Acquisition: Deep Learning   |   Open   |   Rensheng Wang
+Section Details
+WebCampus |
+EE 629-A - Internet of Things
+Internet of Things   |   Open   |   Xiaojiang Du
+Section Details
+ABS Engineering Center 301 | Monday | 6:30 PM - 9:00 PM
+EE 643-A - Logical Design of Digital Sys I
+Logical Design of Digital Sys I   |   Open   |   Bernard Yett
+Section Details
+ABS Engineering Center 301 | Monday | 3:00 PM - 5:30 PM
+EE 706-A - EE Co-Op Education Project
+EE Co-Op Education Project   |   Open   |   Md Abu Sayeed
+Section Details
+(empty)
+EE 800-A - Special Problems in EE
+Special Problems in EE   |   Open   |   Min Song
+Section Details
+(empty)
+EE 801-D - Special Problems in EE (PhD)
+Special Problems in EE (PhD)   |   Open   |   Hongbin Li
+Section Details
+(empty)
+EE 820-A - Research Seminar
+Research Seminar   |   Open   |   Min Song
+Section Details
+Burchard 104 | Wednesday | 2:00 PM - 2:50 PM
+EE 900-A - Thesis in EE (MEN)
+Thesis in EE (MEN)   |   Open   |   Hong Man
+Section Details
+(empty)
+EE 900-C - Thesis in EE (MEN)
+Thesis in EE (MEN)   |   Open   |   Shirantha Welikala
+Section Details
+(empty)
+EE 900-D - Thesis in EE (MEN)
+Thesis in EE (MEN)   |   Open   |   Lei Wu
+Section Details
+(empty)
+EE 900-E - Thesis in EE (MEN)
+Thesis in EE (MEN)   |   Open   |   Yu-Dong Yao
+Section Details
+(empty)
+ELC 071-A - Language & Communication in Academic Context
+Language & Communication in Academic Context   |   Open   |   Amable Custodio Ribeiro
+Section Details
+Martha Bayard Stevens Hall 105 | Tuesday/Thursday | 9:00 AM - 11:55 AM
+ELC 071-B - Language & Communication in Academic Context
+Language & Communication in Academic Context   |   Open   |   Florina Florescu
+Section Details
+North Building 102 | Monday/Wednesday | 9:00 AM - 11:50 AM
+ELC 081-A - Writing & Speaking for Academic Success I
+Writing & Speaking for Academic Success I   |   Open   |   Florina Florescu
+Section Details
+North Building 103 | Tuesday/Thursday | 10:00 AM - 11:50 AM
+ELC 081-B - Writing & Speaking for Academic Success I
+Writing & Speaking for Academic Success I   |   Open   |   Amable Custodio Ribeiro
+Section Details
+North Building 101 | Tuesday/Thursday | 12:00 PM - 1:50 PM
+ELC 081-C - Writing & Speaking for Academic Success I
+Writing & Speaking for Academic Success I   |   Open   |   Florina Florescu
+Section Details
+Babbio 202 | Monday/Friday | 12:00 PM - 1:50 PM
+ELC 091-A - Writing & Speaking for Academic Success II
+Writing & Speaking for Academic Success II   |   Open
+Section Details
+North Building 101 | Tuesday/Thursday | 10:00 AM - 11:50 AM
+ELC 099-A - Special Topics in English Language Communication: Advanced Academic Writing
+Special Topics in English Language Communication: Advanced Academic Writing   |   Open
+Section Details
+Gateway South 123 | Tuesday | 12:30 PM - 2:20 PM
+EM 533-A - Human Factors in Engineering
+Human Factors in Engineering   |   Open   |   Onur Asan
+Section Details
+Burchard 514 | Monday | 3:00 PM - 5:30 PM
+EM 533-A-U - Human Factors in Engineering
+Human Factors in Engineering   |   Open   |   Onur Asan
+Section Details
+Burchard 514 | Monday | 3:00 PM - 5:30 PM
+EM 599-A - Intr Smart Cities & Their Ecosys
+Intr Smart Cities & Their Ecosys   |   Open   |   Philip Odonkor
+Section Details
+Gateway South 025 | Tuesday | 6:30 PM - 9:00 PM
+EM 599-A-U - Intr Smart Cities & Their Ecosys
+Intr Smart Cities & Their Ecosys   |   Open   |   Philip Odonkor
+Section Details
+Gateway South 025 | Tuesday | 6:30 PM - 9:00 PM
+EM 600-A - Eng. Economics & Cost Analysis
+Eng. Economics & Cost Analysis   |   Open   |   John Mikruk
+Section Details
+Edwin A. Stevens 229 | Monday | 6:30 PM - 9:00 PM
+EM 605-A - Elements of Operations Research
+Elements of Operations Research   |   Open   |   Ali Yassine
+Section Details
+McLean 414 | Tuesday | 3:30 PM - 6:00 PM
+EM 612-A - Project Mgmt. & Org. Design
+Project Mgmt. & Org. Design   |   Open   |   Ali Yassine
+Section Details
+Babbio 221 | Tuesday | 6:30 PM - 9:00 PM
+EM 612-WS - Project Management of Complex Systems
+Project Management of Complex Systems   |   Open   |   John Mikruk
+Section Details
+WebCampus |
+EM 622-WS - Decision Making Via Data Analysis
+Decision Making Via Data Analysis   |   Open   |   Jose Ramirez-Marquez
+Section Details
+WebCampus | Tuesday | 3:30 PM - 6:00 PM
+EM 624-A - Data Exploration and Informatics for Engineering Management
+Data Exploration and Informatics for Engineering Management   |   Open   |   Sang Won Bae
+Section Details
+Babbio 304 | Monday | 3:00 PM - 5:30 PM
+EM 624-WS - Data Exploration and Informatics for Engineering Management
+Data Exploration and Informatics for Engineering Management   |   Open   |   Carlo Lipizzi
+Section Details
+WebCampus | Tuesday | 6:30 PM - 9:00 PM
+EM 626-A - Applied AI & Machine Learning for Systems and Enterprises
+Applied AI & Machine Learning for Systems and Enterprises   |   Open   |   Carlo Lipizzi
+Section Details
+Edwin A. Stevens 229A | Monday | 6:30 PM - 9:00 PM
+EM 703-A - Practicum in EM
+Practicum in EM   |   Open   |   Kishore Pochiraju
+Section Details
+(empty)
+EM 706-A - Co-Op Engagement in EM
+Co-Op Engagement in EM   |   Open   |   Kishore Pochiraju
+Section Details
+(empty)
+EM 800-W0 - Special Problems in EM (ME)
+Special Problems in EM (ME)   |   Open   |   Carlo Lipizzi
+Section Details
+(empty)
+EMT 635-A - Managerial Judgment & Decision-Mkg
+Managerial Judgment & Decision-Mkg   |   Open   |   Peter Dominick
+Section Details
+Edwin A. Stevens 231 | Monday | 6:30 PM - 9:00 PM
+EMT 638-A - Corporate Finance
+Corporate Finance   |   Open
+Section Details
+Babbio 321 | Wednesday | 6:30 PM - 9:00 PM
+EMT 657-A - Operations Management
+Operations Management   |   Open
+Section Details
+Babbio 221 | Wednesday | 6:30 PM - 9:00 PM
+EMT 678-A - Big Data Technologies
+Big Data Technologies   |   Open
+Section Details
+Burchard 102 | Tuesday | 6:30 PM - 9:00 PM
+EN 501-A - Seminar in Sustainability Mgmt.
+Seminar in Sustainability Mgmt.   |   Open   |   Dibs Sarkar
+Section Details
+Burchard 715 | Tuesday | 5:00 PM - 5:50 PM
+EN 510-A - Perspective in Environmental Mgmt.
+Perspective in Environmental Mgmt.   |   Open   |   Dibs Sarkar
+Section Details
+Howe 102 | Tuesday | 6:30 PM - 9:00 PM
+EN 517-WS1 - Environmental Assessment
+Environmental Assessment   |   Open
+Section Details
+WebCampus | Thursday | 6:30 PM - 9:00 PM
+EN 545-A - Sustainable Construction
+Sustainable Construction   |   Open   |   Karim Karam
+Section Details
+Babbio 219 | Thursday | 6:30 PM - 9:00 PM
+EN 551-A - Environ. Chem of Soils & Natural Surfaces
+Environ. Chem of Soils & Natural Surfaces   |   Open
+Section Details
+Gateway South 024 | Wednesday | 6:30 PM - 9:00 PM
+EN 551-A-U - Environ. Chem of Soils & Natural Surfaces
+Environ. Chem of Soils & Natural Surfaces   |   Open
+Section Details
+Gateway South 024 | Wednesday | 6:30 PM - 9:00 PM
+EN 553-A - Groundwater Engineering
+Groundwater Engineering   |   Open
+Section Details
+Edwin A. Stevens 130 | Thursday | 6:30 PM - 9:00 PM
+EN 570-A - Environmental Chemistry
+Environmental Chemistry   |   Open   |   Christos Christodoulatos
+Section Details
+Burchard 514 | Tuesday | 6:30 PM - 9:00 PM
+EN 570-A-U - Environmental Chemistry
+Environmental Chemistry   |   Open   |   Christos Christodoulatos
+Section Details
+Burchard 514 | Tuesday | 6:30 PM - 9:00 PM
+EN 702-A - Practicum in EN
+Practicum in EN   |   Open
+Section Details
+(empty)
+EN 800-A - Special Prob in Environ. Engr.
+Special Prob in Environ. Engr.   |   Open
+Section Details
+(empty)
+EN 800-B - Special Prob in Environ. Engr.
+Special Prob in Environ. Engr.   |   Open
+Section Details
+(empty)
+EN 800-C - Special Prob in Environ. Engr.
+Special Prob in Environ. Engr.   |   Open
+Section Details
+(empty)
+EN 801-A - Special Prob in Environ. Engr. (PhD)
+Special Prob in Environ. Engr. (PhD)   |   Open
+Section Details
+(empty)
+EN 801-B - Special Prob in Environ. Engr. (PhD)
+Special Prob in Environ. Engr. (PhD)   |   Open
+Section Details
+(empty)
+EN 900-F - Thesis in Environmental Engineer
+Thesis in Environmental Engineer   |   Open
+Section Details
+(empty)
+FA 541-A - Applied Statistics w/ App in Finance
+Applied Statistics w/ App in Finance   |   Open   |   Ionut Florescu
+Section Details
+Babbio 432 (Hanlon Financial Systems Lab/Hanlon I) | Thursday | 3:30 PM - 6:00 PM
+FA 541-WS - Applied Statistics w/ App in Finance
+Applied Statistics w/ App in Finance   |   Open
+Section Details
+WebCampus |
+FA 542-A - Time Series w/ Appl to Finance
+Time Series w/ Appl to Finance   |   Open   |   Dragos Bozdog
+Section Details
+Babbio 111 (Hanlon II) | Thursday | 10:00 AM - 12:30 PM
+FA 542-WS - Time Series w/ Appl to Finance
+Time Series w/ Appl to Finance   |   Open
+Section Details
+WebCampus |
+FA 550-A - Data Visualization Application
+Data Visualization Application   |   Open
+Section Details
+Babbio 432 (Hanlon Financial Systems Lab/Hanlon I) | Wednesday | 6:30 PM - 9:00 PM
+FA 550-WS - Data Visualization Application
+Data Visualization Application   |   Open
+Section Details
+WebCampus |
+FA 582-A - Found of Financial Data Science
+Found of Financial Data Science   |   Open   |   Dragos Bozdog
+Section Details
+Babbio 432 (Hanlon Financial Systems Lab/Hanlon I) | Tuesday | 6:30 PM - 8:20 PM
+FA 582-WS - Foundations of Financial Data Science
+Foundations of Financial Data Science   |   Open
+Section Details
+WebCampus |
+FA 590-A - Statistical Learning
+Statistical Learning   |   Open   |   Zonghao Yang
+Section Details
+Babbio 221 | Tuesday | 3:30 PM - 6:00 PM
+FA 590-WS - Statistical Learning
+Statistical Learning   |   Open
+Section Details
+WebCampus |
+FA 591-A - Blockchain Technologies & Decentralized Finance
+Blockchain Technologies & Decentralized Finance   |   Open
+Section Details
+Gateway South 024 | Monday | 6:30 PM - 9:00 PM
+FA 591-WS - Blockchain Technologies & Decentralized Finance
+Blockchain Technologies & Decentralized Finance   |   Open
+Section Details
+WebCampus |
+FA 595-A - Financial Technology
+Financial Technology   |   Open   |   Jingrui Li
+Section Details
+Babbio 111 (Hanlon II) | Thursday | 6:30 PM - 9:00 PM
+FA 595-WS - Financial Technology
+Financial Technology   |   Open
+Section Details
+WebCampus |
+FA 636-A - Advanced Risk Analytics
+Advanced Risk Analytics   |   Open   |   Majeed Simaan
+Section Details
+Babbio 432 (Hanlon Financial Systems Lab/Hanlon I) | Tuesday | 3:30 PM - 6:00 PM
+FA 800-A - Project in Financial Analytics
+Project in Financial Analytics   |   Open   |   Ionut Florescu
+Section Details
+Edwin A. Stevens 229 | Tuesday | 6:30 PM - 9:00 PM
+FA 800-WS - Project in Financial Analytics
+Project in Financial Analytics   |   Open   |   Ionut Florescu
+Section Details
+WebCampus |
+FE 511-A - Introduction to Bloomberg LSEG, and Capital IQ
+Introduction to Bloomberg LSEG, and Capital IQ   |   Open
+Section Details
+Babbio 111 (Hanlon II) | Tuesday | 12:00 PM - 12:50 PM
+FE 511-B - Introduction to Bloomberg LSEG, and Capital IQ
+Introduction to Bloomberg LSEG, and Capital IQ   |   Open
+Section Details
+Babbio 111 (Hanlon II) | Thursday | 9:00 AM - 9:50 AM
+FE 511-C - Introduction to Bloomberg LSEG, and Capital IQ
+Introduction to Bloomberg LSEG, and Capital IQ   |   Open
+Section Details
+Babbio 111 (Hanlon II) | Tuesday | 10:00 AM - 10:50 AM
+FE 513-A - Financial Lab: Database Design
+Financial Lab: Database Design   |   Open
+Section Details
+Babbio 432 (Hanlon Financial Systems Lab/Hanlon I) | Tuesday | 8:30 PM - 9:20 PM
+FE 513-C - Financial Lab: Database Design
+Financial Lab: Database Design   |   Open
+Section Details
+Babbio 111 (Hanlon II) | Thursday | 1:00 PM - 1:50 PM
+FE 513-WS - Financial Lab: Practical Aspects of Database Design
+Financial Lab: Practical Aspects of Database Design   |   Open
+Section Details
+WebCampus |
+FE 514-A - Advanced Excel for Finance and Accounting
+Advanced Excel for Finance and Accounting   |   Open
+Section Details
+Babbio 111 (Hanlon II) | Tuesday | 2:00 PM - 2:50 PM
+FE 514-B - Advanced Excel for Finance and Accounting
+Advanced Excel for Finance and Accounting   |   Open
+Section Details
+Babbio 111 (Hanlon II) | Monday | 12:00 PM - 12:50 PM
+FE 515-B - Introduction to R
+Introduction to R   |   Open
+Section Details
+Babbio 111 (Hanlon II) | Thursday | 2:00 PM - 2:50 PM
+FE 520-A - IntrotoPythonforFinancialApp
+IntrotoPythonforFinancialApp   |   Open
+Section Details
+Babbio 111 (Hanlon II) | Tuesday | 11:00 AM - 11:50 AM
+FE 520-C - Intro to Python for Financial App
+Intro to Python for Financial App   |   Open
+Section Details
+Babbio 111 (Hanlon II) | Tuesday | 1:00 PM - 1:50 PM
+FE 524-A - Business Applications in AI Systems Development
+Business Applications in AI Systems Development   |   Open
+Section Details
+Babbio 432 (Hanlon Financial Systems Lab/Hanlon I) | Monday | 5:00 PM - 5:50 PM
+FE 529-A - Deep Reinforcement Learning: Applications in Finance
+Deep Reinforcement Learning: Applications in Finance   |   Open
+Section Details
+Babbio 111 (Hanlon II) | Monday | 6:00 PM - 6:50 PM
+FE 530-WS - Intro to Financial Engineering
+Intro to Financial Engineering   |   Open
+Section Details
+WebCampus | Wednesday | 6:30 PM - 9:00 PM
+FE 535-A - Intro Financial Risk Management
+Intro Financial Risk Management   |   Open   |   Majeed Simaan
+Section Details
+Babbio 320 | Thursday | 6:30 PM - 9:00 PM
+FE 540-A - Probability Theory for FE
+Probability Theory for FE   |   Open   |   Zhenyu Cui
+Section Details
+Gateway South 025 | Monday | 6:30 PM - 9:00 PM
+FE 540-WS - Probability Theory for FE
+Probability Theory for FE   |   Open
+Section Details
+WebCampus |
+FE 543-A - Intro to Stochastic Calculus
+Intro to Stochastic Calculus   |   Open
+Section Details
+Morton 205 | Monday | 6:30 PM - 9:00 PM
+FE 543-WS - Intro to Stochastic Calculus
+Intro to Stochastic Calculus   |   Open
+Section Details
+WebCampus |
+FE 570-A - Market Microstruct Trading Strat
+Market Microstruct Trading Strat   |   Open   |   Dan Pirjol
+Section Details
+Peirce 218 | Monday | 6:30 PM - 9:00 PM
+FE 570-WS - Market Microstruct Trading Stratgs
+Market Microstruct Trading Stratgs   |   Open
+Section Details
+WebCampus |
+FE 610-A - Stochastic Calculus for Fin Engr
+Stochastic Calculus for Fin Engr   |   Open   |   Thomas Lonon
+Section Details
+Babbio 220 | Thursday | 3:30 PM - 6:00 PM
+FE 610-WS - Stochastic Calculus for Fin Engrs.
+Stochastic Calculus for Fin Engrs.   |   Open
+Section Details
+WebCampus |
+FE 620-A - Pricing and Hedging
+Pricing and Hedging   |   Open   |   Dan Pirjol
+Section Details
+McLean 211 | Wednesday | 6:30 PM - 9:00 PM
+FE 620-WS - Pricing and Hedging
+Pricing and Hedging   |   Open
+Section Details
+WebCampus |
+FE 621-A - Computational Methods in Finance
+Computational Methods in Finance   |   Open   |   Sveinn Olafsson
+Section Details
+Babbio 220 | Wednesday | 6:30 PM - 9:00 PM
+FE 621-WS - Computational Methods in Finance
+Computational Methods in Finance   |   Open
+Section Details
+WebCampus |
+FE 630-A - Portfolio Theory & Applications
+Portfolio Theory & Applications   |   Open
+Section Details
+Babbio 310 | Tuesday | 6:30 PM - 9:00 PM
+FE 670-A - Algorithmic Trading Strategies
+Algorithmic Trading Strategies   |   Open   |   Steve Yang
+Section Details
+Babbio 220 | Thursday | 6:30 PM - 9:00 PM
+FE 670-WS - Algorithmic Trading Strategies
+Algorithmic Trading Strategies   |   Open
+Section Details
+WebCampus |
+FE 680-A - Advanced Derivatives
+Advanced Derivatives   |   Open   |   Dragos Bozdog
+Section Details
+Babbio 432 (Hanlon Financial Systems Lab/Hanlon I) | Thursday | 6:30 PM - 9:00 PM
+FE 680-WS - Advanced Derivatives
+Advanced Derivatives   |   Open
+Section Details
+WebCampus |
+FE 800-A - Project in Financial Engineering
+Project in Financial Engineering   |   Open   |   Zhenyu Cui
+Section Details
+Peirce 218 | Tuesday | 6:30 PM - 9:00 PM
+FIN 510-A - Financial Statement Analysis
+Financial Statement Analysis   |   Open   |   Frank Manzi
+Section Details
+Martha Bayard Stevens Hall 203 | Monday | 6:30 PM - 9:00 PM
+FIN 510-B - Financial Statement Analysis
+Financial Statement Analysis   |   Open   |   Frank Manzi
+Section Details
+McLean 211 | Monday | 3:30 PM - 6:00 PM
+FIN 510-WS - Financial Statement Analysis
+Financial Statement Analysis   |   Open
+Section Details
+WebCampus | Tuesday | 3:30 PM - 6:00 PM
+FIN 515-A - Financial Decision Making
+Financial Decision Making   |   Open   |   Ryan Wynne
+Section Details
+Martha Bayard Stevens Hall 203 | Monday | 3:00 PM - 5:30 PM
+FIN 515-WS - Financial Decision Making
+Financial Decision Making   |   Open
+Section Details
+WebCampus | Monday | 6:30 PM - 9:00 PM
+FIN 523-WS - Financial Management
+Financial Management   |   Closed
+Section Details
+WebCampus | Monday | 6:30 PM - 9:00 PM
+FIN 530-A - Investment Banking
+Investment Banking   |   Open
+Section Details
+Martha Bayard Stevens Hall 104 | Tuesday | 6:30 PM - 9:00 PM
+FIN 545-WS - Risk Mgmt for Financial Cybersecrty
+Risk Mgmt for Financial Cybersecrty   |   Open
+Section Details
+WebCampus | Wednesday | 6:30 PM - 9:00 PM
+FIN 616-A - Managerial Economics
+Managerial Economics   |   Open
+Section Details
+Howe 104 | Thursday | 3:30 PM - 6:00 PM
+FIN 627-A - Investment Management
+Investment Management   |   Open   |   Emmanuel Hatzakis
+Section Details
+McLean 211 | Monday | 6:30 PM - 9:00 PM
+FIN 628-A - Derivatives
+Derivatives   |   Open   |   Emmanuel Hatzakis
+Section Details
+Babbio 210 | Thursday | 6:30 PM - 9:00 PM
+FIN 629-A - Fixed Income
+Fixed Income   |   Open   |   Yanru Han
+Section Details
+Martha Bayard Stevens Hall 104 | Monday | 3:00 PM - 5:30 PM
+FIN 638-A - Corporate Finance
+Corporate Finance   |   Open
+Section Details
+Babbio 321 | Wednesday | 6:30 PM - 9:00 PM
+IPD 611-A - Modeling and Simulation
+Modeling and Simulation   |   Open   |   Chaitanya Krishna Vallabh
+Section Details
+Burchard 103 | Monday | 3:00 PM - 5:30 PM
+IPD 612-A - Project Mgmt. & Org. Design
+Project Mgmt. & Org. Design   |   Open   |   Ali Yassine
+Section Details
+Babbio 221 | Tuesday | 6:30 PM - 9:00 PM
+IPD 612-WS - Project Management of Complex Systems
+Project Management of Complex Systems   |   Open   |   John Mikruk
+Section Details
+WebCampus |
+MA 503-A - Discrete Math for Cryptography
+Discrete Math for Cryptography   |   Open
+Section Details
+Burchard 111 | Wednesday | 6:30 PM - 9:00 PM
+MA 540-A - Intro to Probability Theory
+Intro to Probability Theory   |   Open
+Section Details
+Library B15 | Tuesday | 6:30 PM - 9:00 PM
+MA 541-A - Statistical Methods
+Statistical Methods   |   Open
+Section Details
+Carnegie 316 | Monday | 6:30 PM - 9:00 PM
+MA 544-A - Numerical Linear Algebra for Big Data
+Numerical Linear Algebra for Big Data   |   Open
+Section Details
+McLean 209 | Tuesday/Thursday | 3:30 PM - 4:45 PM
+MA 574-A - Foundational Mathematics for Data Science
+Foundational Mathematics for Data Science   |   Open
+Section Details
+Edwin A. Stevens 330 | Tuesday/Thursday | 5:00 PM - 6:15 PM
+MA 575-A - Optimztn Models in Quant. Finance
+Optimztn Models in Quant. Finance   |   Open
+Section Details
+Burchard 430 | Tuesday | 3:30 PM - 6:00 PM
+MA 576-A - Optimization for Data Science
+Optimization for Data Science   |   Open
+Section Details
+Peirce 120 | Wednesday | 6:30 PM - 9:00 PM
+MA 605-A - Foundations of Algebra I
+Foundations of Algebra I   |   Open
+Section Details
+North Building 101 | Monday | 6:30 PM - 9:00 PM
+MA 610-A - Artificial Intelligence in Mathematical Research
+Artificial Intelligence in Mathematical Research   |   Open
+Section Details
+Library B16 | Friday | 12:00 PM - 2:30 PM
+MA 611-A - Probability
+Probability   |   Open
+Section Details
+North Building 103 | Monday | 6:30 PM - 9:00 PM
+MA 615-A - Numerical Analysis I
+Numerical Analysis I   |   Open
+Section Details
+North Building 101 | Monday/Wednesday | 9:30 AM - 10:45 AM
+MA 630-A - Advanced Optimization Methods
+Advanced Optimization Methods   |   Open
+Section Details
+Gateway North 213 | Monday | 3:00 PM - 5:30 PM
+MA 635-A - Functional Analysis I
+Functional Analysis I   |   Open
+Section Details
+North Building 104 | Thursday | 6:30 PM - 9:00 PM
+MA 641-A - Time Series Analysis I
+Time Series Analysis I   |   Open
+Section Details
+McLean 209 | Monday | 6:30 PM - 9:00 PM
+MA 650-A - Intermediate Partial Diff. Eqns.
+Intermediate Partial Diff. Eqns.   |   Open
+Section Details
+Burchard 514 | Monday/Wednesday | 12:30 PM - 1:45 PM
+MA 703-A - Practicum in DS/MA
+Practicum in DS/MA   |   Open   |   Mahmood Sohrabi
+Section Details
+(empty)
+MA 900-A - Thesis in Mathematics
+Thesis in Mathematics   |   Open   |   Mahmood Sohrabi
+Section Details
+(empty)
+ME 510-WS - Power Plant Engineering
+Power Plant Engineering   |   Open   |   Hamid Hadim
+Section Details
+WebCampus |
+ME 512-A - Intermediate Fluid Dynamics
+Intermediate Fluid Dynamics   |   Open   |   Kevin Connington
+Section Details
+Babbio 319 | Monday/Wednesday/Friday | 2:00 PM - 2:50 PM
+ME 520-A - Analysis & Dsgn Composites
+Analysis & Dsgn Composites   |   Closed   |   Frank Fisher
+Section Details
+Gateway North 213 | Friday | 12:00 PM - 2:30 PM
+ME 522-A - Mechatronics
+Mechatronics   |   Open   |   Mishah Salman
+Section Details
+Edwin A. Stevens 130 | Tuesday | 3:30 PM - 6:00 PM
+ME 525-A - Biomechanics
+Biomechanics   |   Open   |   Robert Chang
+Section Details
+Gateway South 121 | Monday | 3:00 PM - 5:30 PM
+ME 529-A - Modern & Adv. Combustion Engines
+Modern & Adv. Combustion Engines   |   Open   |   Rodney Johnson
+Section Details
+Edwin A. Stevens 231 | Thursday | 6:30 PM - 9:00 PM
+ME 530-WS - Intro to Pharma. Manufacturing
+Intro to Pharma. Manufacturing   |   Open   |   Rowena Choudrie
+Section Details
+WebCampus |
+ME 535-WS - Good Mfg. Prac. Pharma. Facilities Dsgn.
+Good Mfg. Prac. Pharma. Facilities Dsgn.   |   Open   |   Leonid Shnayder
+Section Details
+WebCampus |
+ME 540-A - Validation in Life Sci. Mfg.
+Validation in Life Sci. Mfg.   |   Open   |   Mohanad Hasan
+Section Details
+North Building 102 | Thursday | 6:30 PM - 9:00 PM
+ME 554-WS - Intro to Computer-Aided Dsgn
+Intro to Computer-Aided Dsgn   |   Closed   |   Chan Yu
+Section Details
+WebCampus |
+ME 555-WS - Lean Six Sigma
+Lean Six Sigma   |   Open   |   Robert Lechich
+Section Details
+WebCampus |
+ME 560-WS - Qual. in Life Sci. Manufacturing
+Qual. in Life Sci. Manufacturing   |   Open   |   Marc Bernhardt
+Section Details
+WebCampus |
+ME 565-A - Intro to Additive Manufacturing
+Intro to Additive Manufacturing   |   Open   |   Biruk Gebre
+Section Details
+Martha Bayard Stevens Hall 105 | Friday | 3:00 PM - 5:30 PM
+ME 566-A - Dsgn/Manufacturability
+Dsgn/Manufacturability   |   Open   |   Chan Yu
+Section Details
+Burchard 430 | Tuesday | 6:30 PM - 9:00 PM
+ME 580-A - Medical Device Design & Tech.
+Medical Device Design & Tech.   |   Open   |   Behzad Mottahed
+Section Details
+McLean 104 | Tuesday | 6:30 PM - 9:00 PM
+ME 581-A - Intro to BioMEMS
+Intro to BioMEMS   |   Open   |   Eui-Hyeok Yang
+Section Details
+Library B16 | Tuesday | 3:30 PM - 6:00 PM
+ME 594-A - Numerical Methods in ME
+Numerical Methods in ME   |   Open   |   Kevin Connington
+Section Details
+Burchard 430 | Monday | 6:30 PM - 9:00 PM
+ME 598-A - Intro to Robotics
+Intro to Robotics   |   Open   |   Mishah Salman
+Section Details
+Edwin A. Stevens 229 | Monday | 3:00 PM - 5:30 PM
+ME 598-WS - Intro to Robotics
+Intro to Robotics   |   Open   |   Mishah Salman
+Section Details
+WebCampus | Monday | 6:30 PM - 9:00 PM
+ME 602-A - Statistical Methods in Life Sciences Industries
+Statistical Methods in Life Sciences Industries   |   Open   |   Leonid Shnayder
+Section Details
+North Building 102 | Monday | 3:00 PM - 5:30 PM
+ME 621-A - Intro Modern Ctrl Engr'g
+Intro Modern Ctrl Engr'g   |   Open   |   Hamid Jafarnejad Sani
+Section Details
+Edwin A. Stevens 329 | Wednesday | 6:30 PM - 9:00 PM
+ME 626-A - Manfctrng of Biophmctcl Products
+Manfctrng of Biophmctcl Products   |   Open   |   Robert Lechich
+Section Details
+Babbio 210 | Wednesday | 6:30 PM - 9:00 PM
+ME 628-WS - Mfg. &Pkg. of Pharma. OSD Products
+Mfg. &Pkg. of Pharma. OSD Products   |   Open   |   Leonid Shnayder
+Section Details
+WebCampus |
+ME 635-A - Modeling and Simulation
+Modeling and Simulation   |   Open   |   Chaitanya Krishna Vallabh
+Section Details
+Burchard 103 | Monday | 3:00 PM - 5:30 PM
+ME 636-A - Project Mgmt. & Org. Design
+Project Mgmt. & Org. Design   |   Open   |   Ali Yassine
+Section Details
+Babbio 221 | Tuesday | 6:30 PM - 9:00 PM
+ME 636-WS - Project Management of Complex Systems
+Project Management of Complex Systems   |   Open   |   John Mikruk
+Section Details
+WebCampus |
+ME 641-A - Engineering Analysis I
+Engineering Analysis I   |   Open   |   Sven Esche
+Section Details
+Burchard 103 | Tuesday | 6:30 PM - 9:00 PM
+ME 650-A - Robot Manipulators
+Robot Manipulators   |   Open   |   Long Wang
+Section Details
+Morton 103 | Thursday | 6:30 PM - 9:00 PM
+ME 653-A - Design for Additive Manufacturng
+Design for Additive Manufacturng   |   Open   |   Chan Yu
+Section Details
+Babbio 310 | Thursday | 6:30 PM - 9:00 PM
+ME 655-WS - Wearable Robotics and Sensors
+Wearable Robotics and Sensors   |   Open   |   Damiano Zanotto
+Section Details
+WebCampus |
+ME 658-A - Adv Mechanics of Solids
+Adv Mechanics of Solids   |   Open   |   Sven Esche
+Section Details
+Edwin A. Stevens 329 | Monday | 6:30 PM - 9:00 PM
+ME 660-WS - Medical Devices Manufacturing
+Medical Devices Manufacturing   |   Open   |   Jonathan Gabel
+Section Details
+WebCampus |
+ME 665-A - Advanced Product Development
+Advanced Product Development   |   Open   |   Souran Manoochehri
+Section Details
+Babbio 220 | Tuesday | 3:30 PM - 6:00 PM
+ME 674-A - Fluid Dynamics
+Fluid Dynamics   |   Open   |   Jason Rabinovitch
+Section Details
+Edwin A. Stevens 229A | Wednesday | 6:30 PM - 9:00 PM
+ME 702-A - Practicum in ME
+Practicum in ME   |   Open   |   Frank Fisher
+Section Details
+(empty)
+ME 706-A - Co-Op Engagement in ME
+Co-Op Engagement in ME   |   Open   |   Frank Fisher
+Section Details
+(empty)
+ME 800-A - Spec. Prob. in ME (MEN)
+Spec. Prob. in ME (MEN)   |   Open   |   Souran Manoochehri
+Section Details
+(empty)
+ME 800-B - Spec. Prob. in ME (MEN)
+Spec. Prob. in ME (MEN)   |   Open   |   Gizem Acar
+Section Details
+(empty)
+ME 800-C - Spec. Prob. in ME (MEN)
+Spec. Prob. in ME (MEN)   |   Open   |   Robert Chang
+Section Details
+(empty)
+ME 800-D - Spec. Prob. in ME (MEN)
+Spec. Prob. in ME (MEN)   |   Open   |   Chang-Hwan Choi
+Section Details
+(empty)
+ME 800-E - Spec. Prob. in ME (MEN)
+Spec. Prob. in ME (MEN)   |   Open   |   Brendan Englot
+Section Details
+(empty)
+ME 800-F - Spec. Prob. in ME (MEN)
+Spec. Prob. in ME (MEN)   |   Open   |   Sven Esche
+Section Details
+(empty)
+ME 800-G - Spec. Prob. in ME (MEN)
+Spec. Prob. in ME (MEN)   |   Open   |   Frank Fisher
+Section Details
+(empty)
+ME 800-H - Spec. Prob. in ME (MEN)
+Spec. Prob. in ME (MEN)   |   Open   |   Hamid Hadim
+Section Details
+(empty)
+ME 800-I - Spec. Prob. in ME (MEN)
+Spec. Prob. in ME (MEN)   |   Open   |   Shima Hajimirza
+Section Details
+(empty)
+ME 800-J - Spec. Prob. in ME (MEN)
+Spec. Prob. in ME (MEN)   |   Open   |   Hamid Jafarnejad Sani
+Section Details
+(empty)
+ME 800-K - Spec. Prob. in ME (MEN)
+Spec. Prob. in ME (MEN)   |   Open   |   Christopher Sugino
+Section Details
+(empty)
+ME 800-L - Spec. Prob. in ME (MEN)
+Spec. Prob. in ME (MEN)   |   Open   |   Nicholaus Parziale
+Section Details
+(empty)
+ME 800-M - Spec. Prob. in ME (MEN)
+Spec. Prob. in ME (MEN)   |   Open   |   Christophe Pierre
+Section Details
+(empty)
+ME 800-N - Spec. Prob. in ME (MEN)
+Spec. Prob. in ME (MEN)   |   Open   |   Kevin Connington
+Section Details
+(empty)
+ME 800-O - Spec. Prob. in ME (MEN)
+Spec. Prob. in ME (MEN)   |   Open   |   Jason Rabinovitch
+Section Details
+(empty)
+ME 800-P - Spec. Prob. in ME (MEN)
+Spec. Prob. in ME (MEN)   |   Open   |   Yong Shi
+Section Details
+(empty)
+ME 800-Q - Spec. Prob. in ME (MEN)
+Spec. Prob. in ME (MEN)   |   Open   |   Chaitanya Krishna Vallabh
+Section Details
+(empty)
+ME 800-R - Spec. Prob. in ME (MEN)
+Spec. Prob. in ME (MEN)   |   Open   |   Eui-Hyeok Yang
+Section Details
+(empty)
+ME 800-S - Spec. Prob. in ME (MEN)
+Spec. Prob. in ME (MEN)   |   Open   |   Jacqueline Libby
+Section Details
+(empty)
+ME 800-T - Spec. Prob. in ME (MEN)
+Spec. Prob. in ME (MEN)   |   Open   |   Damiano Zanotto
+Section Details
+(empty)
+ME 800-U - Spec. Prob. in ME (MEN)
+Spec. Prob. in ME (MEN)   |   Open   |   Annie Xian Zhang
+Section Details
+(empty)
+ME 800-V - Spec. Prob. in ME (MEN)
+Spec. Prob. in ME (MEN)   |   Open   |   Long Wang
+Section Details
+(empty)
+ME 800-W - Spec. Prob. in ME (MEN)
+Spec. Prob. in ME (MEN)   |   Open   |   Kishore Pochiraju
+Section Details
+(empty)
+ME 900-A - Thesis in Mechanical Engineering
+Thesis in Mechanical Engineering   |   Open   |   Souran Manoochehri
+Section Details
+(empty)
+ME 900-B - Thesis in Mechanical Engineering
+Thesis in Mechanical Engineering   |   Open   |   Gizem Acar
+Section Details
+(empty)
+ME 900-C - Thesis in Mechanical Engineering
+Thesis in Mechanical Engineering   |   Open   |   Robert Chang
+Section Details
+(empty)
+ME 900-D - Thesis in Mechanical Engineering
+Thesis in Mechanical Engineering   |   Open   |   Chang-Hwan Choi
+Section Details
+(empty)
+ME 900-E - Thesis in Mechanical Engineering
+Thesis in Mechanical Engineering   |   Open   |   Brendan Englot
+Section Details
+(empty)
+ME 900-F - Thesis in Mechanical Engineering
+Thesis in Mechanical Engineering   |   Open   |   Sven Esche
+Section Details
+(empty)
+ME 900-G - Thesis in Mechanical Engineering
+Thesis in Mechanical Engineering   |   Open   |   Frank Fisher
+Section Details
+(empty)
+ME 900-H - Thesis in Mechanical Engineering
+Thesis in Mechanical Engineering   |   Open   |   Hamid Hadim
+Section Details
+(empty)
+ME 900-I - Thesis in Mechanical Engineering
+Thesis in Mechanical Engineering   |   Open   |   Shima Hajimirza
+Section Details
+(empty)
+ME 900-J - Thesis in Mechanical Engineering
+Thesis in Mechanical Engineering   |   Open   |   Hamid Jafarnejad Sani
+Section Details
+(empty)
+ME 900-K - Thesis in Mechanical Engineering
+Thesis in Mechanical Engineering   |   Open   |   Jason Rabinovitch
+Section Details
+(empty)
+ME 900-L - Thesis in Mechanical Engineering
+Thesis in Mechanical Engineering   |   Open   |   Nicholaus Parziale
+Section Details
+(empty)
+ME 900-M - Thesis in Mechanical Engineering
+Thesis in Mechanical Engineering   |   Open   |   Christophe Pierre
+Section Details
+(empty)
+ME 900-N - Thesis in Mechanical Engineering
+Thesis in Mechanical Engineering   |   Open   |   Kishore Pochiraju
+Section Details
+(empty)
+ME 900-O - Thesis in Mechanical Engineering
+Thesis in Mechanical Engineering   |   Open   |   Jacqueline Libby
+Section Details
+(empty)
+ME 900-P - Thesis in Mechanical Engineering
+Thesis in Mechanical Engineering   |   Open   |   Yong Shi
+Section Details
+(empty)
+ME 900-Q - Thesis in Mechanical Engineering
+Thesis in Mechanical Engineering   |   Open   |   Chaitanya Krishna Vallabh
+Section Details
+(empty)
+ME 900-R - Thesis in Mechanical Engineering
+Thesis in Mechanical Engineering   |   Open   |   Eui-Hyeok Yang
+Section Details
+(empty)
+ME 900-S - Thesis in Mechanical Engineering
+Thesis in Mechanical Engineering   |   Open   |   Christopher Sugino
+Section Details
+(empty)
+ME 900-T - Thesis in Mechanical Engineering
+Thesis in Mechanical Engineering   |   Open   |   Damiano Zanotto
+Section Details
+(empty)
+ME 900-U - Thesis in Mechanical Engineering
+Thesis in Mechanical Engineering   |   Open   |   Annie Xian Zhang
+Section Details
+(empty)
+ME 900-V - Thesis in Mechanical Engineering
+Thesis in Mechanical Engineering   |   Open   |   Long Wang
+Section Details
+(empty)
+MGT 550-WS - Sports Business and Management
+Sports Business and Management   |   Closed   |   Donald Lombardi
+Section Details
+WebCampus |
+MGT 609-A - Project Management Fundamentals
+Project Management Fundamentals   |   Open
+Section Details
+Martha Bayard Stevens Hall 203 | Tuesday | 6:30 PM - 9:00 PM
+MGT 609-WS - Project Management Fundamentals
+Project Management Fundamentals   |   Open
+Section Details
+WebCampus | Monday | 6:30 PM - 9:00 PM
+MGT 610-WS - Strategic Perspectives on Proj. Mgmt
+Strategic Perspectives on Proj. Mgmt   |   Open   |   Thomas Lechler
+Section Details
+WebCampus | Thursday | 6:30 PM - 9:00 PM
+MGT 612-A - Leader Development
+Leader Development   |   Open   |   Sibel Ozgen Novelli
+Section Details
+Babbio 319 | Wednesday | 6:30 PM - 9:00 PM
+MGT 612-WS - Leader Development
+Leader Development   |   Open   |   Donald Lombardi
+Section Details
+WebCampus | Wednesday | 6:30 PM - 9:00 PM
+MGT 613-WS - Project Portfolio Mgt & Program Office
+Project Portfolio Mgt & Program Office   |   Open
+Section Details
+WebCampus | Wednesday | 6:30 PM - 9:00 PM
+MGT 616-WS - Healthcare Leadership & Mgmt.
+Healthcare Leadership & Mgmt.   |   Open   |   Donald Lombardi
+Section Details
+WebCampus | Thursday | 6:30 PM - 9:00 PM
+MGT 635-A - Managerial Judgment & Decision-Mkg
+Managerial Judgment & Decision-Mkg   |   Open   |   Peter Dominick
+Section Details
+Edwin A. Stevens 231 | Monday | 6:30 PM - 9:00 PM
+MGT 641-A - Marketing Management
+Marketing Management   |   Open
+Section Details
+Howe 303 (Fielding) | Monday | 6:30 PM - 9:00 PM
+MGT 657-A - Operations Management
+Operations Management   |   Open
+Section Details
+Babbio 221 | Wednesday | 6:30 PM - 9:00 PM
+MGT 663-WS - Discvr & Exploit Entrpnul Opport
+Discvr & Exploit Entrpnul Opport   |   Open   |   Thomas Lechler
+Section Details
+WebCampus | Tuesday | 6:30 PM - 9:00 PM
+MGT 699-A - Strategic Management
+Strategic Management   |   Open   |   Pranav Garg
+Section Details
+Burchard 104 | Thursday | 6:30 PM - 9:00 PM
+MGT 699-WS - Strategic Management
+Strategic Management   |   Open
+Section Details
+WebCampus | Monday | 6:30 PM - 9:00 PM
+MGT 700-A - Econometrics
+Econometrics   |   Open   |   Pallavi Pal
+Section Details
+Babbio 221 | Friday | 3:00 PM - 5:30 PM
+MGT 808-WS - Fundamentals of Consulting
+Fundamentals of Consulting   |   Open
+Section Details
+WebCampus | Tuesday | 5:00 PM - 5:50 PM
+MGT 808-WS1 - Fundamentals of Consulting
+Fundamentals of Consulting   |   Open
+Section Details
+WebCampus | Thursday | 12:00 PM - 12:50 PM
+MIS 630-A - Managing the Data Resource
+Managing the Data Resource   |   Open   |   Joseph Morabito
+Section Details
+North Building 105 | Wednesday | 6:30 PM - 9:00 PM
+MIS 635-A - Designing the Knowledge Org.
+Designing the Knowledge Org.   |   Open   |   Joseph Morabito
+Section Details
+Howe 303 (Fielding) | Friday | 3:00 PM - 5:30 PM
+MIS 636-A - Data Integration for BI&A
+Data Integration for BI&A   |   Open   |   Joseph Morabito
+Section Details
+McLean 105 | Tuesday | 3:30 PM - 6:00 PM
+MIS 637-A - Data Analytics&Machine Learning
+Data Analytics&Machine Learning   |   Open   |   Mahmoud Daneshmand
+Section Details
+Gateway South 021 | Tuesday | 3:30 PM - 6:00 PM
+MIS 637-WS - Data Analytics & Machine Learning
+Data Analytics & Machine Learning   |   Open   |   Mahmoud Daneshmand
+Section Details
+WebCampus | Monday | 6:30 PM - 9:00 PM
+MIS 645-A - Cyber Security Principles
+Cyber Security Principles   |   Open   |   Michael Frank
+Section Details
+Babbio 320 | Monday | 6:30 PM - 9:00 PM
+MIS 699-A - Digital Innovation
+Digital Innovation   |   Open   |   Dennis Glacken
+Section Details
+Edwin A. Stevens 230 | Wednesday | 6:30 PM - 9:00 PM
+MIS 710-WS - Process Innovation & Management
+Process Innovation & Management   |   Open   |   Dennis Glacken
+Section Details
+WebCampus | Thursday | 6:30 PM - 9:00 PM
+MIS 730-A - Integrating IS Technologies
+Integrating IS Technologies   |   Open   |   Michael Frank
+Section Details
+North Building 105 | Tuesday | 6:30 PM - 9:00 PM
+MIS 760-A - IT Strategy
+IT Strategy   |   Open   |   Katia Meggiorin
+Section Details
+Burchard 714 | Monday | 3:30 PM - 6:00 PM
+MIS 760-WS - IT Strategy
+IT Strategy   |   Open   |   Katia Meggiorin
+Section Details
+WebCampus | Monday | 6:30 PM - 9:00 PM
+MT 515-A - Photonics I
+Photonics I   |   Open   |   Marianucci Damien
+Section Details
+Martha Bayard Stevens Hall 107 | Monday | 6:30 PM - 9:00 PM
+MT 520-A - Analysis & Dsgn Composites
+Analysis & Dsgn Composites   |   Closed   |   Frank Fisher
+Section Details
+Gateway North 213 | Friday | 12:00 PM - 2:30 PM
+MT 521-A - Chem & Material Thermodynamics
+Chem & Material Thermodynamics   |   Open   |   Henry Du
+Section Details
+Edwin A. Stevens 130 | Monday | 6:30 PM - 9:00 PM
+MT 542-A - Data Science in Pharmaceutical Development
+Data Science in Pharmaceutical Development   |   Open   |   Pin-Kuang Lai
+Section Details
+Gateway North 213 | Thursday | 6:30 PM - 9:00 PM
+MT 544-A - Intro to Electron Microscopy
+Intro to Electron Microscopy   |   Open
+Section Details
+Edwin A. Stevens 229A | Monday | 3:00 PM - 5:30 PM
+MT 580-A - Biofuels Engineering Technology
+Biofuels Engineering Technology   |   Open   |   Yujun Zhao
+Section Details
+Burchard 102 | Wednesday | 6:30 PM - 9:00 PM
+MT 580-A-U - Biofuels Engineering Technology
+Biofuels Engineering Technology   |   Open   |   Yujun Zhao
+Section Details
+Burchard 102 | Wednesday | 6:30 PM - 9:00 PM
+MT 585-WS - Phys Dsgn of Wireless Sys.
+Phys Dsgn of Wireless Sys.   |   Open   |   Bruce McNair
+Section Details
+WebCampus |
+MT 603-A - Chem. Eng Thermodynamics
+Chem. Eng Thermodynamics   |   Open   |   Simon Podkolzin
+Section Details
+Altorfer 501 | Monday | 6:30 PM - 9:00 PM
+MT 650-A - Advanced Research Methods for Materials Innovations
+Advanced Research Methods for Materials Innovations   |   Open   |   Jacob Gissinger
+Section Details
+Altorfer 501 | Thursday | 6:30 PM - 9:00 PM
+MT 690-A - Introduction to VLSI Design
+Introduction to VLSI Design   |   Open   |   Zhuo Feng
+Section Details
+Martha Bayard Stevens Hall 104 | Friday | 3:00 PM - 5:30 PM
+MT 690-WS - Introduction to VLSI Design
+Introduction to VLSI Design   |   Open   |   Zhuo Feng
+Section Details
+WebCampus |
+MT 700-A - Seminar: Mtrls Sci. & Engr.
+Seminar: Mtrls Sci. & Engr.   |   Open   |   Benjamin Paren
+Section Details
+Altorfer 501 | Friday | 11:00 AM - 11:50 AM
+MT 707-A - Practicum in CHE/MT
+Practicum in CHE/MT   |   Open   |   Yujun Zhao
+Section Details
+(empty)
+MT 800-A - Spec Prob Materials (MS)
+Spec Prob Materials (MS)   |   Open
+Section Details
+(empty)
+MT 801-A - Spec Prob in Materials (PhD)
+Spec Prob in Materials (PhD)   |   Open
+Section Details
+(empty)
+NANO 553-A - Quantum Mech. with Engr. Applictn.
+Quantum Mech. with Engr. Applictn.   |   Open   |   Edward Whittaker
+Section Details
+McLean 114 | Tuesday/Thursday | 3:30 PM - 4:45 PM
+NIS 608-A - Applied Modeling & Optimization
+Applied Modeling & Optimization   |   Open   |   Koduvayur Subbalakshmi
+Section Details
+North Building 105 | Thursday | 3:30 PM - 6:00 PM
+OE 501-A - Oceanography
+Oceanography   |   Open   |   Reza Marsooli
+Section Details
+Carnegie 315 | Wednesday | 11:00 AM - 1:50 PM
+OE 501-A-U - Oceanography
+Oceanography   |   Open   |   Reza Marsooli
+Section Details
+Carnegie 315 | Wednesday | 11:00 AM - 1:50 PM
+OE 512-A - Intermediate Fluid Dynamics
+Intermediate Fluid Dynamics   |   Open   |   Kevin Connington
+Section Details
+Babbio 319 | Monday/Wednesday/Friday | 2:00 PM - 2:50 PM
+OE 515-A - Marine Dynamics
+Marine Dynamics   |   Open   |   Jia Mi
+Section Details
+Burchard 715 | Wednesday | 6:30 PM - 9:00 PM
+OE 515-A-U - Marine Dynamics
+Marine Dynamics   |   Open   |   Jia Mi
+Section Details
+Burchard 715 | Wednesday | 6:30 PM - 9:00 PM
+OE 525-A - Princ. of Naval Architecture
+Princ. of Naval Architecture   |   Open   |   Michael DeLorme
+Section Details
+Edwin A. Stevens 130 | Monday | 3:00 PM - 5:30 PM
+OE 525-A-U - Princ. of Naval Architecture
+Princ. of Naval Architecture   |   Open   |   Michael DeLorme
+Section Details
+Edwin A. Stevens 130 | Monday | 3:00 PM - 5:30 PM
+OE 527-A - Lab in Naval Architecture
+Lab in Naval Architecture   |   Open   |   Raju Datla
+Section Details
+Carnegie 315 | Friday | 2:00 PM - 4:50 PM
+OE 527-A-U - Lab in Naval Architecture
+Lab in Naval Architecture   |   Open   |   Raju Datla
+Section Details
+Carnegie 315 | Friday | 2:00 PM - 4:50 PM
+OE 578-A - Coastal and Flood Plain Engineering
+Coastal and Flood Plain Engineering   |   Open   |   Jon Miller
+Section Details
+Burchard 714 | Monday | 6:30 PM - 9:00 PM
+OE 616-A - Sediment Transport
+Sediment Transport   |   Open   |   Jon Miller
+Section Details
+Martha Bayard Stevens Hall 107 | Thursday | 6:30 PM - 9:00 PM
+OE 630-A - Hydrodynamics
+Hydrodynamics   |   Open   |   Muhammad Hajj
+Section Details
+Martha Bayard Stevens Hall 107 | Monday/Wednesday | 12:30 PM - 1:45 PM
+OE 702-A - Practicum in OE
+Practicum in OE   |   Open   |   Muhammad Hajj
+Section Details
+(empty)
+OE 800-A - Special Problems OE (MEN)
+Special Problems OE (MEN)   |   Open   |   Raju Datla
+Section Details
+(empty)
+OE 800-B - Special Problems OE (MEN)
+Special Problems OE (MEN)   |   Open   |   Philip Orton
+Section Details
+(empty)
+OE 801-A - Special Problems OE (PhD)
+Special Problems OE (PhD)   |   Open   |   Jon Miller
+Section Details
+(empty)
+OE 801-B - Special Problems OE (PhD)
+Special Problems OE (PhD)   |   Open   |   Philip Orton
+Section Details
+(empty)
+OE 900-A - Thesis in OE (MEN)
+Thesis in OE (MEN)   |   Open   |   Philip Orton
+Section Details
+(empty)
+OE 900-B - Thesis in OE (MEN)
+Thesis in OE (MEN)   |   Open
+Section Details
+(empty)
+OE 900-C - Thesis in OE (MEN)
+Thesis in OE (MEN)   |   Open   |   Raju Datla
+Section Details
+(empty)
+OE 900-E - Thesis in OE (MEN)
+Thesis in OE (MEN)   |   Open   |   Jon Miller
+Section Details
+(empty)
+PEP 501-A - Fundamentals of Atomic Physics
+Fundamentals of Atomic Physics   |   Open   |   Stefan Strauf
+Section Details
+Altorfer 501 | Monday/Friday | 3:30 PM - 4:45 PM
+PEP 506-A - Modern Astrophysics and Cosmology
+Modern Astrophysics and Cosmology   |   Open   |   Ting Lu
+Section Details
+North Building 101 | Monday/Friday | 3:30 PM - 4:45 PM
+PEP 515-A - Photonics I
+Photonics I   |   Open   |   Marianucci Damien
+Section Details
+Martha Bayard Stevens Hall 107 | Monday | 6:30 PM - 9:00 PM
+PEP 527-A - Math Meths Sci. & Eng. I
+Math Meths Sci. & Eng. I   |   Open   |   Vladimir Lukic
+Section Details
+North Building 102 | Monday | 6:30 PM - 9:00 PM
+PEP 538-A - Intro to Mechanics
+Intro to Mechanics   |   Open   |   Svetlana Malinovskaya
+Section Details
+Burchard 517 | Tuesday/Thursday | 12:30 PM - 1:45 PM
+PEP 543-A - Introduction to Quantum Engineering
+Introduction to Quantum Engineering   |   Open   |   Xiaofeng Qian
+Section Details
+Gateway North 213 | Tuesday/Thursday | 3:30 PM - 4:45 PM
+PEP 553-A - Quantum Mech. with Engr. Applictn.
+Quantum Mech. with Engr. Applictn.   |   Open   |   Edward Whittaker
+Section Details
+McLean 114 | Tuesday/Thursday | 3:30 PM - 4:45 PM
+PEP 554-A - Quantum Mechanics I
+Quantum Mechanics I   |   Open   |   Christopher Search
+Section Details
+Burchard 517 | Tuesday/Thursday | 5:00 PM - 6:15 PM
+PEP 555-A - Stat Phys Kinetic Theory
+Stat Phys Kinetic Theory   |   Open   |   Knut Stamnes
+Section Details
+Edwin A. Stevens 231 | Wednesday | 6:30 PM - 9:00 PM
+PEP 557-A - Quantum Info & Quantum Computatn
+Quantum Info & Quantum Computatn   |   Open   |   Samuel Hedemann
+Section Details
+Carnegie 315 | Monday | 6:30 PM - 9:00 PM
+PEP 575-B - Fund. of Atmos. Radiation & Climate
+Fund. of Atmos. Radiation & Climate   |   Open   |   Knut Stamnes
+Section Details
+North Building 101 | Tuesday | 6:30 PM - 9:00 PM
+PEP 579-A - Nonlinear Optics
+Nonlinear Optics   |   Open   |   Yuping Huang
+Section Details
+Burchard 517 | Monday | 3:00 PM - 5:30 PM
+PEP 585-WS - Phys Dsgn of Wireless Sys.
+Phys Dsgn of Wireless Sys.   |   Open   |   Bruce McNair
+Section Details
+WebCampus |
+PEP 643-A - Electricity/Magnetism I
+Electricity/Magnetism I   |   Open   |   Adam Overvig
+Section Details
+Carnegie 315 | Monday | 3:00 PM - 5:30 PM
+PEP 652-A - Relativity II: Modern Topics in General Relativity
+Relativity II: Modern Topics in General Relativity   |   Open   |   Igor Pikovski
+Section Details
+Babbio 202 | Wednesday | 10:00 AM - 12:30 PM
+PEP 690-A - Introduction to VLSI Design
+Introduction to VLSI Design   |   Open   |   Zhuo Feng
+Section Details
+Martha Bayard Stevens Hall 104 | Friday | 3:00 PM - 5:30 PM
+PEP 690-WS - Introduction to VLSI Design
+Introduction to VLSI Design   |   Open   |   Zhuo Feng
+Section Details
+WebCampus |
+PEP 750-A - Quantum Field Theory
+Quantum Field Theory   |   Open   |   Ting Yu
+Section Details
+Edwin A. Stevens 231 | Tuesday | 6:30 PM - 9:00 PM
+PEP 900-B - Thesis in Physics (MS)
+Thesis in Physics (MS)   |   Open   |   Stefan Strauf
+Section Details
+(empty)
+PME 530-WS - Intro to Pharma. Manufacturing
+Intro to Pharma. Manufacturing   |   Open   |   Rowena Choudrie
+Section Details
+WebCampus |
+PME 535-WS - Good Mfg. Prac. Pharma. Facilities Dsgn.
+Good Mfg. Prac. Pharma. Facilities Dsgn.   |   Open   |   Leonid Shnayder
+Section Details
+WebCampus |
+PME 540-A - Validation in Life Sci. Mfg.
+Validation in Life Sci. Mfg.   |   Open   |   Mohanad Hasan
+Section Details
+North Building 102 | Thursday | 6:30 PM - 9:00 PM
+PME 555-WS - Lean Six Sigma
+Lean Six Sigma   |   Open   |   Robert Lechich
+Section Details
+WebCampus |
+PME 560-WS - Qual. in Life Sci. Manufacturing
+Qual. in Life Sci. Manufacturing   |   Open   |   Marc Bernhardt
+Section Details
+WebCampus |
+PME 580-A - Medical Device Design & Tech.
+Medical Device Design & Tech.   |   Open   |   Behzad Mottahed
+Section Details
+McLean 104 | Tuesday | 6:30 PM - 9:00 PM
+PME 600-A - Eng. Economics & Cost Analysis
+Eng. Economics & Cost Analysis   |   Open   |   John Mikruk
+Section Details
+Edwin A. Stevens 229 | Monday | 6:30 PM - 9:00 PM
+PME 602-A - Statistical Methods in Life Sciences Industries
+Statistical Methods in Life Sciences Industries   |   Open   |   Leonid Shnayder
+Section Details
+North Building 102 | Monday | 3:00 PM - 5:30 PM
+PME 609-A - Project Management Fundamentals
+Project Management Fundamentals   |   Open
+Section Details
+Martha Bayard Stevens Hall 203 | Tuesday | 6:30 PM - 9:00 PM
+PME 609-WS - Project Management Fundamentals
+Project Management Fundamentals   |   Open
+Section Details
+WebCampus | Monday | 6:30 PM - 9:00 PM
+PME 626-A - Manfctrng of Biophmctcl Products
+Manfctrng of Biophmctcl Products   |   Open   |   Robert Lechich
+Section Details
+Babbio 210 | Wednesday | 6:30 PM - 9:00 PM
+PME 628-WS - Mfg. &Pkg. of Pharma. OSD Products
+Mfg. &Pkg. of Pharma. OSD Products   |   Open   |   Leonid Shnayder
+Section Details
+WebCampus |
+PME 660-WS - Medical Devices Manufacturing
+Medical Devices Manufacturing   |   Open   |   Jonathan Gabel
+Section Details
+WebCampus |
+SM 501-A - Seminar in Sustainability Mgmt.
+Seminar in Sustainability Mgmt.   |   Open   |   Dibs Sarkar
+Section Details
+Burchard 715 | Tuesday | 5:00 PM - 5:50 PM
+SM 510-A - Perspective in Environmental Mgmt.
+Perspective in Environmental Mgmt.   |   Open   |   Dibs Sarkar
+Section Details
+Howe 102 | Tuesday | 6:30 PM - 9:00 PM
+SM 520-WS1 - Environmental Assessment
+Environmental Assessment   |   Open
+Section Details
+WebCampus | Thursday | 6:30 PM - 9:00 PM
+SM 540-A - Sustainability Assessment Tools
+Sustainability Assessment Tools   |   Open   |   Derek Noah
+Section Details
+ABS Engineering Center 301 | Wednesday | 6:30 PM - 9:00 PM
+SM 702-A - Practicum in SM
+Practicum in SM   |   Open
+Section Details
+(empty)
+SM 706-A - Co-Op Engagement in SM
+Co-Op Engagement in SM   |   Open   |   Dibs Sarkar
+Section Details
+(empty)
+SM 800-A - Spec Prob in Sustainblty Mangmnt
+Spec Prob in Sustainblty Mangmnt   |   Open   |   Dibs Sarkar
+Section Details
+(empty)
+SM 900-A - Thesis in Sustainability Mgmt.
+Thesis in Sustainability Mgmt.   |   Open   |   Dibs Sarkar
+Section Details
+(empty)
+SSW 540-A - Fund. of Software Engr.
+Fund. of Software Engr.   |   Open   |   Yasser Morgan
+Section Details
+Burchard 514 | Wednesday | 6:30 PM - 9:00 PM
+SSW 555-A - Agile Methods for Software Dev.
+Agile Methods for Software Dev.   |   Open   |   Nafiseh Ghorbani Renani
+Section Details
+Martha Bayard Stevens Hall 104 | Tuesday | 3:30 PM - 6:00 PM
+SSW 555-A-U - Agile Methods for Software Dev.
+Agile Methods for Software Dev.   |   Open   |   Nafiseh Ghorbani Renani
+Section Details
+Martha Bayard Stevens Hall 104 | Tuesday | 3:30 PM - 6:00 PM
+SSW 555-B - Agile Methods for Software Dev.
+Agile Methods for Software Dev.   |   Open   |   Lu Xiao
+Section Details
+Edwin A. Stevens 330 | Monday | 3:00 PM - 5:30 PM
+SSW 555-B-U - Agile Methods for Software Dev.
+Agile Methods for Software Dev.   |   Open   |   Lu Xiao
+Section Details
+Edwin A. Stevens 330 | Monday | 3:00 PM - 5:30 PM
+SSW 555-C - Agile Methods for Software Dev.
+Agile Methods for Software Dev.   |   Closed   |   Nafiseh Ghorbani Renani
+Section Details
+Burchard 715 | Thursday | 6:30 PM - 9:00 PM
+SSW 555-C-U - Agile Methods for Software Dev.
+Agile Methods for Software Dev.   |   Open   |   Nafiseh Ghorbani Renani
+Section Details
+Burchard 430 | Thursday | 6:30 PM - 9:00 PM
+SSW 555-WS - Agile Methods for Software Dev.
+Agile Methods for Software Dev.   |   Open   |   Nafiseh Ghorbani Renani
+Section Details
+WebCampus | Wednesday | 6:30 PM - 9:00 PM
+SSW 567-A - Software Testing, Qlty. Assur. & Maint
+Software Testing, Qlty. Assur. & Maint   |   Waitlist   |   Yasser Morgan
+Section Details
+Carnegie 315 | Thursday | 6:30 PM - 9:00 PM
+SSW 567-A-U - Software Testing, Qlty. Assur. & Maint
+Software Testing, Qlty. Assur. & Maint   |   Open   |   Yasser Morgan
+Section Details
+Carnegie 315 | Thursday | 6:30 PM - 9:00 PM
+SSW 590-A - DevOps Principles and Practices
+DevOps Principles and Practices   |   Closed   |   David Darian Muresan
+Section Details
+Morton 103 | Wednesday | 6:30 PM - 9:00 PM
+SSW 590-A-U - DevOps Principles and Practices
+DevOps Principles and Practices   |   Open   |   David Darian Muresan
+Section Details
+Morton 103 | Wednesday | 6:30 PM - 9:00 PM
+SSW 590-WS - DevOps Principles and Practices
+DevOps Principles and Practices   |   Open   |   David Darian Muresan
+Section Details
+WebCampus |
+SSW 599-A - Intr Smart Cities & Their Ecosys
+Intr Smart Cities & Their Ecosys   |   Open   |   Philip Odonkor
+Section Details
+Gateway South 025 | Tuesday | 6:30 PM - 9:00 PM
+SSW 599-A-U - Intr Smart Cities & Their Ecosys
+Intr Smart Cities & Their Ecosys   |   Open   |   Philip Odonkor
+Section Details
+Gateway South 025 | Tuesday | 6:30 PM - 9:00 PM
+SSW 625-A - AI for Software Engineering
+AI for Software Engineering   |   Open   |   Eman Alomar
+Section Details
+McLean 114 | Monday | 3:00 PM - 5:30 PM
+SSW 625-W0 - AI for Software Engineering
+AI for Software Engineering   |   Open   |   Eman Alomar
+Section Details
+Monday | 3:00 PM - 5:30 PM
+SSW 628-A - Software Engineering and Computation Tools for Health Informatics
+Software Engineering and Computation Tools for Health Informatics   |   Open   |   Ying Wang
+Section Details
+Babbio 219 | Thursday | 3:30 PM - 6:00 PM
+SSW 695-A - Software Eng. Capstone Studio
+Software Eng. Capstone Studio   |   Open   |   Richard Kempinski
+Section Details
+Burchard 714 | Wednesday | 6:30 PM - 9:00 PM
+SSW 703-A - Practicum in SSW
+Practicum in SSW   |   Open   |   Kishore Pochiraju
+Section Details
+(empty)
+SSW 706-C - Co-Op Engagement in SSW
+Co-Op Engagement in SSW   |   Open   |   Kishore Pochiraju
+Section Details
+(empty)
+SYS 605-WS - Systems Integration
+Systems Integration   |   Open   |   William Glass
+Section Details
+WebCampus |
+SYS 611-A - Systems Modeling and Simulation
+Systems Modeling and Simulation   |   Open   |   Philip Odonkor
+Section Details
+Burchard 714 | Thursday | 6:30 PM - 9:00 PM
+SYS 622-WS - Decision Making Via Data Analysis
+Decision Making Via Data Analysis   |   Open   |   Jose Ramirez-Marquez
+Section Details
+WebCampus | Tuesday | 3:30 PM - 6:00 PM
+SYS 624-A - Data Exploration and Informatics for Engineering Management
+Data Exploration and Informatics for Engineering Management   |   Open   |   Sang Won Bae
+Section Details
+Babbio 304 | Monday | 3:00 PM - 5:30 PM
+SYS 624-WS - Data Exploration and Informatics for Engineering Management
+Data Exploration and Informatics for Engineering Management   |   Open   |   Carlo Lipizzi
+Section Details
+WebCampus | Tuesday | 6:30 PM - 9:00 PM
+SYS 625-A - Fundamentals of Systems Engr.
+Fundamentals of Systems Engr.   |   Open   |   Onur Asan
+Section Details
+Peirce 218 | Tuesday | 3:30 PM - 6:00 PM
+SYS 630-A - DAU Level I Cert Exam
+DAU Level I Cert Exam   |   Open   |   Walter Lucchesi
+Section Details
+(empty)
+SYS 631-A - DAU Level II & III Cert Exam
+DAU Level II & III Cert Exam   |   Open   |   Walter Lucchesi
+Section Details
+(empty)
+SYS 632-A - Designing Space Missions and Systems
+Designing Space Missions and Systems   |   Open   |   Hao Chen
+Section Details
+Peirce 216 | Tuesday | 3:30 PM - 6:00 PM
+SYS 632-W0 - Designing Space Missions and Systems
+Designing Space Missions and Systems   |   Open   |   Hao Chen
+Section Details
+Tuesday | 3:30 PM - 6:00 PM
+SYS 637-WS - Cost Eff. Space Mission Ops.
+Cost Eff. Space Mission Ops.   |   Open   |   Alfred Nash
+Section Details
+WebCampus |
+SYS 639-A - Satellite and Spacecraft Design
+Satellite and Spacecraft Design   |   Open
+Section Details
+Burchard 514 | Tuesday/Thursday | 5:00 PM - 6:15 PM
+SYS 640-WS - System Supportability & Logistics
+System Supportability & Logistics   |   Open
+Section Details
+WebCampus |
+SYS 650-A - System Architecture & Design
+System Architecture & Design   |   Open   |   Amro Farid
+Section Details
+Gateway South 025 | Tuesday | 3:30 PM - 6:00 PM
+SYS 660-A - Decision and Risk Analysis
+Decision and Risk Analysis   |   Open   |   Ting Liao
+Section Details
+North Building 105 | Tuesday | 3:30 PM - 6:00 PM
+SYS 660-WS - Decision and Risk Analysis
+Decision and Risk Analysis   |   Open
+Section Details
+WebCampus |
+SYS 670-A - Forecasting & Demand Modeling
+Forecasting & Demand Modeling   |   Open   |   Teresa Zigh
+Section Details
+Babbio 210 | Tuesday | 6:30 PM - 9:00 PM
+SYS 681-A - Dynamic Modeling of Sys & Ent
+Dynamic Modeling of Sys & Ent   |   Open   |   Roshanak Nilchiani
+Section Details
+McLean 114 | Thursday | 6:30 PM - 9:00 PM
+SYS 703-A - Practicum in SYS
+Practicum in SYS   |   Open   |   Kishore Pochiraju
+Section Details
+(empty)
+SYS 710-A - Research Methodologies
+Research Methodologies   |   Open   |   Mo Mansouri
+Section Details
+Babbio 202 | Monday | 6:30 PM - 9:00 PM
+SYS 710-W0 - Research Methodologies
+Research Methodologies   |   Open   |   Mo Mansouri
+Section Details
+Monday | 6:30 PM - 9:00 PM
+SYS 800-A - Spec. Prob. in SYS (ME)
+Spec. Prob. in SYS (ME)   |   Open   |   Mo Mansouri
+Section Details
+(empty)
+SYS 800-B - Spec. Prob. in SYS (ME)
+Spec. Prob. in SYS (ME)   |   Open   |   Kishore Pochiraju
+Section Details
+(empty)
+SYS 800-W0 - Spec. Prob. in SYS (ME)
+Spec. Prob. in SYS (ME)   |   Open   |   Kishore Pochiraju
+Section Details
+(empty)
+SYS 800-WS - Spec. Prob. in SYS (ME)
+Spec. Prob. in SYS (ME)   |   Open   |   Mo Mansouri
+Section Details
+WebCampus |
+SYS 900-D - Thesis in SYS (ME)
+Thesis in SYS (ME)   |   Open   |   Onur Asan
+Section Details
+(empty)
+SYS 900-F - Thesis in SYS (ME)
+Thesis in SYS (ME)   |   Open   |   Ying Wang
+Section Details
+(empty)
+SYS 900-G - Thesis in SYS (ME)
+Thesis in SYS (ME)   |   Open   |   Hao Chen
+Section Details
+(empty)
+SYS 900-I - Thesis in SYS (ME)
+Thesis in SYS (ME)   |   Open   |   Carlo Lipizzi
+Section Details
+(empty)
+SYS 900-J - Thesis in SYS (ME)
+Thesis in SYS (ME)   |   Open   |   Philip Odonkor
+Section Details
+(empty)
+SYS 900-K - Thesis in SYS (ME)
+Thesis in SYS (ME)   |   Open   |   Dinesh Verma
+Section Details
+(empty)
+SYS 900-M - Thesis in SYS (ME)
+Thesis in SYS (ME)   |   Open   |   Feng Liu
+Section Details
+(empty)
+TM 582-WS - Wireless Net:Arch, Prot & Stand
+Wireless Net:Arch, Prot & Stand   |   Closed   |   Yu-Dong Yao
+Section Details
+WebCampus |
