@@ -10,7 +10,7 @@ Companion docs:
 
 ## Project (one paragraph)
 
-Stevens Nexus is a hackathon-built campus OS for Stevens Institute of Technology, composed of three Anthropic-backed modules behind a single iOS surface: **Discover** (faculty matching with grounded outreach drafts), **Presence** (3D Hoboken campus map of declared schedules with a Catalyst daily-moments agent), and **Trust** (a three-stage NJ residential lease pipeline that produces a tenant brief grounded in NJ statutes). Built for the Stevens AI Hackathon sponsored by ConsenTerra; the Trust module's brief carries ConsenTerra attribution per the sponsor partnership.
+Stevens Nexus is a hackathon-built campus OS for Stevens Institute of Technology, composed of three modules behind a single iOS surface: **Discover** (OpenAI-backed faculty matching with grounded outreach drafts), **Presence** (3D Hoboken campus map of declared schedules with a Catalyst daily-moments agent), and **Trust** (an Anthropic-backed three-stage NJ residential lease pipeline that produces a tenant brief grounded in NJ statutes). Built for the Stevens AI Hackathon sponsored by ConsenTerra; the Trust module's brief carries ConsenTerra attribution per the sponsor partnership. LLM provider is module-scoped — see Hard Constraint 1.
 
 ---
 
@@ -56,18 +56,20 @@ Anything marked **NOT YET** is referenced in `README.md` / `CONTRACT.md` but not
 
 | Layer | Choice | Notes |
 |---|---|---|
-| LLM (reasoning) | **Anthropic Claude Opus 4.7** (`claude-opus-4-7`) | Stage 2/3 analysis, Discover matching, email Critic loop |
-| LLM (latency-sensitive) | **Anthropic Claude Haiku 4.5** (`claude-haiku-4-5-20251001`) | Stage 1 extraction formatting, Presence Catalyst, response shaping |
+| LLM (Trust module) | **Anthropic Claude Opus 4.7** (`claude-opus-4-7`) + **Haiku 4.5** (`claude-haiku-4-5-20251001`) | Adi's domain. Stage 2/3 reasoning on Opus, Stage 1 extraction formatting on Haiku. ConsenTerra integration. |
+| LLM (Discover module) | **OpenAI GPT-4-class** | Kunj's domain. Working implementation against the existing faculty embeddings + matching pipeline. |
+| LLM (Presence module) | **TBD when built** | Default to OpenAI for Discover consistency unless module need (e.g. statute-grounded reasoning) justifies switching. Decision required in Decisions Log before implementation. |
 | Backend | **FastAPI** (Python 3.11+) | async-first, on Railway |
 | Validation | **Pydantic v2** | every LLM output via `client.messages.parse()` |
-| LLM client | `anthropic` SDK with `AsyncAnthropic` | async-only; `asyncio.gather` for fan-out |
+| LLM client (Trust) | `anthropic` SDK with `AsyncAnthropic` | async-only; `asyncio.gather` for fan-out |
+| LLM client (Discover) | `openai` SDK with `AsyncOpenAI` | async-only; same `asyncio.gather` fan-out pattern |
 | iOS | **SwiftUI** + **MapKit** (3D realistic) + **MFMailComposeViewController** | MVVM; centralized `FirebaseManager.swift` |
 | Auth/DB | **Firebase Auth** + **Firestore** + **Firebase Storage** | iOS gates `@stevens.edu`; server validates ID token against `FIREBASE_PROJECT_ID` |
 | Scraping | **Apify** (MCP-driven during dev) | faculty bios, OpenAlex paper crawl |
 | Hosting | **Railway** (API), **TestFlight** (iOS) | env vars hold all secrets |
 | Tooling | `uv`, `ruff`, `mypy`, `pytest`, `httpx` | enforce in CI |
 
-**No OpenAI, no other LLM providers. No GPT-4o references.** If you find one, it is stale — fix it.
+**Cross-module rule:** within a module, the provider is locked. Don't mix providers inside a single module — caching, error envelopes, and `usage` accounting assume one client per module.
 
 ---
 
@@ -75,11 +77,11 @@ Anything marked **NOT YET** is referenced in `README.md` / `CONTRACT.md` but not
 
 These are non-negotiable. A PR that violates one is a defect, not a tradeoff.
 
-1. **Anthropic only.** No OpenAI, no Gemini, no Mistral. The `anthropic` package is the only LLM SDK in `requirements.txt`.
+1. **LLM provider is module-scoped, not project-scoped.** Trust uses Anthropic exclusively. Discover uses OpenAI exclusively. A new module justifies its provider in the Decisions Log. Within a module, the provider does not change.
 2. **Schema-level enforcement over prompt-level.** Use Pydantic `Literal` types for closed vocabularies (statute citations, case citations, label enums). The model must not be able to emit invalid values, regardless of prompt instruction.
 3. **Prompts as `.md` files.** Every system prompt lives in `prompts/<stage>.md` and is loaded at runtime via `Path.read_text()`. **Never inline a prompt longer than 5 lines in Python.** `lease_pipeline/prompts.py` is a temporary holdover and must be migrated.
-4. **Async throughout.** `AsyncAnthropic` only. Use `asyncio.gather` for clause-fan-out and parallel module calls. Never `time.sleep`; use `asyncio.sleep`.
-5. **Mandatory `cache_control` with deterministic serialization.** Every Anthropic call sets `cache_control: {"type": "ephemeral"}` on stable prefixes (system prompt + statute corpus + faculty corpus). Serialization must be byte-for-byte stable across runs (sorted keys, fixed float repr) — otherwise cache hits silently regress.
+4. **Async throughout.** Use the module's async client (`AsyncAnthropic` for Trust, `AsyncOpenAI` for Discover). `asyncio.gather` for fan-out. Never `time.sleep`; use `asyncio.sleep`.
+5. **Mandatory provider-native caching with deterministic serialization.** Anthropic-backed modules set `cache_control: {"type": "ephemeral"}` on stable prefixes (system prompt + statute corpus). OpenAI-backed modules use the equivalent (e.g. cached prompt prefixes via the Responses/Chat Completions cache hints). In both cases, serialization of the cache prefix must be byte-for-byte stable across runs (sorted keys, fixed float repr) — otherwise cache hits silently regress.
 6. **Usage logging on every LLM call.** Capture `input_tokens`, `output_tokens`, `cache_read_input_tokens`, `cache_creation_input_tokens`, latency, model, and stop_reason. Aggregate per request into a `Usage` object that ships in every API response (see CONTRACT.md). Per-batch totals also write to `usage.json`.
 7. **Fail loud.** Raise on `stop_reason == "max_tokens"`, on Pydantic validation failure, on retrieval miss when retrieval was required, and on any approved-citation `Literal` rejection. No silent degradation. No fallback strings.
 8. **No legal advice claims.** The Trust module produces **legal information**, not legal advice. Every `LeaseBrief` carries the disclaimer + the two referrals (NJ Volunteer Lawyers for Justice, Legal Services of NJ). Never remove these.
@@ -144,7 +146,7 @@ Follow this order. Skipping a step usually means re-doing the others.
 2. **Mirror the contract in Pydantic.** Add models to `api/shared/schemas.py` (or the module's `schemas.py`). Use `Literal` for any closed vocabulary. Run `mypy` strict.
 3. **Mirror the contract in Swift.** Add `Codable` structs on the iOS side. Field names match the JSON exactly (use `CodingKeys` if Swift-style names differ).
 4. **Write the prompt** in `prompts/<module>_<stage>.md`. Reference it from Python via a single `Path.read_text()` call. Never inline.
-5. **Wire the call.** Use the shared `AsyncAnthropic` wrapper in `api/shared/` so caching, usage logging, and fail-loud behavior are inherited. Set `cache_control` on stable prefixes; verify cache hits in `usage.json` after the first two runs.
+5. **Wire the call.** Use the shared async-client wrapper in `api/shared/` for the module's locked provider (Anthropic for Trust, OpenAI for Discover) so caching, usage logging, and fail-loud behavior are inherited. Set provider-native cache hints on stable prefixes; verify cache hits in `usage.json` after the first two runs.
 6. **Test with a fixture.** Add a fixture lease/profile/schedule under `data/sample_*/` and a `pytest` integration test that asserts the response validates against the Pydantic model.
 7. **Update Build status + Decisions Log.** Tick the checklist item, append any decisions made along the way.
 
@@ -154,7 +156,7 @@ Follow this order. Skipping a step usually means re-doing the others.
 
 Append-only. Format: `YYYY-MM-DD — decision — rationale`. Future sessions read this to avoid relitigating settled questions.
 
-- **2026-04-30** — Anthropic-only stack; OpenAI/GPT-4o references in prior `Claude.md` are obsolete. Rationale: hackathon sponsor + grounded-citation requirements; Pydantic `Literal` enforcement against Anthropic structured outputs is the project's correctness story.
+- **2026-04-30** — Initial draft prescribed Anthropic-only across all modules. Superseded same day (see later entry "LLM provider relaxed…"). Rationale for the original Anthropic-only call: grounded-citation requirements + Pydantic `Literal` enforcement against Anthropic structured outputs is the Trust module's correctness story.
 - **2026-04-30** — Monorepo, not separate repos. Rationale: contract-driven iOS/Python coupling; one PR can update CONTRACT.md + both sides atomically.
 - **2026-04-30** — `api/CONTRACT.md` locked at DRAFT v0.2 as the iOS↔Python source of truth. Code mirrors the doc; if they disagree, the doc is wrong — fix the doc, then the code.
 - **2026-04-30** — `red_flags[].label` enum locked to four values (`conflicts_with_nj_law | aggressive_but_legal | common_but_worth_knowing | recommend_attorney_review`) with deterministic derivation from Stage 2 `ClauseAnalysis` fields. Rationale: defends the brief on stage against "deal-breaker for whom?" — labels ground in objective signals, not tenant subjectivity.
@@ -165,3 +167,4 @@ Append-only. Format: `YYYY-MM-DD — decision — rationale`. Future sessions re
 - **2026-04-30** — Restructure of `Desktop/Projects/Nexus/backend/` into `api/discover/`, `api/courses/`, `scrapers/` paths is deferred to a follow-up PR after team sync.
 - **2026-04-30** — Branch protection not configured on `KPandya1903/Nexus`. Rationale: free private-tier silently no-ops protection rules; 3-person hackathon team prioritizes velocity over enforcement.
 - **2026-04-30** — Demo replay (`X-Demo-Replay`) bypasses `Idempotency-Key` caching and sets `mocked_in_demo: true`. Rationale: Constraint 9 (no overclaiming).
+- **2026-04-30** — LLM provider relaxed from project-scoped (Anthropic only) to module-scoped. Trust=Anthropic (sponsor + sunk pipeline), Discover=OpenAI (Kunj's working implementation, migration cost > benefit). Two-provider operational cost accepted as price of team velocity. Each module locked to its provider; no mid-module switching.
