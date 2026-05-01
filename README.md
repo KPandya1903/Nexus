@@ -204,12 +204,13 @@ python run_pipeline.py path/to/lease.pdf
 
 ## Team
 
-| | Name | Role |
-|---|---|---|
-| 💻 | **Jhanvi Damwani** | iOS frontend, Firebase auth, UX design — entire SwiftUI surface |
-| 🎨 | **Ashika** | Product, social presence layer, event review system |
-| 🧠 | **Aditya Bhatia** | AI pipeline architect — 3-stage Anthropic Opus reasoning + NJ statute grounding |
-| ⚙️ | **Kunj Pandya** | Faculty scraper, course parser, professor matching backend |
+Three teammates, equal contribution, each anchored to one pillar.
+
+| | Name | Lead Role | Also Contributed |
+|---|---|---|---|
+| 💻 | **Jhanvi Damwani** | **Frontend & UX** — full iOS app in SwiftUI, MapKit 3D, Firebase auth & onboarding, every tab, design system, the global Nexus AI assistant | Firestore listener wiring, demo flow polish, lease verifier UI |
+| ⚙️ | **Kunj Pandya** | **Backend** — Firebase project (Firestore + Auth + Cloud Functions), faculty scraper, course parser (858 sections), professor matching engine, social presence & event review system | Data ingestion, schema design, course reviews API |
+| 🧠 | **Aditya Bhatia** | **Ideation & AI Architect** — original product vision, 3-stage Anthropic Opus 4.7 lease pipeline, NJ statute grounding, ConsenTerra framework, negotiator engine, API contract | Stevens campus events dataset, prompt engineering, demo cache strategy |
 
 Built in 24 hours at the Stevens Institute of Technology hackathon.
 
