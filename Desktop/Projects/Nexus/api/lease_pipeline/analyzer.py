@@ -22,7 +22,7 @@ import anthropic
 
 from .prompts import ANALYZER_SYSTEM_PROMPT
 from .schemas import ClauseAnalysis, ExtractedClause, Statute, TenantContext
-from .usage import UsageRecord, log_usage
+from api.shared.usage import UsageRecord, log_usage
 
 DEFAULT_MODEL = "claude-opus-4-7"
 MAX_TOKENS = 8000

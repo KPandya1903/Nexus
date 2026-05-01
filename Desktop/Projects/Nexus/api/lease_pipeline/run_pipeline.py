@@ -18,48 +18,18 @@ for stages 1+2 and an async one for stage 3.
 from __future__ import annotations
 
 import asyncio
-import json
 from pathlib import Path
 
 import anthropic
 from anthropic import AsyncAnthropic
 
+from api.shared.citations import load_statutes
+from api.shared.usage import reset_run, write_run_summary
+
 from .analyzer import analyze_clauses
 from .briefer import generate_brief
 from .extractor import extract_lease
-from .schemas import LeaseBrief, Statute, TenantContext
-from .usage import reset_run, write_run_summary
-
-STATUTES_PATH = (
-    Path(__file__).parent.parent.parent / "data" / "statutes" / "nj_statutes.json"
-)
-
-
-def _load_statutes() -> list[Statute]:
-    """Load and validate the NJ statutes corpus from disk."""
-    if not STATUTES_PATH.exists():
-        raise FileNotFoundError(
-            f"NJ statutes corpus not found at {STATUTES_PATH}. "
-            "Stage 2 cannot run without it."
-        )
-    raw = json.loads(STATUTES_PATH.read_text(encoding="utf-8"))
-    # Map the corpus JSON shape onto the Statute Pydantic model.
-    # Corpus entries have: citation, title, full_text, plain_summary,
-    # applicable_categories, common_violations, confidence.
-    # The Statute model only consumes: citation, title, full_text,
-    # plain_summary, topics. We map applicable_categories -> topics.
-    statutes: list[Statute] = []
-    for entry in raw["statutes"]:
-        statutes.append(
-            Statute(
-                citation=entry["citation"],
-                title=entry["title"],
-                full_text=entry["full_text"],
-                plain_summary=entry["plain_summary"],
-                topics=entry.get("applicable_categories", []),
-            )
-        )
-    return statutes
+from .schemas import LeaseBrief, TenantContext
 
 
 async def parse_lease(
@@ -95,8 +65,8 @@ async def parse_lease(
     # Stage 1: extract clauses (sync; run in thread pool)
     extracted = await asyncio.to_thread(extract_lease, pdf_path, client=sync_client)
 
-    # Load + validate statutes corpus
-    statutes = _load_statutes()
+    # Load + validate statutes corpus (shared loader)
+    statutes = load_statutes()
 
     # Stage 2: analyze each clause against statutes (sync; run in thread pool)
     analyses = await asyncio.to_thread(

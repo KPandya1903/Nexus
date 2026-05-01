@@ -16,7 +16,7 @@ import anthropic
 
 from .prompts import EXTRACTOR_SYSTEM_PROMPT
 from .schemas import ExtractedLease
-from .usage import UsageRecord, log_usage
+from api.shared.usage import UsageRecord, log_usage
 
 DEFAULT_MODEL = "claude-opus-4-7"
 MAX_TOKENS = 16000

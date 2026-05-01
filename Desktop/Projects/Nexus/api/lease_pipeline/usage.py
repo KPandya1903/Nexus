@@ -1,57 +1,21 @@
-"""Usage logging — minimal shared utility for all three stages."""
+"""DEPRECATED — moved to api.shared.usage.
 
-from __future__ import annotations
+This shim preserves back-compat for any code path that still imports from the
+old location. New imports should use:
 
-import json
-from dataclasses import asdict, dataclass
-from datetime import datetime, timezone
-from pathlib import Path
+    from api.shared.usage import UsageRecord, log_usage, reset_run, write_run_summary
 
+The shim re-exports the canonical objects from the shared module so behavior
+is unchanged. Will be removed once all consumers migrate.
 
-@dataclass
-class UsageRecord:
-    stage: str  # "extractor", "analyzer", "briefer"
-    model: str
-    input_tokens: int
-    output_tokens: int
-    cache_read_input_tokens: int
-    cache_creation_input_tokens: int
-    latency_ms: int
-    stop_reason: str
-    timestamp: str = ""
+(GitHub MCP cannot delete files in this workflow, so the shim is the cleanest
+no-breakage migration path. Manually `git rm` this file in a worktree once
+all imports have moved off it.)
+"""
 
-    def __post_init__(self) -> None:
-        if not self.timestamp:
-            self.timestamp = datetime.now(timezone.utc).isoformat()
-
-
-_run_records: list[UsageRecord] = []
-
-
-def log_usage(record: UsageRecord) -> None:
-    """Append a usage record to the current run's log."""
-    _run_records.append(record)
-
-
-def reset_run() -> None:
-    """Clear the in-memory run log. Call at the start of each pipeline run."""
-    _run_records.clear()
-
-
-def write_run_summary(output_path: Path) -> dict:
-    """Write all accumulated usage records to disk as usage.json. Returns the summary."""
-    summary = {
-        "records": [asdict(r) for r in _run_records],
-        "totals": {
-            "input_tokens": sum(r.input_tokens for r in _run_records),
-            "output_tokens": sum(r.output_tokens for r in _run_records),
-            "cache_read_input_tokens": sum(r.cache_read_input_tokens for r in _run_records),
-            "cache_creation_input_tokens": sum(
-                r.cache_creation_input_tokens for r in _run_records
-            ),
-            "total_latency_ms": sum(r.latency_ms for r in _run_records),
-            "stages": [r.stage for r in _run_records],
-        },
-    }
-    output_path.write_text(json.dumps(summary, indent=2), encoding="utf-8")
-    return summary
+from api.shared.usage import (  # noqa: F401
+    UsageRecord,
+    log_usage,
+    reset_run,
+    write_run_summary,
+)
