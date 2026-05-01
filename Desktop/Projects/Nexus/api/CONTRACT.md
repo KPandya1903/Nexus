@@ -8,10 +8,10 @@ Status: **DRAFT v0.2** — pending approval before endpoints are implemented.
 
 ## Conventions
 
-- **Base URL (prod):** `https://stevens-nexus-api.up.railway.app` (placeholder — replace once Railway provisions)
+- **Base URL (prod):** `https://stevens-nexus-prod.web.app/api` (placeholder — replace once Firebase project + Cloud Run service are provisioned. Cloud Run service runs at `https://stevens-nexus-api-<hash>-uc.a.run.app` and is fronted by Firebase Hosting per `firebase.json` rewrites; iOS hits the Hosting URL.)
 - **Base URL (dev):** `http://localhost:8000`
 - **Content type:** `application/json` everywhere except `POST /trust/lease/parse` which is `multipart/form-data` (PDF upload).
-- **Auth:** `Authorization: Bearer <firebase_id_token>` on every request. The server validates the Firebase ID token's signature and `aud`/`iss` claims against a configured `FIREBASE_PROJECT_ID` environment variable (set in Railway). The hackathon build does **not** enforce email-domain restrictions server-side (iOS gates `@stevens.edu`); we may tighten this post-hackathon.
+- **Auth:** `Authorization: Bearer <firebase_id_token>` on every request. The server validates the Firebase ID token's signature and `aud`/`iss` claims against a configured `FIREBASE_PROJECT_ID` environment variable (set on the Cloud Run service via `gcloud run deploy --set-env-vars` or the Cloud Run console; secrets like `ANTHROPIC_API_KEY` come from Secret Manager via `--update-secrets`). The hackathon build does **not** enforce email-domain restrictions server-side (iOS gates `@stevens.edu`); we may tighten this post-hackathon.
 - **Idempotency:** `Idempotency-Key: <uuid>` optional on every POST. Same key within 24h returns the cached response. Requests carrying `X-Demo-Replay` **bypass idempotency** — demo replay always returns the canonical pre-baked response from `data/demo_cache/`.
 - **Errors:** All non-2xx responses use the envelope below. The HTTP status carries the category; `code` is a stable string the client can switch on.
 
@@ -391,7 +391,7 @@ This endpoint reads cached outputs of the per-module endpoints by default; pass 
 
 Retrieve a previously-parsed lease by `lease_id` without re-uploading the PDF. Returns the same response envelope as `POST /trust/lease/parse` (extracted + analyses + brief + usage), served from server-side cache keyed by `lease_id`.
 
-**Why deferred:** v0 has no persistent storage layer beyond `data/demo_cache/`. Once Railway provisions Postgres (or we wire Firestore directly), this endpoint lights up. iOS clients should treat the `lease_id` returned by `POST /trust/lease/parse` as opaque and forward-compatible — store it now, fetch it later.
+**Why deferred:** v0 has no persistent storage layer beyond `data/demo_cache/`. Once Cloud Run + a managed datastore (Firestore or Cloud SQL) are wired, this endpoint lights up. iOS clients should treat the `lease_id` returned by `POST /trust/lease/parse` as opaque and forward-compatible — store it now, fetch it later.
 
 **Status code while unimplemented:** `501 Not Implemented` with `code: "not_found"`.
 

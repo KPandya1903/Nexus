@@ -1,0 +1,26 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/api/**",
+        "run": {
+          "serviceId": "stevens-nexus-api",
+          "region": "us-central1"
+        }
+      },
+      {
+        "source": "**",
+        "run": {
+          "serviceId": "stevens-nexus-api",
+          "region": "us-central1"
+        }
+      }
+    ]
+  }
+}
