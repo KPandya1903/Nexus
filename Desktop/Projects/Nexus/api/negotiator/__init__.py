@@ -28,12 +28,11 @@ from .cases import (
     approve_round,
     create_case,
     draft_next_round,
-    get_strategy,
     mark_sent,
     record_landlord_reply,
     resolve_case,
 )
-from .cases import get_strategy as get_strategy_recommendation  # design doc naming
+from .strategist import get_strategy_recommendation
 from .schemas import (
     AgentAssessment,
     CaseStatus,
@@ -78,7 +77,6 @@ __all__ = [
     "draft_next_round",
     "record_landlord_reply",
     "get_strategy_recommendation",
-    "get_strategy",
     "approve_round",
     "mark_sent",
     "resolve_case",

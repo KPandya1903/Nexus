@@ -125,15 +125,19 @@ async def draft_next_round(
     Caller appends the returned round to case.rounds and persists. This
     function does NOT mutate `case`.
     """
-    if not case.rounds:
-        round_obj = await draft_round(
+    # OPENING short-circuit: case has no prior rounds AND we're drafting
+    # the natural first round. No Strategist call (no prior state to assess).
+    if not case.rounds and (force_round_type is None or force_round_type == "OPENING"):
+        return await draft_round(
             case,
             client=client,
-            force_round_type=force_round_type or "OPENING",
+            force_round_type="OPENING",
         )
-        # OPENING gets no Strategist assessment by design.
-        return round_obj
 
+    # Strategist runs in all other cases — even on an empty case where the
+    # tenant forced a non-OPENING round (rare but legal per design §4 escape
+    # hatch). The Strategist's assessment may surface "this round_type is
+    # unusual for an empty case" in open_questions_for_tenant.
     assessment = await get_strategy_recommendation(case, client=client)
     chosen: RoundType = force_round_type or assessment.recommended_next_round_type
 
@@ -183,24 +187,6 @@ async def record_landlord_reply(
     assessment = await get_strategy_recommendation(temp, client=client)
 
     return reply, assessment
-
-
-# ---------------------------------------------------------------------------
-# Standalone strategist (advice without a new reply)
-# ---------------------------------------------------------------------------
-
-
-async def get_strategy(
-    case: NegotiationCase,
-    *,
-    client: AsyncAnthropic,
-) -> AgentAssessment:
-    """Tenant-initiated strategy advice. Does not require a fresh landlord reply.
-
-    Re-exported as `get_strategy_recommendation` from the package for naming
-    parity with the design doc's §4.
-    """
-    return await get_strategy_recommendation(case, client=client)
 
 
 # ---------------------------------------------------------------------------
