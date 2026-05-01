@@ -1,0 +1,248 @@
+{
+  "metadata": {
+    "generated_on": "2026-04-30",
+    "scope": "Stevens Institute of Technology campus events",
+    "date_range_start": "2026-04-30",
+    "date_range_end": "2026-05-27",
+    "total_events": 47,
+    "total_dates_with_events": 25,
+    "anchor_today": "2026-04-30",
+    "anchor_tomorrow": "2026-05-01",
+    "anchor_this_week_end": "2026-05-03",
+    "anchor_next_week_start": "2026-05-04",
+    "anchor_next_week_end": "2026-05-10",
+    "anchor_later_this_month_start": "2026-05-11"
+  },
+  "buckets": {
+    "today": ["2026-04-30"],
+    "tomorrow": ["2026-05-01"],
+    "this_week": ["2026-05-02", "2026-05-03"],
+    "next_week": ["2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10"],
+    "later_this_month": ["2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-17", "2026-05-18", "2026-05-22", "2026-05-23", "2026-05-26", "2026-05-27"]
+  },
+  "dates": [
+    {
+      "date": "2026-04-30",
+      "day_of_week": "Thursday",
+      "bucket": "today",
+      "event_count": 5,
+      "events": [
+        {"event_name": "MSFE Cohort Coffee — Reading Day Edition", "club_name": "University / Graduate Life", "time": "15:00", "event_type": "social"},
+        {"event_name": "Bloomberg Terminal Walkthrough — Hands-On Session", "club_name": "Stevens Graduate Financial Association", "time": "17:00", "event_type": "workshop"},
+        {"event_name": "Pre-Finals Yoga & Stretch", "club_name": "Sky Meditation", "time": "18:30", "event_type": "fitness"},
+        {"event_name": "End-of-Semester Hack Night", "club_name": "Stevens Computer Science Club", "time": "19:00", "event_type": "social"},
+        {"event_name": "Open Mat Climb Session", "club_name": "Stevens Climbing and Mountaineering Club", "time": "20:00", "event_type": "fitness"}
+      ]
+    },
+    {
+      "date": "2026-05-01",
+      "day_of_week": "Friday",
+      "bucket": "tomorrow",
+      "event_count": 5,
+      "events": [
+        {"event_name": "Quant Interview Mock Series — Brain Teasers Round", "club_name": "Stevens Graduate Financial Association", "time": "16:00", "event_type": "workshop"},
+        {"event_name": "Graduate Mixer — May Edition", "club_name": "University / Graduate Life", "time": "18:00", "event_type": "social"},
+        {"event_name": "RGB Photography Walk — Hoboken Waterfront at Sunset", "club_name": "RGB Photography Club", "time": "19:00", "event_type": "social"},
+        {"event_name": "Friday Iftar & Community Dinner", "club_name": "Muslim Student Association", "time": "19:30", "event_type": "cultural"},
+        {"event_name": "Friday Night Movie — Spirited Away (Studio Ghibli)", "club_name": "Anime Club", "time": "20:00", "event_type": "social"}
+      ]
+    },
+    {
+      "date": "2026-05-02",
+      "day_of_week": "Saturday",
+      "bucket": "this_week",
+      "event_count": 3,
+      "events": [
+        {"event_name": "Saturday Morning Long Run — Hudson River Path", "club_name": "Stevens Running Club", "time": "08:00", "event_type": "fitness"},
+        {"event_name": "Robotics Showcase — Capstone Project Demos", "club_name": "Stevens Robotics Club", "time": "14:00", "event_type": "info_session"},
+        {"event_name": "South Asian Cultural Night — Mehfil", "club_name": "South Asian Student Association", "time": "18:00", "event_type": "cultural"}
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "day_of_week": "Sunday",
+      "bucket": "this_week",
+      "event_count": 3,
+      "events": [
+        {"event_name": "Sunday Cricket Match vs NJIT", "club_name": "Stevens Recreational Cricket Club", "time": "11:00", "event_type": "competition"},
+        {"event_name": "Stress-Free Sunday — Therapy Dogs Visit", "club_name": "Counseling and Psychological Services", "time": "13:00", "event_type": "social"},
+        {"event_name": "Sunday Tea & Talk — Indian Graduate Connect", "club_name": "Indian Graduate Student Association", "time": "16:00", "event_type": "social"}
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "day_of_week": "Monday",
+      "bucket": "next_week",
+      "event_count": 3,
+      "events": [
+        {"event_name": "Monday Speaker Series — Goldman Sachs Quant Strategist", "club_name": "Stevens Graduate Financial Association", "time": "17:30", "event_type": "networking"},
+        {"event_name": "AI Paper Reading Group — Anthropic's Constitutional AI", "club_name": "S.py: The Graduate AI Club", "time": "18:00", "event_type": "workshop"},
+        {"event_name": "Cyber Defense CTF Practice — Web Exploitation", "club_name": "Stevens Cyber Defense Team", "time": "19:00", "event_type": "workshop"}
+      ]
+    },
+    {
+      "date": "2026-05-05",
+      "day_of_week": "Tuesday",
+      "bucket": "next_week",
+      "event_count": 3,
+      "events": [
+        {"event_name": "Career Fair — Spring Tech & Engineering", "club_name": "University / Graduate Life", "time": "11:00", "event_type": "networking"},
+        {"event_name": "Tuesday Tennis Open Court", "club_name": "Stevens Tennis Club", "time": "18:00", "event_type": "fitness"},
+        {"event_name": "Game Dev Showcase — Spring Build Week", "club_name": "Stevens Game Development Club", "time": "19:00", "event_type": "info_session"}
+      ]
+    },
+    {
+      "date": "2026-05-06",
+      "day_of_week": "Wednesday",
+      "bucket": "next_week",
+      "event_count": 2,
+      "events": [
+        {"event_name": "Wednesday Powerlifting Open Lift", "club_name": "Stevens Powerlifting", "time": "17:00", "event_type": "fitness"},
+        {"event_name": "Climbing Club End-of-Year Trip Info Session", "club_name": "Stevens Climbing and Mountaineering Club", "time": "19:00", "event_type": "info_session"}
+      ]
+    },
+    {
+      "date": "2026-05-07",
+      "day_of_week": "Thursday",
+      "bucket": "next_week",
+      "event_count": 2,
+      "events": [
+        {"event_name": "SWiCS End-of-Semester Brunch", "club_name": "Stevens Women in Computer Science", "time": "11:00", "event_type": "networking"},
+        {"event_name": "Consulting Case Workshop — McKinsey Format", "club_name": "Stevens Consulting Group", "time": "18:00", "event_type": "workshop"}
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "day_of_week": "Friday",
+      "bucket": "next_week",
+      "event_count": 3,
+      "events": [
+        {"event_name": "Friday Mock Trial Practice — Witness Examination", "club_name": "Stevens Mock Trial", "time": "16:00", "event_type": "workshop"},
+        {"event_name": "AIChE Pre-Industry Networking Dinner", "club_name": "American Institute of Chemical Engineers", "time": "18:30", "event_type": "networking"},
+        {"event_name": "DeBaun Spring Concert — Stevens A Cappella", "club_name": "Stevens A Cappella", "time": "20:00", "event_type": "cultural"}
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "day_of_week": "Saturday",
+      "bucket": "next_week",
+      "event_count": 3,
+      "events": [
+        {"event_name": "Saturday Sailing — Hudson Race Practice", "club_name": "Stevens Sailing Team", "time": "10:00", "event_type": "fitness"},
+        {"event_name": "Akshaya Tritiya Pooja & Lunch", "club_name": "Hindu YUVA", "time": "12:00", "event_type": "cultural"},
+        {"event_name": "Trivia Night — Engineering Lore Edition", "club_name": "Stevens Trivia Club", "time": "19:00", "event_type": "competition"}
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "day_of_week": "Sunday",
+      "bucket": "next_week",
+      "event_count": 1,
+      "events": [
+        {"event_name": "Mother's Day Tea — International Students Edition", "club_name": "Stevens International Student Club", "time": "15:00", "event_type": "social"}
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "day_of_week": "Monday",
+      "bucket": "later_this_month",
+      "event_count": 1,
+      "events": [
+        {"event_name": "Graduate Consulting Club — Final Round Mock Interviews", "club_name": "Graduate Consulting Club", "time": "17:00", "event_type": "workshop"}
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "day_of_week": "Tuesday",
+      "bucket": "later_this_month",
+      "event_count": 2,
+      "events": [
+        {"event_name": "Buddha Purnima Reflection & Meditation", "club_name": "Sky Meditation", "time": "18:30", "event_type": "cultural"},
+        {"event_name": "Pre-Finals Study Jam — All Night Edition", "club_name": "University / Graduate Life", "time": "20:00", "event_type": "social"}
+      ]
+    },
+    {
+      "date": "2026-05-13",
+      "day_of_week": "Wednesday",
+      "bucket": "later_this_month",
+      "event_count": 1,
+      "events": [
+        {"event_name": "Stevens Society of AI — Final Project Demos", "club_name": "Stevens Society of Artificial Intelligence", "time": "18:00", "event_type": "info_session"}
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "day_of_week": "Thursday",
+      "bucket": "later_this_month",
+      "event_count": 2,
+      "events": [
+        {"event_name": "Pi Day Late Edition — Math Department Open House", "club_name": "University / Graduate Life", "time": "15:00", "event_type": "social"},
+        {"event_name": "Dramatic Society Final Reading — Student-Written One-Acts", "club_name": "Stevens Dramatic Society", "time": "19:30", "event_type": "cultural"}
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "day_of_week": "Friday",
+      "bucket": "later_this_month",
+      "event_count": 2,
+      "events": [
+        {"event_name": "Asian Heritage Month — Closing Cultural Festival", "club_name": "Society of Asian Scientists and Engineers", "time": "17:00", "event_type": "cultural"},
+        {"event_name": "Senior Send-Off — IEEE Final Banquet", "club_name": "Institute of Electrical and Electronics Engineers", "time": "18:30", "event_type": "networking"}
+      ]
+    },
+    {
+      "date": "2026-05-17",
+      "day_of_week": "Sunday",
+      "bucket": "later_this_month",
+      "event_count": 1,
+      "events": [
+        {"event_name": "Climbing Trip — Shawangunks Weekend", "club_name": "Stevens Climbing and Mountaineering Club", "time": "07:00", "event_type": "social"}
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "day_of_week": "Monday",
+      "bucket": "later_this_month",
+      "event_count": 1,
+      "events": [
+        {"event_name": "Reading Day Stress-Buster — Bubble Wrap & Free Coffee", "club_name": "Wellness Peer Educators", "time": "12:00", "event_type": "social"}
+      ]
+    },
+    {
+      "date": "2026-05-22",
+      "day_of_week": "Friday",
+      "bucket": "later_this_month",
+      "event_count": 1,
+      "events": [
+        {"event_name": "Year-End Latin Night", "club_name": "Latin American Association", "time": "19:00", "event_type": "cultural"}
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "day_of_week": "Saturday",
+      "bucket": "later_this_month",
+      "event_count": 1,
+      "events": [
+        {"event_name": "Last Day of Classes — Spring Carnival", "club_name": "University / Graduate Life", "time": "13:00", "event_type": "social"}
+      ]
+    },
+    {
+      "date": "2026-05-26",
+      "day_of_week": "Tuesday",
+      "bucket": "later_this_month",
+      "event_count": 1,
+      "events": [
+        {"event_name": "Commencement Reception — School of Engineering", "club_name": "University / Graduate Life", "time": "16:00", "event_type": "social"}
+      ]
+    },
+    {
+      "date": "2026-05-27",
+      "day_of_week": "Wednesday",
+      "bucket": "later_this_month",
+      "event_count": 1,
+      "events": [
+        {"event_name": "Graduate Commencement Ceremony", "club_name": "University / Graduate Life", "time": "10:00", "event_type": "cultural"}
+      ]
+    }
+  ]
+}
