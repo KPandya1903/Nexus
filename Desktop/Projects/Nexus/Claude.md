@@ -59,14 +59,14 @@ Anything marked **NOT YET** is referenced in `README.md` / `CONTRACT.md` but not
 | LLM (Trust module) | **Anthropic Claude Opus 4.7** (`claude-opus-4-7`) + **Haiku 4.5** (`claude-haiku-4-5-20251001`) | Adi's domain. Stage 2/3 reasoning on Opus, Stage 1 extraction formatting on Haiku. ConsenTerra integration. |
 | LLM (Discover module) | **OpenAI GPT-4-class** | Kunj's domain. Working implementation against the existing faculty embeddings + matching pipeline. |
 | LLM (Presence module) | **TBD when built** | Default to OpenAI for Discover consistency unless module need (e.g. statute-grounded reasoning) justifies switching. Decision required in Decisions Log before implementation. |
-| Backend | **FastAPI** (Python 3.11+) | async-first, on Railway |
+| Backend | **FastAPI** (Python 3.11+) | async-first, on Cloud Run |
 | Validation | **Pydantic v2** | every LLM output via `client.messages.parse()` |
 | LLM client (Trust) | `anthropic` SDK with `AsyncAnthropic` | async-only; `asyncio.gather` for fan-out |
 | LLM client (Discover) | `openai` SDK with `AsyncOpenAI` | async-only; same `asyncio.gather` fan-out pattern |
 | iOS | **SwiftUI** + **MapKit** (3D realistic) + **MFMailComposeViewController** | MVVM; centralized `FirebaseManager.swift` |
 | Auth/DB | **Firebase Auth** + **Firestore** + **Firebase Storage** | iOS gates `@stevens.edu`; server validates ID token against `FIREBASE_PROJECT_ID` |
 | Scraping | **Apify** (MCP-driven during dev) | faculty bios, OpenAlex paper crawl |
-| Hosting | **Railway** (API), **TestFlight** (iOS) | env vars hold all secrets |
+| Hosting | **Firebase Hosting + Cloud Run** (API), **TestFlight** (iOS) | env vars on Cloud Run + Secret Manager for API keys |
 | Tooling | `uv`, `ruff`, `mypy`, `pytest`, `httpx` | enforce in CI |
 
 **Cross-module rule:** within a module, the provider is locked. Don't mix providers inside a single module — caching, error envelopes, and `usage` accounting assume one client per module.
@@ -86,7 +86,7 @@ These are non-negotiable. A PR that violates one is a defect, not a tradeoff.
 7. **Fail loud.** Raise on `stop_reason == "max_tokens"`, on Pydantic validation failure, on retrieval miss when retrieval was required, and on any approved-citation `Literal` rejection. No silent degradation. No fallback strings.
 8. **No legal advice claims.** The Trust module produces **legal information**, not legal advice. Every `LeaseBrief` carries the disclaimer + the two referrals (NJ Volunteer Lawyers for Justice, Legal Services of NJ). Never remove these.
 9. **No overclaiming (Hackathon Rule 6).** Demo replay mode (`X-Demo-Replay`) sets `mocked_in_demo: true` and is disclosed in the on-stage brief. Do not claim live API generation when serving cached responses.
-10. **Secrets at boundaries only.** API keys live in environment variables loaded via `dotenv` in dev and Railway env in prod. Never commit `.env`, `GoogleService-Info.plist`, or any `*-adminsdk-*.json`. The `.gitignore` already covers these — keep it that way.
+10. **Secrets at boundaries only.** API keys live in environment variables loaded via `dotenv` in dev and Cloud Run env (with Secret Manager for sensitive values like `ANTHROPIC_API_KEY`) in prod. Never commit `.env`, `GoogleService-Info.plist`, or any `*-adminsdk-*.json`. The `.gitignore` already covers these — keep it that way.
 
 ---
 
@@ -121,7 +121,7 @@ Update this checklist in the same commit as the work it describes. Don't let it 
 - [ ] `scrapers/` Apify-driven faculty + OpenAlex ingestion → `data/faculty/`
 - [ ] `data/demo_cache/` pre-baked Trust replay artifacts
 - [ ] iOS app shell (tab bar: Discover, Presence, Trust, Profile)
-- [ ] Railway deploy + env config
+- [ ] Firebase Hosting + Cloud Run deploy + env config (Dockerfile, firebase.json, scripts/deploy_firebase.sh landed; awaiting first `gcloud run deploy` against a real Firebase project)
 - [ ] GitHub repo + branch protection (deferred per Decisions Log)
 
 ---
@@ -168,3 +168,4 @@ Append-only. Format: `YYYY-MM-DD — decision — rationale`. Future sessions re
 - **2026-04-30** — Branch protection not configured on `KPandya1903/Nexus`. Rationale: free private-tier silently no-ops protection rules; 3-person hackathon team prioritizes velocity over enforcement.
 - **2026-04-30** — Demo replay (`X-Demo-Replay`) bypasses `Idempotency-Key` caching and sets `mocked_in_demo: true`. Rationale: Constraint 9 (no overclaiming).
 - **2026-04-30** — LLM provider relaxed from project-scoped (Anthropic only) to module-scoped. Trust=Anthropic (sponsor + sunk pipeline), Discover=OpenAI (Kunj's working implementation, migration cost > benefit). Two-provider operational cost accepted as price of team velocity. Each module locked to its provider; no mid-module switching.
+- **2026-05-01** — Hosting target shifted from Railway to Firebase Hosting + Cloud Run. Rationale: replaces the prior 2026-04-30 "Team scope" line's "Railway deploy" sub-clause; Kunj and Adi confirmed the move. Cloud Run runs the FastAPI container; Firebase Hosting rewrites all paths to it via `firebase.json`. Secrets (`ANTHROPIC_API_KEY`, etc.) move from Railway env to Google Secret Manager mounted at runtime via `gcloud run deploy --update-secrets`. Deploy artifacts live at repo root: `Dockerfile`, `firebase.json`, `.firebaserc`, `.gcloudignore`, `scripts/deploy_firebase.sh`. The team-scope decision still credits Kunj as deploy owner; only the target changed.
