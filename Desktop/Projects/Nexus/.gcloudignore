@@ -1,0 +1,50 @@
+# Files NOT shipped to Cloud Build / Cloud Run.
+# Keep in sync with .gitignore where applicable; Cloud Build also respects
+# .gitignore, but explicit is better than implicit for the build context.
+
+.git
+.github
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.uv/
+uv.lock
+
+# Node (defensive — Apify/Firebase tooling sometimes drops node_modules)
+node_modules/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets — NEVER ship to a container image
+.env
+.env.local
+*.env
+!.env.example
+**/GoogleService-Info.plist
+**/google-services.json
+**/firebase-config.json
+**/firebase-adminsdk-*.json
+**/serviceAccountKey.json
+
+# Demo replay artifacts — baked separately, not part of the runtime image
+data/demo_cache/
+
+# iOS app source — not part of the API container
+ios/
+
+# Logs
+*.log
+logs/
