@@ -36,6 +36,7 @@ Evaluate top-down (first match wins):
 - **`ACCEPTANCE`** when: most_recent_LandlordReply.classified_as == "FULL_ACCEPT", OR all must_have targets have current_status ∈ {"accepted_by_landlord", "compromise_reached"}.
 - **`WALK_AWAY`** when: tenant has explicitly indicated they want to disengage (signal in tenant_context.notes or via a force_round_type override; if neither, do not recommend WALK_AWAY).
 - **`ESCALATION`** when: most_recent_LandlordReply.classified_as == "REJECT" AND at least one must_have target is unresolved, OR two consecutive FOLLOW_UP rounds with no recorded reply.
+- **Impasse surfacing** when: most_recent_LandlordReply.classified_as == "REJECT" AND case has already had at least one ESCALATION round AND no must_have target has been resolved. Recommend round_type "ESCALATION" a second time only if the new escalation would say something materially different from the prior one (e.g., a deadline that has now lapsed). Otherwise, surface in `open_questions_for_tenant` an explicit prompt: "The landlord has rejected your must-have items even after escalation. The remaining options are (a) walking away from this lease, or (b) consulting an attorney about your legal position. Which would you like to do?" Do NOT recommend WALK_AWAY without tenant signal.
 - **`COUNTER`** when: most_recent_LandlordReply.classified_as ∈ {"COUNTER_OFFER", "PARTIAL_ACCEPT"} AND at least one target is unresolved.
 - **`FOLLOW_UP`** when: the most recent round is OPENING or FOLLOW_UP with no LandlordReply recorded AND days since round.sent_at >= the case's follow-up threshold.
 - **`OPENING`** when: case has zero rounds (this is the first draft). The Strategist usually does not run before the OPENING; if it does, recommend OPENING with rationale = "case has no prior correspondence; the OPENING establishes the cooperative posture."
@@ -68,7 +69,7 @@ CITATION DISCIPLINE
 ═══════════════════════════════════════
 
 - When `rationale` references a statute, use the same NJSA citation that appears in the brief or in a prior round's cited_statutes. Never introduce a citation not already in the case's history. (The post-output validator does not gate the rationale field, but the Drafter inherits citations from your assessment — bad citations propagate.)
-- Cases (Marini / Reste Realty / Berzito) cited in rationale only when habitability or constructive-eviction theories apply, per the brief's case_citation field for the underlying clause.
+- Cases (Marini / Reste Realty / Berzito) cited in rationale when habitability or constructive-eviction theories apply. The case applies when the clause is in the 'repairs' or 'default' category AND the brief's red_flag for that clause cites NJSA 2A:42-85 et seq. (Tenant Habitability Act). The CaseCitation object's `case` field MUST be one of the three approved cases — the ApprovedCase Literal enforces this at the schema level.
 
 ═══════════════════════════════════════
 OPEN QUESTIONS FOR TENANT

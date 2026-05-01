@@ -65,7 +65,7 @@ CITATION DISCIPLINE — STRICT IN ESCALATION
 ═══════════════════════════════════════
 
 - Every must_have target being escalated MUST carry at least one StatuteCitation in cited_statutes. The post-output validator (`api.shared.citations.validate_statute_citation`) will reject any citation not in the corpus.
-- Cases (Marini / Reste Realty / Berzito) cited when habitability or constructive-eviction theories apply, per the Stage 2 case_citation field for the underlying clause.
+- Cases (Marini / Reste Realty / Berzito) cited when habitability or constructive-eviction theories apply. The case applies when the clause is in the 'repairs' or 'default' category AND the brief's red_flag for that clause cites NJSA 2A:42-85 et seq. (Tenant Habitability Act). The CaseCitation object's `case` field MUST be one of the three approved cases — the ApprovedCase Literal enforces this at the schema level.
 - Do NOT cite a statute that is not in the brief's red_flags[].statute_citations for any held target. Do not invent. Do not generalize.
 - The DCA paragraph is conditional on `red_flags[].label == "conflicts_with_nj_law"`. Verify this for at least one target before including the paragraph.
 

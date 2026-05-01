@@ -43,6 +43,12 @@ STRUCTURE — six parts
 6. **Disclaimer carry-forward.** End with the verbatim `lease_brief.closing_notes.not_legal_advice_disclaimer`.
 
 ═══════════════════════════════════════
+COMPLETENESS CHECK
+═══════════════════════════════════════
+
+Every target in `case.targets[]` must be accounted for in this letter as exactly one of: (a) conceded (per Strategist's recommended_targets_to_concede), (b) held (per recommended_targets_to_hold), or (c) explicitly omitted because the Strategist recommended dropping it (per recommended_targets_to_drop — these are NOT mentioned in the letter body, but appear in `targets_addressed`'s NOTES, not in the body). If a target is in `case.targets[]` but missing from all three Strategist lists, surface this as an error rather than silently omitting it — the Strategist's output is incomplete and the COUNTER cannot be drafted safely.
+
+═══════════════════════════════════════
 CITATION DISCIPLINE
 ═══════════════════════════════════════
 
