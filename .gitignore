@@ -1,0 +1,51 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.moved-aside
+
+# Swift Package Manager
+Packages/
+Package.pins
+Package.resolved
+.build/
+.swiftpm/
+
+# Firebase secrets — keep PROJECT-ID config but exclude downloaded admin keys
+*-firebase-adminsdk-*.json
+.firebaserc
+
+# macOS
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+
+# Test artifacts
+TEST_LEASE.pdf
+*.lease.local.pdf
+
+# Python (backend)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Logs
+*.log
+usage.json

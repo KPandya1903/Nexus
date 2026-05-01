@@ -1,9 +1,27 @@
 import SwiftUI
+import FirebaseAuth
 
 struct ProfileView: View {
+    @EnvironmentObject var authState: AuthStateManager
     @State private var ghostMode = false
     @State private var syncSchedule = true
-    @State private var walletBalance = 20.00
+    @State private var showAddFunds = false
+
+    var fullName: String { authState.userProfile["fullName"] as? String ?? "Stevens Student" }
+    var major: String { authState.userProfile["major"] as? String ?? "Computer Science" }
+    var year: String { authState.userProfile["year"] as? String ?? "" }
+    var gradSemester: String { authState.userProfile["gradSemester"] as? String ?? "" }
+    var github: String { authState.userProfile["github"] as? String ?? "" }
+    var about: String { authState.userProfile["about"] as? String ?? "" }
+    var walletBalance: Double { authState.userProfile["walletBalance"] as? Double ?? 20.0 }
+
+    var initials: String {
+        fullName.split(separator: " ").compactMap { $0.first }.map { String($0) }.prefix(2).joined()
+    }
+
+    var subtitle: String {
+        [major, year, gradSemester].filter { !$0.isEmpty }.joined(separator: " · ")
+    }
 
     var body: some View {
         NavigationStack {
@@ -19,7 +37,7 @@ struct ProfileView: View {
                                     startPoint: .topLeading, endPoint: .bottomTrailing))
                                 .frame(width: 88, height: 88)
                                 .overlay(
-                                    Text("AR")
+                                    Text(initials.isEmpty ? "?" : initials)
                                         .font(.system(size: 28, weight: .bold))
                                         .foregroundColor(.white)
                                 )
@@ -32,12 +50,31 @@ struct ProfileView: View {
                                 .overlay(Circle().stroke(Color.white, lineWidth: 2))
                         }
 
-                        Text("Alex Rivera")
+                        Text(fullName)
                             .font(.system(size: 20, weight: .semibold))
 
-                        Text("Computer Science, Class of '25")
-                            .font(.system(size: 15))
+                        Text(subtitle)
+                            .font(.system(size: 14))
                             .foregroundColor(.nexusSecondary)
+                            .multilineTextAlignment(.center)
+
+                        if !github.isEmpty {
+                            HStack(spacing: 4) {
+                                Image(systemName: "chevron.left.forwardslash.chevron.right")
+                                    .font(.system(size: 12))
+                                Text("github.com/\(github)")
+                                    .font(.system(size: 13))
+                            }
+                            .foregroundColor(.stevensRed)
+                        }
+
+                        if !about.isEmpty {
+                            Text(about)
+                                .font(.system(size: 14))
+                                .foregroundColor(.nexusSecondary)
+                                .multilineTextAlignment(.center)
+                                .padding(.horizontal, 16)
+                        }
                     }
                     .padding(.top, 8)
 
@@ -73,7 +110,7 @@ struct ProfileView: View {
                             Spacer().frame(height: 20)
 
                             HStack(spacing: 12) {
-                                Button(action: {}) {
+                                Button(action: { showAddFunds = true }) {
                                     Label("Add Funds", systemImage: "plus.circle.fill")
                                         .font(.system(size: 15, weight: .semibold))
                                         .foregroundColor(.stevensRed)
@@ -98,53 +135,6 @@ struct ProfileView: View {
                     .cornerRadius(16)
                     .shadow(color: .stevensRed.opacity(0.2), radius: 10, y: 5)
 
-                    // My Schedule
-                    VStack(alignment: .leading, spacing: 12) {
-                        HStack {
-                            Text("My Schedule")
-                                .font(.system(size: 17, weight: .semibold))
-                            Spacer()
-                            Button("View Calendar") {}
-                                .font(.system(size: 13, weight: .semibold))
-                                .foregroundColor(.stevensRed)
-                        }
-
-                        HStack(spacing: 14) {
-                            VStack(spacing: 2) {
-                                Text("14")
-                                    .font(.system(size: 18, weight: .bold))
-                                    .foregroundColor(.stevensRed)
-                                Text("OCT")
-                                    .font(.system(size: 10, weight: .semibold))
-                                    .foregroundColor(.stevensRed)
-                                    .tracking(1)
-                            }
-                            .frame(width: 52, height: 52)
-                            .background(Color.surfaceContainer)
-                            .cornerRadius(10)
-
-                            VStack(alignment: .leading, spacing: 4) {
-                                Text("CS 546: Web Programming")
-                                    .font(.system(size: 15, weight: .semibold))
-
-                                HStack(spacing: 12) {
-                                    Label("2:30 PM – 3:45 PM", systemImage: "clock")
-                                    Label("Babbio 210", systemImage: "location")
-                                }
-                                .font(.system(size: 12))
-                                .foregroundColor(.nexusSecondary)
-                            }
-
-                            Spacer()
-                            Image(systemName: "chevron.right")
-                                .foregroundColor(.gray.opacity(0.4))
-                        }
-                        .padding(14)
-                        .background(Color.white)
-                        .cornerRadius(14)
-                        .shadow(color: .black.opacity(0.05), radius: 4, y: 2)
-                    }
-
                     // Preferences
                     VStack(alignment: .leading, spacing: 12) {
                         Text("Preferences")
@@ -166,7 +156,7 @@ struct ProfileView: View {
                             Divider().padding(.leading, 60)
 
                             PreferenceRow(
-                                icon: "person.badge.gear", title: "Account Management",
+                                icon: "gearshape.circle", title: "Edit Profile",
                                 subtitle: nil,
                                 isToggle: false, toggleValue: .constant(false)
                             )
@@ -177,7 +167,7 @@ struct ProfileView: View {
                     }
 
                     // Sign Out
-                    Button(action: {}) {
+                    Button(action: { authState.signOut() }) {
                         Text("Sign Out")
                             .font(.system(size: 17, weight: .semibold))
                             .foregroundColor(.stevensRed)
@@ -194,6 +184,9 @@ struct ProfileView: View {
                 ToolbarItem(placement: .principal) {
                     NexusTopBar()
                 }
+            }
+            .sheet(isPresented: $showAddFunds) {
+                AddFundsSheet(currentBalance: walletBalance)
             }
         }
     }
@@ -243,4 +236,5 @@ struct PreferenceRow: View {
 
 #Preview {
     ProfileView()
+        .environmentObject(AuthStateManager())
 }

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict/>
+	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Nexus uses your location to show you on the campus map.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Nexus uses your location to show you on the campus map.</string>
+	<key>NSUserNotificationUsageDescription</key>
+	<string>Nexus sends reminders before events you register for.</string>
+</dict>
+</plist>

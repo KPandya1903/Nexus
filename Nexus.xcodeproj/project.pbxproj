@@ -6,13 +6,32 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2EBE39DD2FA40FF8004312A5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2EBE39DC2FA40FF8004312A5 /* FirebaseFirestore */; };
+		2EBE39DF2FA41005004312A5 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2EBE39DE2FA41005004312A5 /* FirebaseAuth */; };
+		2EBE39E12FA41005004312A5 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 2EBE39E02FA41005004312A5 /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		2EF59A7A2FA3FA4200B6EFE5 /* Nexus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nexus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2EBE39EB2FA420EF004312A5 /* Exceptions for "Nexus" folder in "Nexus" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2EF59A792FA3FA4200B6EFE5 /* Nexus */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2EF59A7C2FA3FA4200B6EFE5 /* Nexus */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2EBE39EB2FA420EF004312A5 /* Exceptions for "Nexus" folder in "Nexus" target */,
+			);
 			path = Nexus;
 			sourceTree = "<group>";
 		};
@@ -23,16 +42,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EBE39DD2FA40FF8004312A5 /* FirebaseFirestore in Frameworks */,
+				2EBE39DF2FA41005004312A5 /* FirebaseAuth in Frameworks */,
+				2EBE39E12FA41005004312A5 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EBE39DB2FA40FF8004312A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2EF59A712FA3FA4200B6EFE5 = {
 			isa = PBXGroup;
 			children = (
 				2EF59A7C2FA3FA4200B6EFE5 /* Nexus */,
+				2EBE39DB2FA40FF8004312A5 /* Frameworks */,
 				2EF59A7B2FA3FA4200B6EFE5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,6 +95,9 @@
 			);
 			name = Nexus;
 			packageProductDependencies = (
+				2EBE39DC2FA40FF8004312A5 /* FirebaseFirestore */,
+				2EBE39DE2FA41005004312A5 /* FirebaseAuth */,
+				2EBE39E02FA41005004312A5 /* FirebaseStorage */,
 			);
 			productName = Nexus;
 			productReference = 2EF59A7A2FA3FA4200B6EFE5 /* Nexus.app */;
@@ -94,6 +127,9 @@
 			);
 			mainGroup = 2EF59A712FA3FA4200B6EFE5;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2EBE39D62FA40BD1004312A5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2EF59A7B2FA3FA4200B6EFE5 /* Products */;
 			projectDirPath = "";
@@ -251,6 +287,9 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nexus/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Nexus uses your location to show you on the campus map.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Nexus uses your location to show you on the campus map.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -261,12 +300,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.stevens.nexus;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhanvi.stevennexus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -294,6 +333,9 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nexus/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Nexus uses your location to show you on the campus map.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Nexus uses your location to show you on the campus map.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -304,12 +346,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.stevens.nexus;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhanvi.stevennexus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -347,6 +389,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2EBE39D62FA40BD1004312A5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.12.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2EBE39DC2FA40FF8004312A5 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EBE39D62FA40BD1004312A5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		2EBE39DE2FA41005004312A5 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EBE39D62FA40BD1004312A5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		2EBE39E02FA41005004312A5 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EBE39D62FA40BD1004312A5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2EF59A722FA3FA4200B6EFE5 /* Project object */;
 }

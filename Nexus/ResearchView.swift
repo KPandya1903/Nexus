@@ -1,32 +1,61 @@
 import SwiftUI
 
-struct Professor: Identifiable {
-    let id = UUID()
-    let name: String
-    let department: String
-    let tags: [String]
-    let matchReason: String
-    let initials: String
-    let color: Color
-}
-
 struct ResearchView: View {
+    @EnvironmentObject var authState: AuthStateManager
+    @StateObject private var firebase = FirebaseManager.shared
     @State private var interestText = ""
-    @State private var isSearching = false
-
-    let professors = [
-        Professor(name: "Dr. Sarah Jenkins", department: "Dept. of Computer Science",
-                  tags: ["Robotics", "AI"],
-                  matchReason: "Her recent work on autonomous drone navigation aligns with your interest in edge computing.",
-                  initials: "SJ", color: Color(hex: "#A32638")),
-        Professor(name: "Dr. Michael Chen", department: "Dept. of Mechanical Eng.",
-                  tags: ["Dynamics", "Haptics"],
-                  matchReason: "His lab is currently seeking research assistants with a strong background in MATLAB modeling.",
-                  initials: "MC", color: .blue),
-    ]
+    @State private var matchedProfessors: [FacultyProfile] = []
+    @State private var hasSearched = false
+    @State private var selectedProfessor: FacultyProfile? = nil
 
     let trendingCategories = ["Quantum Computing", "Sustainability", "FinTech", "Cybersecurity", "BioTech"]
     @State private var selectedCategory = "Quantum Computing"
+
+    struct Spotlight {
+        let badge: String
+        let title: String
+        let subtitle: String
+        let gradient: [Color]
+    }
+
+    var spotlights: [String: Spotlight] {
+        [
+            "Quantum Computing": Spotlight(
+                badge: "SEMINAR",
+                title: "Quantum Algorithms for Optimization",
+                subtitle: "Prof. Yuping Huang · Friday 4 PM, Babbio 122. Walk through Grover's algorithm + a live IBM Quantum demo.",
+                gradient: [Color(hex: "#1a1a2e"), Color(hex: "#16213e")]
+            ),
+            "Sustainability": Spotlight(
+                badge: "LAB OPEN HOUSE",
+                title: "Coastal Resilience & Climate Lab",
+                subtitle: "Davidson Lab · Tour the wave tank Thursday 2 PM. Talk to PhDs on flood-modeling for Hoboken.",
+                gradient: [Color(hex: "#1b4332"), Color(hex: "#2d6a4f")]
+            ),
+            "FinTech": Spotlight(
+                badge: "WORKSHOP",
+                title: "Algorithmic Trading on the Bloomberg Terminal",
+                subtitle: "SGFA · Wednesday 5 PM, Babbio 220 (Trading Lab). Bring a laptop. MSFE/MS Finance focused.",
+                gradient: [Color(hex: "#3d2c8d"), Color(hex: "#6b3fa0")]
+            ),
+            "Cybersecurity": Spotlight(
+                badge: "CTF PRACTICE",
+                title: "Web Exploitation — SQLi & SSRF",
+                subtitle: "Stevens Cyber Defense Team · EAS 322, Mondays 7 PM. Newcomers paired with veterans before regionals.",
+                gradient: [Color(hex: "#7a2e2e"), Color(hex: "#A32638")]
+            ),
+            "BioTech": Spotlight(
+                badge: "RESEARCH TALK",
+                title: "AI in Drug Discovery",
+                subtitle: "Prof. Samantha Kleinberg · McLean 219, Tuesday 3 PM. ML methods for clinical decision support.",
+                gradient: [Color(hex: "#0d3b4f"), Color(hex: "#1a6b9a")]
+            ),
+        ]
+    }
+
+    var currentSpotlight: Spotlight {
+        spotlights[selectedCategory] ?? spotlights["Quantum Computing"]!
+    }
 
     var body: some View {
         NavigationStack {
@@ -50,7 +79,13 @@ struct ResearchView: View {
                                 .font(.system(size: 17))
                                 .padding(.leading, 4)
 
-                            Button(action: { isSearching = true }) {
+                            Button(action: {
+                                firebase.fetchFaculty()
+                                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                                    matchedProfessors = firebase.searchFaculty(query: interestText)
+                                    hasSearched = true
+                                }
+                            }) {
                                 Image(systemName: "arrow.up")
                                     .foregroundColor(.white)
                                     .frame(width: 32, height: 32)
@@ -83,8 +118,23 @@ struct ResearchView: View {
                                 .foregroundColor(.stevensRed)
                         }
 
-                        ForEach(professors) { prof in
-                            ProfessorCard(professor: prof)
+                        if firebase.isLoadingFaculty {
+                            ProgressView("Finding matches...")
+                                .frame(maxWidth: .infinity)
+                                .padding()
+                        } else if matchedProfessors.isEmpty && hasSearched {
+                            Text("No matches found. Try different keywords.")
+                                .font(.system(size: 14))
+                                .foregroundColor(.nexusSecondary)
+                                .frame(maxWidth: .infinity)
+                                .padding()
+                        } else {
+                            ForEach(matchedProfessors.isEmpty ? Array(firebase.faculty.prefix(3)) : matchedProfessors) { prof in
+                                Button(action: { selectedProfessor = prof }) {
+                                    FirebaseProfessorCard(professor: prof)
+                                }
+                                .buttonStyle(.plain)
+                            }
                         }
                     }
 
@@ -110,50 +160,48 @@ struct ResearchView: View {
                         }
                     }
 
-                    // Featured Research
+                    // Featured Research — changes with selected category
                     ZStack(alignment: .bottomLeading) {
-                        Rectangle()
+                        RoundedRectangle(cornerRadius: 16)
                             .fill(
                                 LinearGradient(
-                                    colors: [Color.black.opacity(0.7), Color.black.opacity(0.1), Color.clear],
-                                    startPoint: .bottom,
-                                    endPoint: .top
+                                    colors: currentSpotlight.gradient,
+                                    startPoint: .topLeading,
+                                    endPoint: .bottomTrailing
                                 )
                             )
                             .frame(height: 180)
-                            .cornerRadius(16)
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 16)
-                                    .fill(
-                                        LinearGradient(
-                                            colors: [Color(hex: "#1a1a2e"), Color(hex: "#16213e")],
-                                            startPoint: .topLeading,
-                                            endPoint: .bottomTrailing
-                                        )
-                                    )
-                            )
 
-                        VStack(alignment: .leading, spacing: 4) {
-                            Text("SPOTLIGHT")
-                                .font(.system(size: 10, weight: .bold))
-                                .foregroundColor(.white)
-                                .padding(.horizontal, 8)
-                                .padding(.vertical, 4)
-                                .background(Color.stevensRed)
-                                .cornerRadius(4)
+                        VStack(alignment: .leading, spacing: 6) {
+                            HStack(spacing: 6) {
+                                Text(currentSpotlight.badge)
+                                    .font(.system(size: 10, weight: .bold))
+                                    .foregroundColor(.white)
+                                    .padding(.horizontal, 8)
+                                    .padding(.vertical, 4)
+                                    .background(Color.stevensRed)
+                                    .cornerRadius(4)
+                                Text(selectedCategory.uppercased())
+                                    .font(.system(size: 10, weight: .semibold))
+                                    .foregroundColor(.white.opacity(0.85))
+                                    .tracking(1)
+                            }
 
-                            Text("The Future of AI in Urban Planning at Stevens")
+                            Text(currentSpotlight.title)
                                 .font(.system(size: 17, weight: .bold))
                                 .foregroundColor(.white)
+                                .lineLimit(2)
 
-                            Text("Join the interdisciplinary seminar this Friday at Babbio Center.")
+                            Text(currentSpotlight.subtitle)
                                 .font(.system(size: 13))
-                                .foregroundColor(.white.opacity(0.85))
+                                .foregroundColor(.white.opacity(0.9))
+                                .lineLimit(3)
                         }
                         .padding(16)
                     }
                     .frame(height: 180)
                     .cornerRadius(16)
+                    .animation(.easeInOut(duration: 0.25), value: selectedCategory)
                 }
                 .padding(16)
                 .padding(.bottom, 20)
@@ -165,25 +213,49 @@ struct ResearchView: View {
                     NexusTopBar()
                 }
             }
+            .onAppear {
+                firebase.fetchFaculty()
+            }
+            .sheet(item: $selectedProfessor) { prof in
+                ProfessorProfileSheet(professor: prof)
+                    .environmentObject(authState)
+            }
         }
     }
 }
 
-struct ProfessorCard: View {
-    let professor: Professor
+struct FirebaseProfessorCard: View {
+    let professor: FacultyProfile
+
+    var initials: String {
+        professor.name.split(separator: " ").compactMap { $0.first }.map { String($0) }.joined()
+    }
+
+    var shortBio: String {
+        let firstInterest = professor.researchInterests
+            .components(separatedBy: ",")
+            .first?.trimmingCharacters(in: .whitespaces) ?? ""
+        let rank = professor.rank.isEmpty ? "Faculty" : professor.rank
+        let dept = professor.department.isEmpty ? "Stevens" : professor.department
+        if !firstInterest.isEmpty {
+            return "\(rank) in \(dept) — works on \(firstInterest.lowercased())."
+        }
+        return "\(rank) in \(dept)."
+    }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
             HStack(alignment: .top, spacing: 12) {
-                Circle()
-                    .fill(professor.color)
-                    .frame(width: 60, height: 60)
-                    .overlay(
-                        Text(professor.initials)
-                            .font(.system(size: 20, weight: .bold))
-                            .foregroundColor(.white)
-                    )
-                    .cornerRadius(10)
+                AsyncImage(url: URL(string: professor.photoURL)) { image in
+                    image.resizable().scaledToFill()
+                } placeholder: {
+                    Circle().fill(Color.stevensRed)
+                        .overlay(Text(String(initials.prefix(2)))
+                            .font(.system(size: 18, weight: .bold))
+                            .foregroundColor(.white))
+                }
+                .frame(width: 60, height: 60)
+                .clipShape(RoundedRectangle(cornerRadius: 10))
 
                 VStack(alignment: .leading, spacing: 4) {
                     HStack {
@@ -194,39 +266,36 @@ struct ProfessorCard: View {
                             .foregroundColor(.stevensRed)
                             .font(.system(size: 14))
                     }
-                    Text(professor.department)
+                    Text(professor.rank.isEmpty ? professor.department : professor.rank)
                         .font(.system(size: 13))
                         .foregroundColor(.nexusSecondary)
 
-                    HStack(spacing: 4) {
-                        ForEach(professor.tags, id: \.self) { tag in
-                            Text(tag.uppercased())
-                                .font(.system(size: 10, weight: .bold))
-                                .foregroundColor(.stevensRed)
-                                .padding(.horizontal, 8)
-                                .padding(.vertical, 3)
-                                .background(Color.stevensRed.opacity(0.08))
-                                .cornerRadius(999)
+                    if !professor.researchInterests.isEmpty {
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            HStack(spacing: 4) {
+                                ForEach(professor.researchInterests.components(separatedBy: ",").prefix(3), id: \.self) { tag in
+                                    Text(tag.trimmingCharacters(in: .whitespaces).uppercased())
+                                        .font(.system(size: 9, weight: .bold))
+                                        .foregroundColor(.stevensRed)
+                                        .padding(.horizontal, 6)
+                                        .padding(.vertical, 3)
+                                        .background(Color.stevensRed.opacity(0.08))
+                                        .cornerRadius(999)
+                                }
+                            }
                         }
                     }
                 }
             }
 
             HStack(spacing: 0) {
-                Rectangle()
-                    .fill(Color.stevensRed)
-                    .frame(width: 4)
-                    .cornerRadius(2)
-
-                VStack(alignment: .leading, spacing: 2) {
-                    Text("Matched because...")
-                        .font(.system(size: 13, weight: .bold))
-                        + Text(" \"\(professor.matchReason)\"")
-                        .font(.system(size: 13))
-                        .italic()
-                }
-                .padding(.leading, 10)
-                .padding(.vertical, 8)
+                Rectangle().fill(Color.stevensRed).frame(width: 4).cornerRadius(2)
+                Text(shortBio)
+                    .font(.system(size: 12))
+                    .lineLimit(1)
+                    .truncationMode(.tail)
+                    .padding(.leading, 10).padding(.vertical, 8)
+                    .padding(.trailing, 10)
             }
             .background(Color.surfaceContainerLow)
             .cornerRadius(8)
@@ -237,6 +306,7 @@ struct ProfessorCard: View {
         .shadow(color: .black.opacity(0.06), radius: 4, y: 2)
     }
 }
+
 
 #Preview {
     ResearchView()
