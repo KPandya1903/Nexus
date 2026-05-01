@@ -326,3 +326,9 @@ class NegotiationCase(BaseModel):
         default=None,
         description="Populated only when status starts with RESOLVED_.",
     )
+    mocked_in_demo: bool = Field(
+        default=False,
+        description="True when this case is being served from data/demo_cache/ via the X-Demo-Replay "
+        "header. iOS surfaces this as a small 'Pre-baked demo response' indicator. Constraint 9 "
+        "(no overclaiming) — same flag as LeaseBrief.mocked_in_demo.",
+    )
