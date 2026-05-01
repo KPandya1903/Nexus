@@ -16,7 +16,7 @@ from typing import Optional
 from anthropic import AsyncAnthropic
 
 from .schemas import ClauseAnalysis, ExtractedLease, LeaseBrief, TenantContext
-from .usage import UsageRecord, log_usage
+from api.shared.usage import UsageRecord, log_usage
 
 PROMPT_PATH = Path(__file__).parent.parent.parent / "prompts" / "lease_briefer.md"
 
