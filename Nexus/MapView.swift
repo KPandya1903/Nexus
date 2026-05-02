@@ -44,7 +44,8 @@ struct ActiveEvent: Identifiable {
 }
 
 struct MapView: View {
-    @State private var ghostMode = false
+    @AppStorage("ghostMode") private var ghostMode = false
+    @State private var mapStyle3D = true
     @State private var searchText = ""
     @State private var activeStudents: [ActiveStudent] = []
     @State private var selectedStudent: ActiveStudent? = nil
@@ -127,7 +128,7 @@ struct MapView: View {
                     UserAnnotation()
                 }
             }
-            .mapStyle(.standard(elevation: .realistic))
+            .mapStyle(mapStyle3D ? .standard(elevation: .realistic) : .standard(elevation: .flat))
             .ignoresSafeArea()
 
             // Top bar + search
@@ -247,7 +248,9 @@ struct MapView: View {
                 MapControlButton(icon: "location.fill") {
                     centerOnCampus()
                 }
-                MapControlButton(icon: "square.3.layers.3d") {}
+                MapControlButton(icon: mapStyle3D ? "square.3.layers.3d.down.right" : "square.3.layers.3d") {
+                    withAnimation { mapStyle3D.toggle() }
+                }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topTrailing)
             .padding(.top, 140)
@@ -343,30 +346,19 @@ struct MapView: View {
         let today = dayMap[weekday] ?? ""
 
         var active: [ActiveStudent] = []
-        for student in seedStudents {
-            if let buildingKey = currentBuildingKey(for: student),
-               let building = stevensBuildings[buildingKey],
-               let slot = student.schedule.first(where: {
-                   $0.day == today && hour >= $0.startHour && hour < $0.endHour
-               }) {
-                active.append(ActiveStudent(
-                    id: student.uid,
-                    name: student.name,
-                    building: building,
-                    courseCode: slot.courseCode,
-                    room: slot.room,
-                    avatarColor: Color(hex: student.avatarColor)
-                ))
-            }
-        }
-
-        // For demo: show all students if none are in class right now
-        if active.isEmpty {
+        // Skip live-schedule lookup; always show all 10 students at fixed buildings for the demo
+        // (Avoids flickering when class times don't overlap with real wall-clock time)
+        _ = today; _ = hour  // silence unused warnings
+        if true {
             let demoSlots: [(SeedStudent, String)] = [
                 (seedStudents[0], "Babbio"),
                 (seedStudents[1], "Gateway"),
+                (seedStudents[2], "McLean"),
                 (seedStudents[3], "Gianforte"),
+                (seedStudents[4], "Burchard"),
+                (seedStudents[5], "Kidde"),
                 (seedStudents[6], "Edwin"),
+                (seedStudents[7], "Howe"),
                 (seedStudents[8], "Library"),
                 (seedStudents[9], "UCC"),
             ]

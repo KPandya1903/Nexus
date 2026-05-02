@@ -2,6 +2,11 @@ import SwiftUI
 import FirebaseAuth
 import FirebaseFirestore
 
+// File-scope option arrays — reused by EditProfileSheet
+let gradOptions = ["Fall 2025", "Spring 2026", "Fall 2026", "Spring 2027", "Fall 2027", "Spring 2028"]
+let yearOptions = ["Freshman", "Sophomore", "Junior", "Senior", "Graduate"]
+let majorOptions = ["Computer Science", "Software Engineering", "Electrical Engineering", "Mechanical Engineering", "Biomedical Engineering", "Civil Engineering", "Business", "Other"]
+
 struct ProfileSetupView: View {
     @EnvironmentObject var authState: AuthStateManager
     @State private var fullName = ""
@@ -12,10 +17,6 @@ struct ProfileSetupView: View {
     @State private var selectedYear: String = "Junior"
     @State private var isLoading = false
     @State private var errorMessage = ""
-
-    let gradOptions = ["Fall 2025", "Spring 2026", "Fall 2026", "Spring 2027", "Fall 2027", "Spring 2028"]
-    let yearOptions = ["Freshman", "Sophomore", "Junior", "Senior", "Graduate"]
-    let majorOptions = ["Computer Science", "Software Engineering", "Electrical Engineering", "Mechanical Engineering", "Biomedical Engineering", "Civil Engineering", "Business", "Other"]
 
     var body: some View {
         NavigationStack {

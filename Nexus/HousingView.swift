@@ -1967,12 +1967,22 @@ struct RoommateCard: View {
     }
 
     private func connectAction() {
-        // Try to open mail to Stevens email, else copy name to clipboard
-        let email = "\(profile.userID)@stevens.edu"
-        if let url = URL(string: "mailto:\(email)"), UIApplication.shared.canOpenURL(url) {
-            UIApplication.shared.open(url)
+        // Compose an email to a guessed Stevens handle from their first name + last initial
+        let parts = profile.userName.split(separator: " ").map { String($0).lowercased() }
+        let handle: String
+        if parts.count >= 2, let firstInitial = parts.first?.first {
+            handle = "\(firstInitial)\(parts[1])"
+        } else if let first = parts.first {
+            handle = first
         } else {
-            UIPasteboard.general.string = profile.userName
+            handle = "student"
+        }
+        let email = "\(handle)@stevens.edu"
+        let subject = "Stevens roommate match — let's chat"
+        let body = "Hi \(profile.userName.split(separator: " ").first ?? ""),\n\nI saw your roommate profile on Nexus and we look like a great match (\(profile.budget), \(profile.neighborhoods.joined(separator: " / "))). Want to grab coffee at Pierce this week?\n\nThanks!"
+        let q = "subject=\(subject.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "")&body=\(body.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "")"
+        if let url = URL(string: "mailto:\(email)?\(q)") {
+            UIApplication.shared.open(url)
         }
     }
 }

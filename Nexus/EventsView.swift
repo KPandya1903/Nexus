@@ -2,6 +2,7 @@ import SwiftUI
 import FirebaseFirestore
 import FirebaseAuth
 import Combine
+import PhotosUI
 
 // MARK: - EventComment Model
 
@@ -14,6 +15,7 @@ struct EventComment: Identifiable {
     var rating: Int          // 1–5 stars
     var createdAt: Date
     var userID: String
+    var imageData: [String] = []  // base64-encoded JPEG strings, 0–3 images
 }
 
 // MARK: - EventsView (Main)
@@ -35,7 +37,8 @@ struct EventsView: View {
                 let matchesSearch = query.isEmpty ||
                     event.eventName.lowercased().contains(query) ||
                     event.clubName.lowercased().contains(query) ||
-                    event.location.lowercased().contains(query)
+                    event.location.lowercased().contains(query) ||
+                    event.category.lowercased().contains(query)
                 return matchesCategory && matchesSearch
             }
             .sorted { lhs, rhs in lhs.date < rhs.date }
@@ -73,7 +76,7 @@ struct EventsView: View {
                         Image(systemName: "magnifyingglass")
                             .foregroundColor(.nexusSecondary)
                             .font(.system(size: 16))
-                        TextField("Search events, clubs, locations...", text: $searchText)
+                        TextField("Search events, clubs, or locations...", text: $searchText)
                             .font(.system(size: 16))
                         if !searchText.isEmpty {
                             Button(action: { searchText = "" }) {
@@ -708,7 +711,8 @@ struct EventDetailView: View {
                         text: text,
                         rating: rating,
                         createdAt: ts.dateValue(),
-                        userID: uid
+                        userID: uid,
+                        imageData: d["imageData"] as? [String] ?? []
                     )
                 }
                 .sorted { $0.createdAt > $1.createdAt }
@@ -770,6 +774,26 @@ private struct CommentCard: View {
                     .foregroundColor(.primary)
                     .lineSpacing(3)
                     .fixedSize(horizontal: false, vertical: true)
+
+                // Photos (if any)
+                if !comment.imageData.isEmpty {
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        HStack(spacing: 6) {
+                            ForEach(Array(comment.imageData.enumerated()), id: \.offset) { _, b64 in
+                                if let data = Data(base64Encoded: b64),
+                                   let img = UIImage(data: data) {
+                                    Image(uiImage: img)
+                                        .resizable()
+                                        .scaledToFill()
+                                        .frame(width: 100, height: 100)
+                                        .clipped()
+                                        .cornerRadius(8)
+                                }
+                            }
+                        }
+                    }
+                    .padding(.top, 4)
+                }
             }
         }
         .padding(12)
@@ -801,6 +825,10 @@ struct AddReviewSheet: View {
     @State private var isSubmitting: Bool = false
     @State private var showValidationError: Bool = false
     @State private var submitError: String? = nil
+
+    // Photo upload state
+    @State private var pickerItems: [PhotosPickerItem] = []
+    @State private var pickedImages: [UIImage] = []   // up to 3
 
     private var fullName: String {
         authState.userProfile["fullName"] as? String ?? "You"
@@ -884,6 +912,73 @@ struct AddReviewSheet: View {
                     .background(Color.nexusSurface)
                     .cornerRadius(12)
 
+                    // Photos
+                    VStack(alignment: .leading, spacing: 10) {
+                        HStack {
+                            Text("Photos")
+                                .font(.system(size: 15, weight: .medium))
+                            Spacer()
+                            Text("\(pickedImages.count)/3")
+                                .font(.system(size: 12))
+                                .foregroundColor(.nexusSecondary)
+                        }
+                        Text("Optional — show others what the event looked like.")
+                            .font(.system(size: 12))
+                            .foregroundColor(.nexusSecondary)
+
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            HStack(spacing: 8) {
+                                ForEach(Array(pickedImages.enumerated()), id: \.offset) { idx, img in
+                                    ZStack(alignment: .topTrailing) {
+                                        Image(uiImage: img)
+                                            .resizable()
+                                            .scaledToFill()
+                                            .frame(width: 80, height: 80)
+                                            .clipped()
+                                            .cornerRadius(10)
+                                        Button(action: { removeImage(at: idx) }) {
+                                            Image(systemName: "xmark.circle.fill")
+                                                .foregroundColor(.white)
+                                                .background(Color.black.opacity(0.5))
+                                                .clipShape(Circle())
+                                                .font(.system(size: 18))
+                                        }
+                                        .offset(x: 4, y: -4)
+                                    }
+                                }
+                                if pickedImages.count < 3 {
+                                    PhotosPicker(
+                                        selection: $pickerItems,
+                                        maxSelectionCount: 3 - pickedImages.count,
+                                        matching: .images
+                                    ) {
+                                        VStack(spacing: 4) {
+                                            Image(systemName: "plus")
+                                                .font(.system(size: 22, weight: .bold))
+                                            Text("Add")
+                                                .font(.system(size: 11, weight: .medium))
+                                        }
+                                        .foregroundColor(.stevensRed)
+                                        .frame(width: 80, height: 80)
+                                        .background(Color.stevensRed.opacity(0.08))
+                                        .overlay(
+                                            RoundedRectangle(cornerRadius: 10)
+                                                .strokeBorder(Color.stevensRed.opacity(0.3),
+                                                              style: StrokeStyle(lineWidth: 1.5, dash: [4]))
+                                        )
+                                        .cornerRadius(10)
+                                    }
+                                    .onChange(of: pickerItems) { _, newItems in
+                                        loadImages(from: newItems)
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .padding(14)
+                    .background(Color.nexusSurface)
+                    .cornerRadius(12)
+
                     // Validation error
                     if showValidationError {
                         HStack(spacing: 8) {
@@ -957,6 +1052,12 @@ struct AddReviewSheet: View {
         submitError = nil
         isSubmitting = true
 
+        // Encode images as base64 JPEG strings (compressed to fit Firestore's 1MB doc limit)
+        let imageStrings: [String] = pickedImages.compactMap { img in
+            let resized = img.resizedToMaxDimension(800)
+            return resized.jpegData(compressionQuality: 0.5)?.base64EncodedString()
+        }
+
         let data: [String: Any] = [
             "eventID":     eventID,
             "authorName":  isAnonymous ? "Anonymous" : fullName,
@@ -964,7 +1065,8 @@ struct AddReviewSheet: View {
             "text":        reviewText.trimmingCharacters(in: .whitespacesAndNewlines),
             "rating":      selectedRating,
             "createdAt":   Timestamp(),
-            "userID":      uid
+            "userID":      uid,
+            "imageData":   imageStrings
         ]
 
         Firestore.firestore()
@@ -980,6 +1082,45 @@ struct AddReviewSheet: View {
                     }
                 }
             }
+    }
+
+    // MARK: - Photo helpers
+
+    private func loadImages(from items: [PhotosPickerItem]) {
+        Task {
+            var loaded: [UIImage] = []
+            for item in items {
+                if let data = try? await item.loadTransferable(type: Data.self),
+                   let img = UIImage(data: data) {
+                    loaded.append(img)
+                }
+            }
+            await MainActor.run {
+                let remaining = max(0, 3 - pickedImages.count)
+                pickedImages.append(contentsOf: loaded.prefix(remaining))
+                pickerItems.removeAll()
+            }
+        }
+    }
+
+    private func removeImage(at index: Int) {
+        guard pickedImages.indices.contains(index) else { return }
+        pickedImages.remove(at: index)
+    }
+}
+
+// MARK: - UIImage resize helper
+
+extension UIImage {
+    func resizedToMaxDimension(_ maxDimension: CGFloat) -> UIImage {
+        let largest = max(size.width, size.height)
+        guard largest > maxDimension else { return self }
+        let scale = maxDimension / largest
+        let newSize = CGSize(width: size.width * scale, height: size.height * scale)
+        let renderer = UIGraphicsImageRenderer(size: newSize)
+        return renderer.image { _ in
+            draw(in: CGRect(origin: .zero, size: newSize))
+        }
     }
 }
 

@@ -1,6 +1,9 @@
 import SwiftUI
+import UserNotifications
 
 struct NexusTopBar: View {
+    @AppStorage("notificationsEnabled") private var notificationsEnabled = true
+
     var body: some View {
         HStack {
             HStack(spacing: 8) {
@@ -21,8 +24,8 @@ struct NexusTopBar: View {
                     .tracking(-0.5)
             }
             Spacer()
-            Button(action: {}) {
-                Image(systemName: "bell")
+            Button(action: toggleNotifications) {
+                Image(systemName: notificationsEnabled ? "bell.fill" : "bell.slash.fill")
                     .foregroundColor(.stevensRed)
                     .font(.system(size: 18))
             }
@@ -31,5 +34,15 @@ struct NexusTopBar: View {
         .padding(.vertical, 10)
         .background(.regularMaterial)
         .overlay(Divider(), alignment: .bottom)
+    }
+
+    private func toggleNotifications() {
+        notificationsEnabled.toggle()
+        if notificationsEnabled {
+            NotificationManager.shared.startDemoNotifications()
+        } else {
+            NotificationManager.shared.stopDemoNotifications()
+            UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
+        }
     }
 }

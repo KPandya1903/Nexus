@@ -7,6 +7,21 @@ struct ResearchView: View {
     @State private var matchedProfessors: [FacultyProfile] = []
     @State private var hasSearched = false
     @State private var selectedProfessor: FacultyProfile? = nil
+    @State private var seenProfessors: [FacultyProfile] = []
+    @State private var showSeeAll = false
+
+    // GitHub-based matching state
+    @State private var ghMatching = false
+    @State private var ghThemes: [String] = []
+    @State private var ghMatches: [GitHubMatch] = []
+    @State private var ghError: String? = nil
+    @State private var matchSource: MatchSource = .keyword
+
+    enum MatchSource { case keyword, github }
+
+    private var studentGitHub: String {
+        authState.userProfile["github"] as? String ?? ""
+    }
 
     let trendingCategories = ["Quantum Computing", "Sustainability", "FinTech", "Cybersecurity", "BioTech"]
     @State private var selectedCategory = "Quantum Computing"
@@ -84,6 +99,10 @@ struct ResearchView: View {
                                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                                     matchedProfessors = firebase.searchFaculty(query: interestText)
                                     hasSearched = true
+                                    matchSource = .keyword
+                                    for prof in matchedProfessors where !seenProfessors.contains(where: { $0.id == prof.id }) {
+                                        seenProfessors.append(prof)
+                                    }
                                 }
                             }) {
                                 Image(systemName: "arrow.up")
@@ -96,6 +115,54 @@ struct ResearchView: View {
                         .padding(12)
                         .background(Color.surfaceContainerLow)
                         .cornerRadius(10)
+
+                        // OR divider
+                        HStack(spacing: 8) {
+                            Rectangle().fill(Color.nexusSecondary.opacity(0.25)).frame(height: 1)
+                            Text("OR")
+                                .font(.system(size: 11, weight: .semibold))
+                                .foregroundColor(.nexusSecondary)
+                                .tracking(1)
+                            Rectangle().fill(Color.nexusSecondary.opacity(0.25)).frame(height: 1)
+                        }
+                        .padding(.vertical, 4)
+
+                        // GitHub-based matching button
+                        Button(action: runGitHubMatch) {
+                            HStack(spacing: 10) {
+                                Image(systemName: "chevron.left.forwardslash.chevron.right")
+                                    .font(.system(size: 14, weight: .semibold))
+                                if ghMatching {
+                                    ProgressView().tint(.white)
+                                    Text("Analyzing your repos...")
+                                        .font(.system(size: 14, weight: .semibold))
+                                } else if studentGitHub.isEmpty {
+                                    Text("Add GitHub on Profile to match")
+                                        .font(.system(size: 14, weight: .semibold))
+                                } else {
+                                    Text("Match using my GitHub: @\(studentGitHub)")
+                                        .font(.system(size: 14, weight: .semibold))
+                                        .lineLimit(1)
+                                        .truncationMode(.tail)
+                                }
+                                Spacer()
+                                if !ghMatching && !studentGitHub.isEmpty {
+                                    Image(systemName: "sparkles").font(.system(size: 12))
+                                }
+                            }
+                            .foregroundColor(.white)
+                            .padding(.vertical, 12)
+                            .padding(.horizontal, 14)
+                            .background(studentGitHub.isEmpty ? Color.gray : Color.stevensRed)
+                            .cornerRadius(10)
+                        }
+                        .disabled(studentGitHub.isEmpty || ghMatching)
+
+                        if let err = ghError {
+                            Text(err)
+                                .font(.system(size: 12))
+                                .foregroundColor(.red)
+                        }
                     }
                     .padding(20)
                     .background(Color.white)
@@ -108,20 +175,78 @@ struct ResearchView: View {
                             VStack(alignment: .leading, spacing: 2) {
                                 Text("Top Matches")
                                     .font(.system(size: 17, weight: .semibold))
-                                Text("Based on your recent profile activity")
+                                Text(matchSource == .github
+                                     ? "Grounded in your GitHub repositories"
+                                     : "Based on your recent profile activity")
                                     .font(.system(size: 13))
                                     .foregroundColor(.nexusSecondary)
                             }
                             Spacer()
-                            Button("See All") {}
+                            Button("See All") { showSeeAll = true }
                                 .font(.system(size: 12, weight: .semibold))
                                 .foregroundColor(.stevensRed)
+                        }
+
+                        // GitHub themes banner (only when GitHub mode active)
+                        if matchSource == .github && !ghThemes.isEmpty {
+                            VStack(alignment: .leading, spacing: 8) {
+                                HStack(spacing: 6) {
+                                    Image(systemName: "sparkles")
+                                        .font(.system(size: 11))
+                                        .foregroundColor(.stevensRed)
+                                    Text("THEMES FROM YOUR GITHUB")
+                                        .font(.system(size: 10, weight: .bold))
+                                        .foregroundColor(.stevensRed)
+                                        .tracking(1)
+                                }
+                                ScrollView(.horizontal, showsIndicators: false) {
+                                    HStack(spacing: 6) {
+                                        ForEach(ghThemes, id: \.self) { theme in
+                                            Text(theme)
+                                                .font(.system(size: 11, weight: .semibold))
+                                                .foregroundColor(.stevensRed)
+                                                .padding(.horizontal, 10)
+                                                .padding(.vertical, 5)
+                                                .background(Color.stevensRed.opacity(0.1))
+                                                .cornerRadius(999)
+                                        }
+                                    }
+                                }
+                                Text("Powered by your last 30 public repos.")
+                                    .font(.system(size: 10))
+                                    .foregroundColor(.nexusSecondary)
+                            }
+                            .padding(12)
+                            .background(Color.stevensRed.opacity(0.04))
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 10)
+                                    .strokeBorder(Color.stevensRed.opacity(0.2))
+                            )
+                            .cornerRadius(10)
                         }
 
                         if firebase.isLoadingFaculty {
                             ProgressView("Finding matches...")
                                 .frame(maxWidth: .infinity)
                                 .padding()
+                        } else if matchSource == .github {
+                            if ghMatches.isEmpty && !ghMatching {
+                                Text("Tap \"Match using my GitHub\" above to see results.")
+                                    .font(.system(size: 14))
+                                    .foregroundColor(.nexusSecondary)
+                                    .frame(maxWidth: .infinity)
+                                    .padding()
+                            } else {
+                                ForEach(ghMatches) { ghm in
+                                    Button(action: { selectedProfessor = facultyProfile(for: ghm) }) {
+                                        FirebaseProfessorCard(
+                                            professor: facultyProfile(for: ghm),
+                                            customReason: ghm.reasoning
+                                        )
+                                    }
+                                    .buttonStyle(.plain)
+                                }
+                            }
                         } else if matchedProfessors.isEmpty && hasSearched {
                             Text("No matches found. Try different keywords.")
                                 .font(.system(size: 14))
@@ -220,12 +345,81 @@ struct ResearchView: View {
                 ProfessorProfileSheet(professor: prof)
                     .environmentObject(authState)
             }
+            .sheet(isPresented: $showSeeAll) {
+                SeeAllProfessorsSheet(
+                    seen: seenProfessors,
+                    all: firebase.faculty,
+                    onSelect: { prof in
+                        showSeeAll = false
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                            selectedProfessor = prof
+                        }
+                    }
+                )
+                .environmentObject(authState)
+            }
         }
+    }
+
+    // MARK: - GitHub matching
+
+    private func runGitHubMatch() {
+        let username = studentGitHub
+        guard !username.isEmpty else {
+            ghError = "Add your GitHub username on the Profile tab to use this feature."
+            return
+        }
+        ghError = nil
+        ghMatching = true
+
+        GitHubMatchAPIClient.shared.match(username: username) { result in
+            DispatchQueue.main.async {
+                ghMatching = false
+                switch result {
+                case .success(let resp):
+                    ghThemes = resp.themes
+                    ghMatches = resp.matches
+                    matchSource = .github
+                    for ghm in ghMatches {
+                        let prof = facultyProfile(for: ghm)
+                        if !seenProfessors.contains(where: { $0.id == prof.id }) {
+                            seenProfessors.append(prof)
+                        }
+                    }
+                case .failure(let err):
+                    ghError = err.localizedDescription
+                }
+            }
+        }
+    }
+
+    /// Convert a GitHub match into a FacultyProfile so we can reuse all the
+    /// existing professor sheets / card layouts.
+    private func facultyProfile(for ghm: GitHubMatch) -> FacultyProfile {
+        var data: [String: Any] = [
+            "name":               ghm.name,
+            "department":         ghm.department,
+            "email":              ghm.email,
+            "research_interests": ghm.researchInterests,
+            "bio":                ghm.activeProjects,
+            "rank":               "Stevens Faculty"
+        ]
+        // Try to enrich with the live faculty record if available
+        if let real = firebase.faculty.first(where: { $0.id == ghm.facultyID || $0.name == ghm.name }) {
+            data["photo_url"]   = real.photoURL
+            data["profile_url"] = real.profileURL
+            data["rank"]        = real.rank
+        }
+        var profile = FacultyProfile(id: ghm.facultyID, data: data)
+        profile.matchReason = ghm.reasoning
+        profile.matchScore = ghm.matchScore
+        return profile
     }
 }
 
 struct FirebaseProfessorCard: View {
     let professor: FacultyProfile
+    var customReason: String? = nil
 
     var initials: String {
         professor.name.split(separator: " ").compactMap { $0.first }.map { String($0) }.joined()
@@ -290,9 +484,10 @@ struct FirebaseProfessorCard: View {
 
             HStack(spacing: 0) {
                 Rectangle().fill(Color.stevensRed).frame(width: 4).cornerRadius(2)
-                Text(shortBio)
+                Text(customReason ?? shortBio)
                     .font(.system(size: 12))
-                    .lineLimit(1)
+                    .italic(customReason != nil)
+                    .lineLimit(customReason != nil ? 4 : 1)
                     .truncationMode(.tail)
                     .padding(.leading, 10).padding(.vertical, 8)
                     .padding(.trailing, 10)
@@ -307,6 +502,94 @@ struct FirebaseProfessorCard: View {
     }
 }
 
+
+struct SeeAllProfessorsSheet: View {
+    let seen: [FacultyProfile]
+    let all: [FacultyProfile]
+    let onSelect: (FacultyProfile) -> Void
+
+    @State private var query: String = ""
+    @Environment(\.dismiss) private var dismiss
+
+    var filteredAll: [FacultyProfile] {
+        let q = query.trimmingCharacters(in: .whitespaces).lowercased()
+        guard !q.isEmpty else { return all }
+        return all.filter { prof in
+            prof.name.lowercased().contains(q)
+                || prof.department.lowercased().contains(q)
+                || prof.researchInterests.lowercased().contains(q)
+                || prof.bio.lowercased().contains(q)
+        }
+    }
+
+    var body: some View {
+        NavigationStack {
+            ScrollView {
+                LazyVStack(alignment: .leading, spacing: 16) {
+                    // Search bar
+                    HStack(spacing: 8) {
+                        Image(systemName: "magnifyingglass")
+                            .foregroundColor(.nexusSecondary)
+                        TextField("Search faculty, department, interests...", text: $query)
+                            .font(.system(size: 15))
+                        if !query.isEmpty {
+                            Button(action: { query = "" }) {
+                                Image(systemName: "xmark.circle.fill")
+                                    .foregroundColor(.nexusSecondary)
+                            }
+                        }
+                    }
+                    .padding(12)
+                    .background(Color.white)
+                    .cornerRadius(10)
+
+                    if !seen.isEmpty {
+                        Section {
+                            VStack(spacing: 12) {
+                                ForEach(seen) { prof in
+                                    Button(action: { onSelect(prof) }) {
+                                        FirebaseProfessorCard(professor: prof)
+                                    }
+                                    .buttonStyle(.plain)
+                                }
+                            }
+                        } header: {
+                            Text("RECENTLY MATCHED")
+                                .font(.system(size: 11, weight: .semibold))
+                                .foregroundColor(.nexusSecondary)
+                                .tracking(1)
+                        }
+                    }
+
+                    Section {
+                        VStack(spacing: 12) {
+                            ForEach(filteredAll) { prof in
+                                Button(action: { onSelect(prof) }) {
+                                    FirebaseProfessorCard(professor: prof)
+                                }
+                                .buttonStyle(.plain)
+                            }
+                        }
+                    } header: {
+                        Text("ALL STEVENS FACULTY")
+                            .font(.system(size: 11, weight: .semibold))
+                            .foregroundColor(.nexusSecondary)
+                            .tracking(1)
+                    }
+                }
+                .padding(16)
+            }
+            .background(Color.nexusSurface)
+            .navigationTitle("Faculty")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .cancellationAction) {
+                    Button("Done") { dismiss() }
+                }
+            }
+        }
+    }
+}
 
 #Preview {
     ResearchView()

@@ -225,19 +225,19 @@ class LeaseAPIClient {
                 // Network failure or non-200 → fall back to demo brief so the
                 // feature still works while the backend isn't deployed.
                 if err != nil {
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
                         completion(.success(demoLeaseBrief))
                     }
                     return
                 }
                 if let http = response as? HTTPURLResponse, http.statusCode != 200 {
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
                         completion(.success(demoLeaseBrief))
                     }
                     return
                 }
                 guard let data = data else {
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
                         completion(.success(demoLeaseBrief))
                     }
                     return
@@ -246,7 +246,7 @@ class LeaseAPIClient {
                     let parsed = try JSONDecoder().decode(LeaseParseResponse.self, from: data)
                     completion(.success(parsed.brief))
                 } catch {
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
                         completion(.success(demoLeaseBrief))
                     }
                 }
