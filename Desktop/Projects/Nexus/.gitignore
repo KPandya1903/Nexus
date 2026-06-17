@@ -1,8 +1,11 @@
 # Firebase service account keys — never commit
+!faculty_embeddings.pkl
 *.json
 !faculty.json
 !faculty_embeddings.pkl
-
+!.cspell.json
+!data/demo_cache/*.json
+!data/events/*.json
 # Secrets
 .env
 
@@ -20,3 +23,9 @@ __pycache__/
 *.xcodeproj/xcuserdata/
 DerivedData/
 *.ipa
+
+# Local test artifacts (not for repo)
+data/test_lease.pdf
+out.json
+usage.json
+run.log
